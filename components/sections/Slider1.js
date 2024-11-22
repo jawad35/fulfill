@@ -7,7 +7,7 @@ const swiperOptions = {
     slidesPerView: 1,
     spaceBetween: 30,
     autoplay: {
-        delay: 2500,
+        delay: 2000,
     },
 
     // Navigation
@@ -41,15 +41,16 @@ export default function Slider1() {
                                                 <div className="tp-slide-item__content">
                                                     <h4 className="tp-slide-item__sub-title">Accessories</h4>
                                                     <h3 className="tp-slide-item__title mb-25">Up To
-                                                        <i>40% Off
+                                                        <i>40% Off 
                                                             <img src="/assets/img/icon/title-shape-02.jpg" alt="" />
                                                         </i>
-                                                        latest Creations
+                                                        <br />
+                                                        Web <br/> Development
                                                     </h3>
                                                     <Link className="tp-slide-item__slide-btn tp-btn" href="/shop">Shop Now <i className="fal fa-long-arrow-right" /></Link>
                                                 </div>
                                                 <div className="tp-slide-item__img">
-                                                    <img src="/assets/img/slider/banner-1.jpg" alt="" />
+                                                    <img src="/assets/img/slider/banner-1.png" alt="" />
                                                 </div>
                                             </div>
                                         </SwiperSlide>
@@ -57,12 +58,11 @@ export default function Slider1() {
                                             <div className="tp-slide-item">
                                                 <div className="tp-slide-item__content">
                                                     <h4 className="tp-slide-item__sub-title">Accessories</h4>
-                                                    <h3 className="tp-slide-item__title mb-25">Up To <i>35% Off <img src="/assets/img/icon/title-shape-02.jpg" alt="" /></i> latest
-                                                        Creations</h3>
+                                                    <h3 className="tp-slide-item__title mb-25">Up To <i>35% Off <img src="/assets/img/icon/title-shape-02.jpg" alt="" /></i> <br/> Mobile App Development</h3>
                                                     <Link className="tp-slide-item__slide-btn tp-btn" href="/shop">Shop Now <i className="fal fa-long-arrow-right" /></Link>
                                                 </div>
                                                 <div className="tp-slide-item__img">
-                                                    <img src="/assets/img/slider/banner-2.jpg" alt="" />
+                                                    <img src="/assets/img/slider/banner-2.png" alt="" />
                                                 </div>
                                             </div>
                                         </SwiperSlide>
@@ -70,12 +70,11 @@ export default function Slider1() {
                                             <div className="tp-slide-item">
                                                 <div className="tp-slide-item__content">
                                                     <h4 className="tp-slide-item__sub-title">Accessories</h4>
-                                                    <h3 className="tp-slide-item__title mb-25">Up To <i>45% Off <img src="/assets/img/icon/title-shape-02.jpg" alt="" /></i> latest
-                                                        Creations</h3>
+                                                    <h3 className="tp-slide-item__title mb-25">Up To <i>45% Off <img src="/assets/img/icon/title-shape-02.jpg" alt="" /></i> <br/>Design and Redesign</h3>
                                                     <Link className="tp-slide-item__slide-btn tp-btn" href="/shop">Shop Now <i className="fal fa-long-arrow-right" /></Link>
                                                 </div>
                                                 <div className="tp-slide-item__img">
-                                                    <img src="/assets/img/slider/banner-3.jpg" alt="" />
+                                                    <img src="/assets/img/slider/banner-3.png" alt="" />
                                                 </div>
                                             </div>
                                         </SwiperSlide>

@@ -22,13 +22,29 @@ const ShopCard = ({ item, addToCart, addToWishlist }) => {
                     </div>
                     <div className="tpproduct__content-area">
                         <h3 className="tpproduct__title mb-5"><Link href={`/shop/${item.id}`}>{item.title}</Link></h3>
-                        <div className="tpproduct__priceinfo p-relative">
+                        <div className="tpproduct__priceinfo p-relative" style={{display:'flex', justifyContent:'space-between', alignItems:'center'}}>
                             <div className="tpproduct__ammount">
                                 <span>${item.price.max}.00</span>
                             </div>
+                            <div className="tpproduct__rating">
+                                <ul>
+                                    <li>
+                                        <Link href="#"><i className="fas fa-star" /></Link>
+                                        <Link href="#"><i className="fas fa-star" /></Link>
+                                        <Link href="#"><i className="fas fa-star" /></Link>
+                                        <Link href="#"><i className="fas fa-star" /></Link>
+                                        <Link href="#"><i className="far fa-star" /></Link>
+                                    </li>
+                                    <li>
+                                        <span>(81)</span>
+                                    </li>
+                                </ul>
+                            </div>
                         </div>
+                        
                     </div>
-                    <div className="tpproduct__ratingarea">
+                    
+                    {/* <div className="tpproduct__ratingarea">
                         <div className="d-flex align-items-center justify-content-between">
                             <div className="tpproductdot">
                                 <Link className="tpproductdot__variationitem" href={`/shop/${item.id}`}>
@@ -71,7 +87,7 @@ const ShopCard = ({ item, addToCart, addToWishlist }) => {
                                 </ul>
                             </div>
                         </div>
-                    </div>
+                    </div> */}
                 </div>
             </div>
         </>

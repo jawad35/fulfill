@@ -6,6 +6,7 @@ import { useState } from "react"
 import HeaderMobSticky from "../HeaderMobSticky"
 import HeaderSticky from "../HeaderSticky"
 import HeaderTabSticky from "../HeaderTabSticky"
+import WhatsAppButton from "@/components/elements/WhatsAppButton"
 
 
 export default function Header1({ scroll, isMobileMenu, handleMobileMenu, isCartSidebar, handleCartSidebar }) {
@@ -31,7 +32,7 @@ export default function Header1({ scroll, isMobileMenu, handleMobileMenu, isCart
                         <div className="row align-items-center">
                             <div className="col-xl-2 col-lg-3">
                                 <div className="logo">
-                                    <Link href="/"><img src="/assets/img/logo/logo.png" alt="logo" /></Link>
+                                    <Link href="/"><img style={{width:'100%'}} src="/assets/img/logo/logo.png" alt="logo" /></Link>
                                 </div>
                             </div>
                             <div className="col-xl-10 col-lg-9">
@@ -45,7 +46,7 @@ export default function Header1({ scroll, isMobileMenu, handleMobileMenu, isCart
                                         </form>
                                     </div>
                                     <div className="header-meta header-brand d-flex align-items-center">
-                                        <div className="header-meta__lang">
+                                        {/* <div className="header-meta__lang">
                                             <ul>
                                                 <li>
                                                     <Link href="#">
@@ -65,13 +66,13 @@ export default function Header1({ scroll, isMobileMenu, handleMobileMenu, isCart
                                                     </ul>
                                                 </li>
                                             </ul>
-                                        </div>
+                                        </div> */}
                                         <div className="header-meta__value mr-15">
-                                            <select>
+                                            {/* <select>
                                                 <option>USD</option>
                                                 <option>YEAN</option>
                                                 <option>EURO</option>
-                                            </select>
+                                            </select> */}
                                         </div>
                                         <div className="header-meta__social d-flex align-items-center ml-25">
                                             <button className="header-cart p-relative tp-cart-toggle" onClick={handleCartSidebar}>
@@ -99,23 +100,35 @@ export default function Header1({ scroll, isMobileMenu, handleMobileMenu, isCart
                                         <a className="tp-cat-toggle" onClick={handleToggle} role="button"><i className="fal fa-bars" />Categories</a>
                                         <div className="category-menu category-menu-off" style={{ display: `${isToggled ? "block" : "none"}` }}>
                                             <ul className="cat-menu__list">
-                                                <li><Link href="/shop"><i className="fal fa-user" /> Candles</Link></li>
-                                                <li className="menu-item-has-children"><Link href="/shop"><i className="fal fa-flower-tulip" /> Handmade</Link>
+                                            <li><Link href="/shop"><i className="fal fa-dot-circle" />Software Dev</Link></li>
+                                                <li className="menu-item-has-children"><Link href="/shop"><i className="fal fa-dot-circle" />Themes</Link>
                                                     <ul className="submenu">
-                                                        <li><Link href="/shop-2">Chair</Link></li>
-                                                        <li><Link href="/shop-2">Table</Link></li>
-                                                        <li><Link href="/shop">Wooden</Link></li>
-                                                        <li><Link href="/shop">furniture</Link></li>
-                                                        <li><Link href="/shop">Clock</Link></li>
-                                                        <li><Link href="/shop">Gifts</Link></li>
-                                                        <li><Link href="/shop">Crafts</Link></li>
+                                                        <li><Link href="/shop-2">Nextjs</Link></li>
+                                                        <li><Link href="/shop-2">Reactjs</Link></li>
+                                                        <li><Link href="/shop">React Native</Link></li>
+                                                        <li><Link href="/shop-2">Vuejs</Link></li>
+                                                        <li><Link href="/shop-2">Angularjs</Link></li>
+                                                        <li><Link href="/shop">Html/css</Link></li>
+                                                        <li><Link href="/shop">Django/Python</Link></li>
+                                                        <li><Link href="/shop">Laravel</Link></li>
+                                                        <li><Link href="/shop">Wordpress</Link></li>
                                                     </ul>
                                                 </li>
-                                                <li><Link href="/shop"><i className="fal fa-shoe-prints" /> Gift Sets</Link></li>
-                                                <li><Link href="/shop"><i className="fal fa-smile" /> Plastic Gifts</Link></li>
-                                                <li><Link href="/shop"><i className="fal fa-futbol" /> Handy Cream</Link></li>
-                                                <li><Link href="/shop"><i className="fal fa-crown" /> Cosmetics</Link></li>
-                                                <li><Link href="/shop"><i className="fal fa-gift" /> Silk Accessories</Link></li>
+                                                <li><Link href="/shop"><i className="fal fa-dot-circle" />Digital Marketing</Link></li>
+                                                <li><Link href="/shop"><i className="fal fa-dot-circle" />SEO</Link></li>
+                                                {/* <li className="menu-item-has-children"><Link href="/shop"><i className="fal fa-flower-tulip" />Graphic Design</Link>
+                                                    <ul className="submenu">
+                                                        <li><Link href="/shop-2">Logo Design</Link></li>
+                                                        <li><Link href="/shop-2">UI/UX Design</Link></li>
+                                                        <li><Link href="/shop">Photo Editing</Link></li>
+                                                    </ul>
+                                                </li> */}
+                                                <li><Link href="/shop"><i className="fal fa-dot-circle" />Ads Management</Link></li>
+                                                <li><Link href="/shop"><i className="fal fa-dot-circle" />Copywriting</Link></li>
+                                                <li><Link href="/shop"><i className="fal fa-dot-circle" />UI/UX Design</Link></li>
+                                                <li><Link href="/shop"><i className="fal fa-dot-circle" />Video Production</Link></li>
+                                                <li><Link href="/shop"><i className="fal fa-dot-circle" />Copywriting</Link></li>
+
                                             </ul>
                                             <div className="daily-offer">
                                                 <ul>

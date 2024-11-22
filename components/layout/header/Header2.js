@@ -141,20 +141,20 @@ export default function Header2({ scroll, isMobileMenu, handleMobileMenu, isCart
                                             </nav>
                                         </div>
                                         <div className="mainmenu__logo">
-                                            <Link href="/"><img src="/assets/img/logo/logo.png" alt="" /></Link>
+                                            <Link href="/"><img style={{width:'100%'}} src="/assets/img/logo/logo.png" alt="" /></Link>
                                         </div>
                                     </div>
                                 </div>
                             </div>
                             <div className="col-xl-3 col-lg-3">
                                 <div className="header-meta d-flex align-items-center justify-content-end">
-                                    <div className="header-meta__value mr-15">
+                                    {/* <div className="header-meta__value mr-15">
                                         <select>
                                             <option>USD</option>
                                             <option>YEAN</option>
                                             <option>EURO</option>
                                         </select>
-                                    </div>
+                                    </div> */}
                                     <div className="header-meta__social d-flex align-items-center ml-25">
                                         <button className="header-cart p-relative tp-cart-toggle" onClick={handleCartSidebar}>
                                             <i className="fal fa-shopping-cart" />

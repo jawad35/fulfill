@@ -16,56 +16,56 @@ export default function Category() {
                     <div className="custom-row category-border pb-45 justify-content-xl-between">
                         <div className="tpcategory mb-40">
                             <div className="tpcategory__icon p-relative">
-                                <img src="/assets/img/svg/cat01.svg" alt="" className="fn__svg" />
+                                <img src="/assets/img/icon/programming.png" alt="" className="fn__svg" />
                                 <span>20</span>
                             </div>
                             <div className="tpcategory__content">
-                                <h5 className="tpcategory__title"><Link href="/shop">Driftwood <br /> Table Decor</Link></h5>
+                                <h5 className="tpcategory__title"><Link href="/shop">Programming</Link></h5>
                             </div>
                         </div>
                         <div className="tpcategory mb-40">
                             <div className="tpcategory__icon">
-                                <img src="/assets/img/svg/cat02.svg" alt="" className="fn__svg" />
+                                <img src="/assets/img/icon/digital-marketing.png" alt="" className="fn__svg" />
                                 <span>12</span>
                             </div>
                             <div className="tpcategory__content">
-                                <h5 className="tpcategory__title"><Link href="/shop">Floor Driftwood <br /> Sculpture</Link></h5>
+                                <h5 className="tpcategory__title"><Link href="/shop">Digital Marketing</Link></h5>
                             </div>
                         </div>
                         <div className="tpcategory mb-40">
                             <div className="tpcategory__icon">
-                                <img src="/assets/img/svg/cat03.svg" alt="" className="fn__svg" />
+                                <img src="/assets/img/icon/cms.png" alt="" className="fn__svg" />
                                 <span>03</span>
                             </div>
                             <div className="tpcategory__content">
-                                <h5 className="tpcategory__title"><Link href="/shop">Driftwood <br /> Christmas Tree </Link></h5>
+                                <h5 className="tpcategory__title"><Link href="/shop">Wordpress/Shopify</Link></h5>
                             </div>
                         </div>
                         <div className="tpcategory mb-40">
                             <div className="tpcategory__icon">
-                                <img src="/assets/img/svg/cat04.svg" alt="" className="fn__svg" />
+                                <img src="/assets/img/icon/digital-products.png" alt="" className="fn__svg" />
                                 <span>09</span>
                             </div>
                             <div className="tpcategory__content">
-                                <h5 className="tpcategory__title"><Link href="/shop"> Wooden <br /> Bluetooth Speaker </Link></h5>
+                                <h5 className="tpcategory__title"><Link href="/shop"> Digital Products </Link></h5>
                             </div>
                         </div>
                         <div className="tpcategory mb-40">
                             <div className="tpcategory__icon">
-                                <img src="/assets/img/svg/cat05.svg" alt="" className="fn__svg" />
+                                <img src="/assets/img/icon/graphics-design.png" alt="" className="fn__svg" />
                                 <span>10</span>
                             </div>
                             <div className="tpcategory__content">
-                                <h5 className="tpcategory__title"><Link href="/shop">Receivers <br />  Amplifiers</Link></h5>
+                                <h5 className="tpcategory__title"><Link href="/shop">Graphics Design</Link></h5>
                             </div>
                         </div>
                         <div className="tpcategory mb-40">
                             <div className="tpcategory__icon">
-                                <img src="/assets/img/svg/cat06.svg" alt="" className="fn__svg" />
+                                <img src="/assets/img/icon/content-creation.png" alt="" className="fn__svg" />
                                 <span>05</span>
                             </div>
                             <div className="tpcategory__content">
-                                <h5 className="tpcategory__title"><Link href="/shop">Appetizer <br /> Plate Set </Link></h5>
+                                <h5 className="tpcategory__title"><Link href="/shop">Content Creation </Link></h5>
                             </div>
                         </div>
                     </div>

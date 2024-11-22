@@ -49,7 +49,7 @@ export default function Header4({ scroll, isMobileMenu, handleMobileMenu, isCart
                             <div className="col-lg-2">
                                 <div className="mainmenu__main text-center">
                                     <div className="main-logo">
-                                        <Link href="/"><img src="/assets/img/logo/logo.png" alt="logo" /></Link>
+                                        <Link href="/"><img style={{width:'100%'}} src="/assets/img/logo/logo.png" alt="logo" /></Link>
                                     </div>
                                 </div>
                             </div>

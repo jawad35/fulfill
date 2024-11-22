@@ -13,7 +13,7 @@ export default function ComingSoon() {
                             <div className="col-lg-6">
                                 <div className="tpcoming__area text-center">
                                     <div className="tpcoming__logo">
-                                        <Link href="/"><img src="/assets/img/logo/c-logo.png" alt="logo" /></Link>
+                                        <Link href="/"><img style={{width:'100%'}} src="/assets/img/logo/c-logo.png" alt="logo" /></Link>
                                     </div>
                                     <div className="tpcoming__content">
                                         <span>Coming Soon!</span>

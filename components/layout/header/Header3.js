@@ -49,7 +49,7 @@ export default function Header3({ scroll, isMobileMenu, handleMobileMenu, isCart
                         <div className="row align-items-center">
                             <div className="col-xl-2 col-lg-3">
                                 <div className="logo">
-                                    <Link href="/"><img src="/assets/img/logo/logo.png" alt="logo" /></Link>
+                                    <Link href="/"><img style={{width:'100%'}} src="/assets/img/logo/logo.png" alt="logo" /></Link>
                                 </div>
                             </div>
                             <div className="col-xl-10 col-lg-9">
@@ -63,7 +63,7 @@ export default function Header3({ scroll, isMobileMenu, handleMobileMenu, isCart
                                         </form>
                                     </div>
                                     <div className="header-meta header-brand d-flex align-items-center">
-                                        <div className="header-meta__lang">
+                                        {/* <div className="header-meta__lang">
                                             <ul>
                                                 <li>
                                                     <Link href="#">
@@ -84,14 +84,14 @@ export default function Header3({ scroll, isMobileMenu, handleMobileMenu, isCart
                                                     </ul>
                                                 </li>
                                             </ul>
-                                        </div>
-                                        <div className="header-meta__value mr-15">
+                                        </div> */}
+                                        {/* <div className="header-meta__value mr-15">
                                             <select>
                                                 <option>USD</option>
                                                 <option>YEAN</option>
                                                 <option>EURO</option>
                                             </select>
-                                        </div>
+                                        </div> */}
                                         <div className="header-meta__social d-flex align-items-center ml-25">
                                             <button className="header-cart p-relative tp-cart-toggle" onClick={handleCartSidebar}>
                                                 <i className="fal fa-shopping-cart" />
