@@ -11,15 +11,14 @@ export default function Footer1() {
                                 <div className="col-lg-3 col-md-4 col-sm-6">
                                     <div className="footer-widget footer-col-1 mb-40">
                                         <div className="footer-logo mb-30">
-                                            <Link href="/"><img style={{width:'100%'}} src="/assets/img/logo/logo.png" alt="logo" /></Link>
+                                            <Link href="/"><img style={{ width: '100%' }} src="/assets/img/logo/logo.png" alt="logo" /></Link>
                                         </div>
                                         <div className="footer-content">
-                                            <p>Elegant pink origami design three <br /> dimensional view and decoration co-exist.
-                                                <br /> Great for adding a decorative touch to <br /> any room’s decor.</p>
+                                            <p>Empowering businesses with software solutions, digital marketing, SEO, content creation, graphics, video editing, and a digital products platform — your one-stop growth hub.</p>
                                         </div>
                                     </div>
                                 </div>
-                                <div className="col-lg-2 col-md-4 col-sm-6">
+                                {/* <div className="col-lg-2 col-md-4 col-sm-6">
                                     <div className="footer-widget footer-col-2 ml-30 mb-40">
                                         <h4 className="footer-widget__title mb-30">Information</h4>
                                         <div className="footer-widget__links">
@@ -32,17 +31,17 @@ export default function Footer1() {
                                             </ul>
                                         </div>
                                     </div>
-                                </div>
+                                </div> */}
                                 <div className="col-lg-2 col-md-4 col-sm-6">
                                     <div className="footer-widget footer-col-3 mb-40">
                                         <h4 className="footer-widget__title mb-30">My Account</h4>
                                         <div className="footer-widget__links">
                                             <ul>
-                                                <li><Link href="#">Delivery Information</Link></li>
-                                                <li><Link href="#">Privacy Policy</Link></li>
+                                                <li><Link href="/faqs" target="__blank">FAQs</Link></li>
+                                                <li><Link href="/privacy" target="__blank">Privacy Policy</Link></li>
+                                                <li><Link href="/terms" target="__blank">Terms  Condition</Link></li>
                                                 <li><Link href="#">Discount</Link></li>
                                                 <li><Link href="#">Custom Service</Link></li>
-                                                <li><Link href="#">Terms  Condition</Link></li>
                                             </ul>
                                         </div>
                                     </div>
@@ -52,11 +51,11 @@ export default function Footer1() {
                                         <h4 className="footer-widget__title mb-30">Social Network</h4>
                                         <div className="footer-widget__links">
                                             <ul>
-                                                <li><Link href="#"><i className="fab fa-facebook-f" />Facebook</Link></li>
-                                                <li><Link href="#"><i className="fab fa-dribbble" />Dribbble</Link></li>
-                                                <li><Link href="#"><i className="fab fa-twitter" />Twitter</Link></li>
-                                                <li><Link href="#"><i className="fab fa-behance" />Behance</Link></li>
-                                                <li><Link href="#"><i className="fab fa-youtube" />Youtube</Link></li>
+                                                <li><Link href="https://www.facebook.com/profile.php?id=61551227766128" target="__blank"><i className="fab fa-facebook-f" />Facebook</Link></li>
+                                                <li><Link href="https://www.instagram.com/fulfillneeds_/"  target="__blank"><i className="fab fa-instagram" />Instagram</Link></li>
+                                                {/* <li><Link href="https://www.threads.net/@fulfillneeds_"><i className="fab fa-twitter" target="__blank"/>Twitter</Link></li> */}
+                                                <li><Link href="https://www.tiktok.com/@fulfillneeds?is_from_webapp=1&sender_device=pc" target="__blank"><i className="fab fa-tiktok" />TikTok</Link></li>
+                                                <li><Link href="https://www.youtube.com/@fulfillneeds" target="__blank"><i className="fab fa-youtube" />Youtube</Link></li>
                                             </ul>
                                         </div>
                                     </div>
@@ -83,12 +82,12 @@ export default function Footer1() {
                                             <i className="far fa-phone" />
                                         </div>
                                         <div className="footer-cta__text">
-                                            <Link href="/tel:0123456">980. 029. 666. 99</Link>
-                                            <span>Working 8:00 - 22:00</span>
+                                            <Link href="/tel:0123456">+923296121520</Link>
+                                            <span>Working 24/7</span>
                                         </div>
                                     </div>
                                 </div>
-                                <div className="col-xl-6 col-lg-8 col-md-8 col-sm-6">
+                                {/* <div className="col-xl-6 col-lg-8 col-md-8 col-sm-6">
                                     <div className="footer-cta__source">
                                         <div className="footer-cta__source-content">
                                             <h4 className="footer-cta__source-title">Download App on Mobile</h4>
@@ -99,7 +98,7 @@ export default function Footer1() {
                                             <Link href="#"><img src="/assets/img/footer/f-app.jpg" alt="app" /></Link>
                                         </div>
                                     </div>
-                                </div>
+                                </div> */}
                             </div>
                         </div>
                     </div>
@@ -108,13 +107,13 @@ export default function Footer1() {
                             <div className="row">
                                 <div className="col-xl-6 col-lg-7 col-md-5 col-sm-12">
                                     <div className="footer-copyright__content">
-                                        <span>Copyright {new Date().getFullYear()} <Link href="/">©Ninico</Link>. All rights reserved. Developed by
-                                            <Link href="https://themeforest.net/user/alithemes/portfolio"> AliThemes</Link>.</span>
+                                        <span>Copyright {new Date().getFullYear()} <Link href="/">©fulfillneeds</Link>. All rights reserved. Developed by
+                                            <Link href="https://themeforest.net/user/alithemes/portfolio"> Jawad Ali</Link>.</span>
                                     </div>
                                 </div>
                                 <div className="col-xl-6 col-lg-5 col-md-7 col-sm-12">
                                     <div className="footer-copyright__brand">
-                                        <img src="/assets/img/footer/f-brand-icon-01.png" alt="footer-brand" />
+                                        {/* <img src="/assets/img/footer/f-brand-icon-01.png" alt="footer-brand" /> */}
                                     </div>
                                 </div>
                             </div>

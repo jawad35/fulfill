@@ -20,7 +20,7 @@ export default function Header1({ scroll, isMobileMenu, handleMobileMenu, isCart
                         <div className="row">
                             <div className="col-12">
                                 <div className="header-welcome-text text-start ">
-                                    <span>Welcome to our international shop! Enjoy free shipping on orders $100  up.</span>
+                                    <span>Welcome to our Platform! Enjoy 20% off each product </span>
                                     <Link href="/shop">Shop Now <i className="fal fa-long-arrow-right" /> </Link>
                                 </div>
                             </div>
@@ -114,8 +114,7 @@ export default function Header1({ scroll, isMobileMenu, handleMobileMenu, isCart
                                                         <li><Link href="/shop">Wordpress</Link></li>
                                                     </ul>
                                                 </li>
-                                                <li><Link href="/shop"><i className="fal fa-dot-circle" />Digital Marketing</Link></li>
-                                                <li><Link href="/shop"><i className="fal fa-dot-circle" />SEO</Link></li>
+                                                <li><Link href="/seo"><i className="fal fa-dot-circle" />SEO</Link></li>
                                                 {/* <li className="menu-item-has-children"><Link href="/shop"><i className="fal fa-flower-tulip" />Graphic Design</Link>
                                                     <ul className="submenu">
                                                         <li><Link href="/shop-2">Logo Design</Link></li>
@@ -123,11 +122,10 @@ export default function Header1({ scroll, isMobileMenu, handleMobileMenu, isCart
                                                         <li><Link href="/shop">Photo Editing</Link></li>
                                                     </ul>
                                                 </li> */}
-                                                <li><Link href="/shop"><i className="fal fa-dot-circle" />Ads Management</Link></li>
-                                                <li><Link href="/shop"><i className="fal fa-dot-circle" />Copywriting</Link></li>
+                                                <li><Link href="/ads"><i className="fal fa-dot-circle" />Ads Management</Link></li>
+                                                <li><Link href="/copywriting"><i className="fal fa-dot-circle" />Copywriting</Link></li>
                                                 <li><Link href="/shop"><i className="fal fa-dot-circle" />UI/UX Design</Link></li>
-                                                <li><Link href="/shop"><i className="fal fa-dot-circle" />Video Production</Link></li>
-                                                <li><Link href="/shop"><i className="fal fa-dot-circle" />Copywriting</Link></li>
+                                                <li><Link href="/video-production"><i className="fal fa-dot-circle" />Video Production</Link></li>
 
                                             </ul>
                                             <div className="daily-offer">
@@ -228,7 +226,7 @@ export default function Header1({ scroll, isMobileMenu, handleMobileMenu, isCart
                                                         <i className="fal fa-phone" />
                                                     </div>
                                                     <div className="menu-contact__info">
-                                                        <Link href="/tel:0123456">908. 408. 501. 89</Link>
+                                                        <Link href="#">+923296121520</Link>
                                                     </div>
                                                 </div>
                                             </li>
@@ -238,7 +236,7 @@ export default function Header1({ scroll, isMobileMenu, handleMobileMenu, isCart
                                                         <i className="fal fa-map-marker-alt" />
                                                     </div>
                                                     <div className="menu-contact__info">
-                                                        <Link href="/shop-location">Find Store</Link>
+                                                        <Link href="https://maps.app.goo.gl/ep4ic361JgFkPnGh8" target="_blank">Map Location</Link>
                                                     </div>
                                                 </div>
                                             </li>

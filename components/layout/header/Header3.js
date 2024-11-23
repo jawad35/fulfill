@@ -231,7 +231,7 @@ export default function Header3({ scroll, isMobileMenu, handleMobileMenu, isCart
                                                     <i className="fal fa-phone" />
                                                 </div>
                                                 <div className="menu-contact__info">
-                                                    <Link href="/tel:0123456">908. 408. 501. 89</Link>
+                                                    <Link href="/tel:0123456">+923296121520</Link>
                                                 </div>
                                             </div>
                                         </li>
@@ -241,7 +241,8 @@ export default function Header3({ scroll, isMobileMenu, handleMobileMenu, isCart
                                                     <i className="fal fa-map-marker-alt" />
                                                 </div>
                                                 <div className="menu-contact__info">
-                                                    <Link href="/shop-location">Find Store</Link>
+                                                    <Link href="https://maps.app.goo.gl/ep4ic361JgFkPnGh8" target="_blank">Map Location</Link>
+                                                    {/* <Link href="/shop-location">Find Store</Link> */}
                                                 </div>
                                             </div>
                                         </li>
