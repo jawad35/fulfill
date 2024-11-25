@@ -1,5 +1,7 @@
 import React from "react";
 import Layout from "@/components/layout/Layout"
+import Price from "../../data/pricings.json"
+import Pricing from "@/components/sections/Pricing"
 
 const styles = {
     container: {
@@ -75,8 +77,9 @@ const styles = {
 
 const AdsManagement = () => {
     return (
-        <Layout headerStyle={3} footerStyle={1} breadcrumbTitle="SEO">
-            <div style={styles.container}>
+        <Layout headerStyle={3} footerStyle={1} breadcrumbTitle="Ads management">
+            <Pricing price={Price[11]}/>
+            {/* <div style={styles.container}>
                 <h1 style={styles.heading}>Ads Management Services</h1>
                 <p style={styles.paragraph}>
                     At <strong>Your Company Name</strong>, we specialize in crafting and
@@ -155,7 +158,7 @@ const AdsManagement = () => {
                         Start Your Campaign Today
                     </a>
                 </div>
-            </div>
+            </div> */}
         </Layout>
     );
 };

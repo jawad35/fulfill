@@ -76,12 +76,12 @@ const ShopSingleDynamicV1 = () => {
                         <div className="row">
                             <div className="col-lg-5 col-md-12">
                                 <div className="tpproduct-details__list-img">
-                                    <div className="tpproduct-details__list-img-item">
-                                        <img src={`/assets/img/product/${product.imgf}`} alt="" />
-                                    </div>
-                                    <div className="tpproduct-details__list-img-item">
-                                        <img src={`/assets/img/product/${product.imgb}`} alt="" />
-                                    </div>
+                                    {
+                                        product?.images?.map(item=> ( <div className="tpproduct-details__list-img-item">
+                                            <img src={`${item}`} alt="" />
+                                        </div>))
+                                    }
+                                    
                                 </div>
                             </div>
                             <div className="col-lg-5 col-md-7">

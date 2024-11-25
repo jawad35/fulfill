@@ -129,13 +129,13 @@ export default function Header2({ scroll, isMobileMenu, handleMobileMenu, isCart
                                                             </li>
                                                         </ul>
                                                     </li>
-                                                    <li className="has-dropdown">
+                                                    {/* <li className="has-dropdown">
                                                         <Link href="/blog">Blog</Link>
                                                         <ul className="submenu">
                                                             <li><Link href="/blog">Blog</Link></li>
                                                             <li><Link href="/blog-details">Blog Details</Link></li>
                                                         </ul>
-                                                    </li>
+                                                    </li> */}
                                                     <li><Link href="/contact">Contact</Link></li>
                                                 </ul>
                                             </nav>
@@ -155,7 +155,7 @@ export default function Header2({ scroll, isMobileMenu, handleMobileMenu, isCart
                                             <option>EURO</option>
                                         </select>
                                     </div> */}
-                                    <div className="header-meta__social d-flex align-items-center ml-25">
+                                    {/* <div className="header-meta__social d-flex align-items-center ml-25">
                                         <button className="header-cart p-relative tp-cart-toggle" onClick={handleCartSidebar}>
                                             <i className="fal fa-shopping-cart" />
                                             <CartShow />
@@ -165,7 +165,7 @@ export default function Header2({ scroll, isMobileMenu, handleMobileMenu, isCart
                                             <i className="fal fa-heart" />
                                             <WishListShow />
                                         </Link>
-                                    </div>
+                                    </div> */}
                                 </div>
                             </div>
                         </div>

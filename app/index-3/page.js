@@ -21,7 +21,7 @@ export default function Home3() {
                 <DealProduct2 />
                 <WhiteProduct />
                 <Brand2 />
-                <Blog2 />
+                {/* <Blog2 /> */}
             </Layout>
         </>
     )

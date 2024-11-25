@@ -1,5 +1,7 @@
 import React from "react";
 import Layout from "@/components/layout/Layout"
+import Price from "../../data/pricings.json"
+import Pricing from "@/components/sections/Pricing"
 
 const styles = {
     container: {
@@ -76,7 +78,8 @@ const styles = {
 const Copywriting = () => {
     return (
         <Layout headerStyle={3} footerStyle={1} breadcrumbTitle="Copywriting">
-            <div style={styles.container}>
+            <Pricing price={Price[9]}/>
+            {/* <div style={styles.container}>
                 <h1 style={styles.heading}>Copywriting Services</h1>
                 <p style={styles.paragraph}>
                     At <strong>FulfillNeeds</strong>, our expert copywriters craft
@@ -156,7 +159,7 @@ const Copywriting = () => {
                         Get Started with Our Copywriting Services
                     </a>
                 </div>
-            </div>
+            </div> */}
         </Layout>
     );
 };

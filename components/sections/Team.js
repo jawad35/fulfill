@@ -11,8 +11,8 @@ const Team = () => {
                         team?.map((member, index) => (<div class="member">
                             <img src={member?.avatar} alt="" />
                             <h2>{member?.name}</h2>
-                            <p style={{fontSize:'17px'}}>{member.position}</p>
-                            {/* <p>{member?.about}</p> */}
+                            <p style={{fontSize:'17px', color:'#d51243'}}>{member.position}</p>
+                            <p>{member?.about}</p>
                         </div>))
                     }
 

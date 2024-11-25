@@ -88,7 +88,7 @@ export default function Blog1() {
                                 </div>
                             </div>
                         </div>
-                        <div className="col-lg-4 col-md-12 text-md-center">
+                        {/* <div className="col-lg-4 col-md-12 text-md-center">
                             <div className="tpcta slider-bg text-center">
                                 <h5 className="tpcta__subtitle">Subscribe</h5>
                                 <h4 className="tpcta__title mb-30">Get Newsletter Update</h4>
@@ -103,7 +103,7 @@ export default function Blog1() {
                                 </div>
                                 <p>We will not share your email anywhere</p>
                             </div>
-                        </div>
+                        </div> */}
                     </div>
                 </div>
             </section>

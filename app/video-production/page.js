@@ -1,5 +1,7 @@
 import React from "react";
 import Layout from "@/components/layout/Layout"
+import Price from "../../data/pricings.json"
+import Pricing from "@/components/sections/Pricing"
 
 const styles = {
     container: {
@@ -148,7 +150,8 @@ const VideoServices = () => {
 
     return (
         <Layout headerStyle={3} footerStyle={1} breadcrumbTitle="Video Production">
-            <div>
+            <Pricing price={Price[1]}/>
+            {/* <div>
                 {sections.map((section, index) => (
                     <div key={index} style={styles.container}>
                         <h1 style={styles.heading}>{section.title}</h1>
@@ -176,7 +179,7 @@ const VideoServices = () => {
                         </a>
                     </div>
                 ))}
-            </div>
+            </div> */}
         </Layout>
 
     );

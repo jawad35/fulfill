@@ -1,7 +1,8 @@
 'use client'
 import React from "react";
 import Layout from "@/components/layout/Layout"
-
+import Price from "../../data/pricings.json"
+import Pricing from "@/components/sections/Pricing"
 const styles = {
     container: {
         maxWidth: "1200px",
@@ -83,7 +84,8 @@ const styles = {
 const SEOPage = () => {
     return (
         <Layout headerStyle={3} footerStyle={1} breadcrumbTitle="SEO">
-            <div style={styles.container}>
+            <Pricing price={Price[6]} />
+            {/* <div style={styles.container}>
                 <h1 style={styles.heading}>SEO Services - Elevate Your Online Presence</h1>
                 <p style={styles.paragraph}>
                     At <strong>FulfillNeeds</strong>, we deliver innovative and
@@ -186,7 +188,7 @@ const SEOPage = () => {
                         Contact Us Now
                     </a>
                 </div>
-            </div>
+            </div> */}
         </Layout>
 
     );

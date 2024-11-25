@@ -17,7 +17,7 @@ export default function Category() {
                         <div className="tpcategory mb-40">
                             <div className="tpcategory__icon p-relative">
                                 <img src="/assets/img/icon/programming.png" alt="" className="fn__svg" />
-                                <span>20</span>
+                                {/* <span>20</span> */}
                             </div>
                             <div className="tpcategory__content">
                                 <h5 className="tpcategory__title"><Link href="/shop">Programming</Link></h5>
@@ -26,7 +26,7 @@ export default function Category() {
                         <div className="tpcategory mb-40">
                             <div className="tpcategory__icon">
                                 <img src="/assets/img/icon/digital-marketing.png" alt="" className="fn__svg" />
-                                <span>12</span>
+                                {/* <span>12</span> */}
                             </div>
                             <div className="tpcategory__content">
                                 <h5 className="tpcategory__title"><Link href="/shop">Digital Marketing</Link></h5>
@@ -35,7 +35,7 @@ export default function Category() {
                         <div className="tpcategory mb-40">
                             <div className="tpcategory__icon">
                                 <img src="/assets/img/icon/cms.png" alt="" className="fn__svg" />
-                                <span>03</span>
+                                {/* <span>03</span> */}
                             </div>
                             <div className="tpcategory__content">
                                 <h5 className="tpcategory__title"><Link href="/shop">Wordpress/Shopify</Link></h5>
@@ -44,7 +44,7 @@ export default function Category() {
                         <div className="tpcategory mb-40">
                             <div className="tpcategory__icon">
                                 <img src="/assets/img/icon/digital-products.png" alt="" className="fn__svg" />
-                                <span>09</span>
+                                {/* <span>09</span> */}
                             </div>
                             <div className="tpcategory__content">
                                 <h5 className="tpcategory__title"><Link href="/shop"> Digital Products </Link></h5>
@@ -53,7 +53,7 @@ export default function Category() {
                         <div className="tpcategory mb-40">
                             <div className="tpcategory__icon">
                                 <img src="/assets/img/icon/graphics-design.png" alt="" className="fn__svg" />
-                                <span>10</span>
+                                {/* <span>10</span> */}
                             </div>
                             <div className="tpcategory__content">
                                 <h5 className="tpcategory__title"><Link href="/shop">Graphics Design</Link></h5>
@@ -62,7 +62,7 @@ export default function Category() {
                         <div className="tpcategory mb-40">
                             <div className="tpcategory__icon">
                                 <img src="/assets/img/icon/content-creation.png" alt="" className="fn__svg" />
-                                <span>05</span>
+                                {/* <span>05</span> */}
                             </div>
                             <div className="tpcategory__content">
                                 <h5 className="tpcategory__title"><Link href="/shop">Content Creation </Link></h5>

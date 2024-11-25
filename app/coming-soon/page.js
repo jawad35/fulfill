@@ -24,13 +24,13 @@ export default function ComingSoon() {
                                             <Countdown endDateTime={currentTime.setDate(currentTime.getDate() + 2)} />
                                         </div>
                                     </div>
-                                    <div className="tpcoming__submit">
+                                    {/* <div className="tpcoming__submit">
                                         <form action="#">
                                             <input type="email" placeholder="Email address" />
                                             <span><i className="far fa-envelope" /></span>
                                             <button>Subscribe Now <i className="far fa-long-arrow-right" /></button>
                                         </form>
-                                    </div>
+                                    </div> */}
                                 </div>
                             </div>
                         </div>

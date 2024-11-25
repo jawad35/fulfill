@@ -1,6 +1,36 @@
 import Link from "next/link"
+import { useState } from "react"
 
 export default function Footer1() {
+    const [email, setEmail] = useState("")
+    // Validate form data
+    const [errorMessage, setErrorMessage] = useState('');  // To display error messages
+
+    const validateForm = () => {
+        if (!email) {
+            setErrorMessage("Email is required.");
+            return false;
+        }
+        setErrorMessage('');
+        return true;
+    };
+    const handleWhatsAppClick = () => {
+        // Validate form before sending the message
+        if (!validateForm()) return;
+
+        const phoneNumber = "+923410498631"; // Your WhatsApp number in international format (no "+" or leading zeroes)
+        const message = `Hello! ${email}\n\n` +
+            `Want to stay updated with the latest news, exclusive offers, and valuable insights? Join our newsletter and enjoy:\n` +
+            `- Special discounts & offers\n` +
+            `- Exclusive updates on new products/services\n` +
+            `- Expert tips and insights delivered right to your inbox!\n\n` +
+            `Simply reply with "Yes" to Join!\n\n` +
+            `Are you joining?`;
+
+        const whatsappUrl = `https://wa.me/${phoneNumber}?text=${encodeURIComponent(message)}`;
+        window.open(whatsappUrl, "_blank");
+    };
+
     return (
         <>
             <footer>
@@ -52,7 +82,7 @@ export default function Footer1() {
                                         <div className="footer-widget__links">
                                             <ul>
                                                 <li><Link href="https://www.facebook.com/profile.php?id=61551227766128" target="__blank"><i className="fab fa-facebook-f" />Facebook</Link></li>
-                                                <li><Link href="https://www.instagram.com/fulfillneeds_/"  target="__blank"><i className="fab fa-instagram" />Instagram</Link></li>
+                                                <li><Link href="https://www.instagram.com/fulfillneeds_/" target="__blank"><i className="fab fa-instagram" />Instagram</Link></li>
                                                 {/* <li><Link href="https://www.threads.net/@fulfillneeds_"><i className="fab fa-twitter" target="__blank"/>Twitter</Link></li> */}
                                                 <li><Link href="https://www.tiktok.com/@fulfillneeds?is_from_webapp=1&sender_device=pc" target="__blank"><i className="fab fa-tiktok" />TikTok</Link></li>
                                                 <li><Link href="https://www.youtube.com/@fulfillneeds" target="__blank"><i className="fab fa-youtube" />Youtube</Link></li>
@@ -65,10 +95,11 @@ export default function Footer1() {
                                         <h4 className="footer-widget__title mb-30">Get Newsletter</h4>
                                         <p>Get on the list and get 10% off your first order!</p>
                                         <div className="footer-widget__newsletter">
-                                            <form action="#">
-                                                <input type="email" placeholder="Enter email address" />
-                                                <button className="footer-widget__fw-news-btn tpsecondary-btn">Subscribe Now<i className="fal fa-long-arrow-right" /></button>
-                                            </form>
+                                            <div>
+                                                <input type="email" placeholder="Enter email address" onChange={(e) => setEmail(e.target.value)} />
+                                                {errorMessage && <div className="error-message" style={{ color: 'red' }}>{errorMessage}</div>}
+                                                <button className="footer-widget__fw-news-btn tpsecondary-btn" onClick={handleWhatsAppClick}>Subscribe Now<i className="fal fa-long-arrow-right" /></button>
+                                            </div>
                                         </div>
                                     </div>
                                 </div>

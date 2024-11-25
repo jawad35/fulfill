@@ -49,11 +49,11 @@ export default function Header4({ scroll, isMobileMenu, handleMobileMenu, isCart
                             <div className="col-lg-2">
                                 <div className="mainmenu__main text-center">
                                     <div className="main-logo">
-                                        <Link href="/"><img style={{width:'100%'}} src="/assets/img/logo/logo.png" alt="logo" /></Link>
+                                        <Link href="/"><img style={{ width: '100%' }} src="/assets/img/logo/logo.png" alt="logo" /></Link>
                                     </div>
                                 </div>
                             </div>
-                            <div className="col-xl-5 col-lg-5">
+                            {/* <div className="col-xl-5 col-lg-5">
                                 <div className="header-meta d-flex align-items-center justify-content-end ml-25">
                                     <div className="header-meta__social d-flex align-items-center">
                                         <button className="header-cart p-relative tp-cart-toggle" onClick={handleCartSidebar}>
@@ -64,7 +64,7 @@ export default function Header4({ scroll, isMobileMenu, handleMobileMenu, isCart
                                         <Link href="/wishlist"><i className="fal fa-heart" /></Link>
                                     </div>
                                 </div>
-                            </div>
+                            </div> */}
                         </div>
                     </div>
                 </div>
@@ -76,7 +76,8 @@ export default function Header4({ scroll, isMobileMenu, handleMobileMenu, isCart
                                     <div className="main-menu">
                                         <nav id="mobile-menu">
                                             <ul>
-                                                <li className="has-dropdown">
+                                                <li><Link href="/">Home</Link></li>
+                                                {/* <li className="has-dropdown">
                                                     <Link href="/">Home</Link>
                                                     <ul className="submenu">
                                                         <li><Link href="/">Wooden  Home</Link></li>
@@ -85,8 +86,8 @@ export default function Header4({ scroll, isMobileMenu, handleMobileMenu, isCart
                                                         <li><Link href="/index-4">Cosmetics Home</Link></li>
                                                         <li><Link href="/index-5">Food Grocery</Link></li>
                                                     </ul>
-                                                </li>
-                                                <li className="has-dropdown">
+                                                </li> */}
+                                                {/* <li className="has-dropdown">
                                                     <Link href="/shop">Shop</Link>
                                                     <ul className="submenu">
                                                         <li><Link href="/shop">Shop</Link></li>
@@ -100,8 +101,8 @@ export default function Header4({ scroll, isMobileMenu, handleMobileMenu, isCart
                                                         <li><Link href="/wishlist">Wishlist</Link></li>
                                                         <li><Link href="/track">Product Track</Link></li>
                                                     </ul>
-                                                </li>
-                                                <li className="has-dropdown has-megamenu">
+                                                </li> */}
+                                                {/* <li className="has-dropdown has-megamenu">
                                                     <Link href="/about">Pages</Link>
                                                     <ul className="submenu mega-menu">
                                                         <li>
@@ -134,14 +135,14 @@ export default function Header4({ scroll, isMobileMenu, handleMobileMenu, isCart
                                                             </ul>
                                                         </li>
                                                     </ul>
-                                                </li>
-                                                <li className="has-dropdown">
+                                                </li> */}
+                                                {/* <li className="has-dropdown">
                                                     <Link href="/blog">Blog</Link>
                                                     <ul className="submenu">
                                                         <li><Link href="/blog">Blog</Link></li>
                                                         <li><Link href="/blog-details">Blog Details</Link></li>
                                                     </ul>
-                                                </li>
+                                                </li> */}
                                                 <li><Link href="/contact">Contact</Link></li>
                                             </ul>
                                         </nav>

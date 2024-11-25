@@ -32,7 +32,7 @@ export default function Header1({ scroll, isMobileMenu, handleMobileMenu, isCart
                         <div className="row align-items-center">
                             <div className="col-xl-2 col-lg-3">
                                 <div className="logo">
-                                    <Link href="/"><img style={{width:'100%'}} src="/assets/img/logo/logo.png" alt="logo" /></Link>
+                                    <Link href="/"><img style={{ width: '100%' }} src="/assets/img/logo/logo.png" alt="logo" /></Link>
                                 </div>
                             </div>
                             <div className="col-xl-10 col-lg-9">
@@ -74,7 +74,7 @@ export default function Header1({ scroll, isMobileMenu, handleMobileMenu, isCart
                                                 <option>EURO</option>
                                             </select> */}
                                         </div>
-                                        <div className="header-meta__social d-flex align-items-center ml-25">
+                                        {/* <div className="header-meta__social d-flex align-items-center ml-25">
                                             <button className="header-cart p-relative tp-cart-toggle" onClick={handleCartSidebar}>
                                                 <i className="fal fa-shopping-cart" />
                                                 <CartShow />
@@ -84,7 +84,7 @@ export default function Header1({ scroll, isMobileMenu, handleMobileMenu, isCart
                                                 <i className="fal fa-heart" />
                                                 <WishListShow />
                                             </Link>
-                                        </div>
+                                        </div> */}
                                     </div>
                                 </div>
                             </div>
@@ -99,9 +99,15 @@ export default function Header1({ scroll, isMobileMenu, handleMobileMenu, isCart
                                     <div className="cat-menu__category p-relative">
                                         <a className="tp-cat-toggle" onClick={handleToggle} role="button"><i className="fal fa-bars" />Categories</a>
                                         <div className="category-menu category-menu-off" style={{ display: `${isToggled ? "block" : "none"}` }}>
+                                            <div className="daily-offer">
+                                                <ul>
+                                                    <li><Link href="/shop">Check Samples & Prices</Link></li>
+                                                </ul>
+                                            </div>
                                             <ul className="cat-menu__list">
-                                            <li><Link href="/shop"><i className="fal fa-dot-circle" />Software Dev</Link></li>
-                                                <li className="menu-item-has-children"><Link href="/shop"><i className="fal fa-dot-circle" />Themes</Link>
+                                                <li><Link href="/ui-ux"><i className="fal fa-dot-circle" />UI/UX Design</Link></li>
+                                                <li><Link href="/web"><i className="fal fa-dot-circle" />Custom Web Dev</Link></li>
+                                                {/* <li className="menu-item-has-children"><Link href="/shop"><i className="fal fa-dot-circle" />Themes</Link>
                                                     <ul className="submenu">
                                                         <li><Link href="/shop-2">Nextjs</Link></li>
                                                         <li><Link href="/shop-2">Reactjs</Link></li>
@@ -113,8 +119,10 @@ export default function Header1({ scroll, isMobileMenu, handleMobileMenu, isCart
                                                         <li><Link href="/shop">Laravel</Link></li>
                                                         <li><Link href="/shop">Wordpress</Link></li>
                                                     </ul>
-                                                </li>
-                                                <li><Link href="/seo"><i className="fal fa-dot-circle" />SEO</Link></li>
+                                                </li> */}
+                                                <li><Link href="/mobile"><i className="fal fa-dot-circle" />Mobile App Dev</Link></li>
+                                                <li><Link href="/wordpress-shopify"><i className="fal fa-dot-circle" />Wordpress/Shopify </Link></li>
+                                                <li><Link href="/seo"><i className="fal fa-dot-circle" />SEO </Link></li>
                                                 {/* <li className="menu-item-has-children"><Link href="/shop"><i className="fal fa-flower-tulip" />Graphic Design</Link>
                                                     <ul className="submenu">
                                                         <li><Link href="/shop-2">Logo Design</Link></li>
@@ -124,17 +132,16 @@ export default function Header1({ scroll, isMobileMenu, handleMobileMenu, isCart
                                                 </li> */}
                                                 <li><Link href="/ads"><i className="fal fa-dot-circle" />Ads Management</Link></li>
                                                 <li><Link href="/copywriting"><i className="fal fa-dot-circle" />Copywriting</Link></li>
-                                                <li><Link href="/shop"><i className="fal fa-dot-circle" />UI/UX Design</Link></li>
                                                 <li><Link href="/video-production"><i className="fal fa-dot-circle" />Video Production</Link></li>
 
                                             </ul>
-                                            <div className="daily-offer">
+                                            {/* <div className="daily-offer">
                                                 <ul>
                                                     <li><Link href="/shop">Value of the Day</Link></li>
                                                     <li><Link href="/shop">Top 100 Offers</Link></li>
                                                     <li><Link href="/shop">New Arrivals</Link></li>
                                                 </ul>
-                                            </div>
+                                            </div> */}
                                         </div>
                                     </div>
                                 </div>
@@ -142,7 +149,8 @@ export default function Header1({ scroll, isMobileMenu, handleMobileMenu, isCart
                                     <div className="main-menu">
                                         <nav id="mobile-menu">
                                             <ul>
-                                                <li className="has-dropdown">
+                                                <li><Link href="/">Home</Link></li>
+                                                {/* <li className="has-dropdown">
                                                     <Link href="/">Home</Link>
                                                     <ul className="submenu">
                                                         <li><Link href="/">Wooden Home</Link></li>
@@ -151,7 +159,7 @@ export default function Header1({ scroll, isMobileMenu, handleMobileMenu, isCart
                                                         <li><Link href="/index-4">Cosmetics Home</Link></li>
                                                         <li><Link href="/index-5">Food Grocery</Link></li>
                                                     </ul>
-                                                </li>
+                                                </li> */}
                                                 {/* <li className="has-dropdown">
                                                     <Link href="/shop">Shop</Link>
                                                     <ul className="submenu">
@@ -208,11 +216,11 @@ export default function Header1({ scroll, isMobileMenu, handleMobileMenu, isCart
                                                         <li><Link href="/blog-details">Blog Details</Link></li>
                                                     </ul>
                                                 </li> */}
-                                                <li><Link href="/index-2">Digital Products</Link></li>
+                                                <li><Link href="/index-2">Digital Mar</Link></li>
                                                 <li><Link href="/index-2">Web Development</Link></li>
-                                                <li><Link href="/index-3">App Development</Link></li>
-                                                <li><Link href="/blog">Blog</Link></li>
-                                                {/* <li><Link href="/contact">Contact</Link></li> */}
+                                                <li><Link href="/our-team">Team</Link></li>
+                                                {/* <li><Link href="/blog">Blog</Link></li> */}
+                                                <li><Link href="/contact">Contact</Link></li>
                                             </ul>
                                         </nav>
                                     </div>

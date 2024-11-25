@@ -17,7 +17,7 @@ export default function Home5() {
                 <DealProduct4 />
                 <SelectedProduct />
                 <Testimonial2 />
-                <Blog4 />
+                {/* <Blog4 /> */}
             </Layout>
         </>
     )

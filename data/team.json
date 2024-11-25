@@ -1,44 +1,59 @@
 [
     {
-        "name":"Muhammad Ahsan",
-        "position":"Motion Graphic",
+        "name":"Jawad Ali",
+        "position":"Sr.Mern Stack Developer",
         "exprience":4,
-        "about":"Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eum similique eligendi numquam.",
-        "avatar":"https://res.cloudinary.com/djidyz2yw/image/upload/v1732344510/WhatsApp_Image_2024-11-23_at_11.31.39_ly0old.jpg"
+        "about":"He is a proficient MERN stack developer, specializing in MongoDB, Express.js, React, and Node.js to build dynamic, full-stack web applications with a focus on scalability, performance, and seamless user experience.",
+        "avatar":"https://res.cloudinary.com/djidyz2yw/image/upload/v1732474373/p6_kyoh93.png"
+    },
+    {
+        "name":"Qayoom Ali",
+        "position":"Sr.Graphic Designer",
+        "exprience":4,
+        "about":"He specializes in graphic design, crafting visually impactful designs for branding, marketing materials, websites, and social media, ensuring creative solutions that resonate with audiences and elevate brand identity.",
+        "avatar":"https://res.cloudinary.com/djidyz2yw/image/upload/v1732473029/p2_ifsdf8.png"
     },
     {
         "name":"Muhammad Ahsan",
         "position":"Motion Graphic",
         "exprience":4,
-        "about":"Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eum similique eligendi numquam.",
-        "avatar":"https://res.cloudinary.com/djidyz2yw/image/upload/v1732344497/WhatsApp_Image_2024-11-23_at_11.30.26_pv7ntl.jpg"
+        "about":"He is a talented motion graphics designer, creating captivating animations and visual effects that bring ideas to life, perfect for enhancing video content, advertisements, and branding.",
+        "avatar":"https://res.cloudinary.com/djidyz2yw/image/upload/v1732514116/p8_tevj0z.png"
     },
     {
-        "name":"Muhammad Ahsan",
-        "position":"Motion Graphic",
+        "name":"Usama Yousaf",
+        "position":"SEO Expert",
         "exprience":4,
-        "about":"Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eum similique eligendi numquam.",
-        "avatar":"https://res.cloudinary.com/djidyz2yw/image/upload/v1732343989/WhatsApp_Image_2024-11-23_at_11.36.47_huzwar.jpg"
+        "about":"He is an SEO Specialist, adept at optimizing websites to rank higher on search engines, driving organic traffic through keyword research, on-page and off-page strategies, and performance analytics.",
+        "avatar":"https://res.cloudinary.com/djidyz2yw/image/upload/v1732516027/p7_zmwbz7.png"
     },
     {
-        "name":"Muhammad Ahsan",
-        "position":"Motion Graphic",
+        "name":"Rana Abubakar",
+        "position":"Exprienced DevOps",
         "exprience":4,
-        "about":"Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eum similique eligendi numquam.",
-        "avatar":"https://res.cloudinary.com/djidyz2yw/image/upload/v1732343989/WhatsApp_Image_2024-11-23_at_11.35.27_uenfuj.jpg"
+        "about":"He is a cloud and DevOps specialist, proficient in managing cloud infrastructure, deploying software applications, automating workflows, and ensuring scalable, reliable, and secure environments for seamless operations.",
+        "avatar":"https://res.cloudinary.com/djidyz2yw/image/upload/v1732473030/p3_rjmxkg.png"
     },
     {
-        "name":"Muhammad Ahsan",
-        "position":"Motion Graphic",
+        "name":"Shah Jahan",
+        "position":"Sr.Mobile App Developer",
         "exprience":4,
-        "about":"Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eum similique eligendi numquam.",
-        "avatar":"https://img.freepik.com/premium-photo/portrait-smiling-man-standing-against-orange-background_1048944-18049939.jpg"
+        "about":"He is a skilled mobile app developer, specializing in creating high-performance, user-friendly mobile applications for iOS and Android platforms, ensuring seamless functionality and an exceptional user experience.",
+        "avatar":"https://res.cloudinary.com/djidyz2yw/image/upload/v1732473032/p5_zo5zzt.png"
     },
     {
-        "name":"Muhammad Ahsan",
-        "position":"Motion Graphic",
+        "name":"Asad Butt",
+        "position":"Shopify/Wordpress Expert",
         "exprience":4,
-        "about":"Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eum similique eligendi numquam.",
-        "avatar":"https://img.freepik.com/premium-photo/portrait-young-woman-isolated-yellow-background_525549-4460.jpg"
+        "about":"He is an expert in Shopify and WordPress, specializing in creating, customizing, and managing e-commerce stores or content websites, ensuring seamless user experiences and optimized performance.",
+        "avatar":"https://res.cloudinary.com/djidyz2yw/image/upload/v1732473032/p4_ytrpxt.png"
+    },
+    {
+        "name":"Umair Arshad",
+        "position":"Digital Marketing Specialists",
+        "exprience":4,
+        "about":"He is an expert in digital marketing, skilled in creating and executing strategies for SEO, social media, PPC, email campaigns, and content marketing to drive engagement, boost visibility, and achieve measurable business growth.",
+        "avatar":"https://res.cloudinary.com/djidyz2yw/image/upload/v1732473029/p1_njzwmc.png"
     }
 ]
+

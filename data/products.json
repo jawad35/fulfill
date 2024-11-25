@@ -1,34 +1,41 @@
 [
     {
         "id": 1,
-        "title": "Bradley Burgess 2",
-        "imgf": "product-1.jpg",
-        "imgb": "product-2.jpg",
+        "title": "Portfolio Html Bootstrap",
+        "imgf": "https://res.cloudinary.com/djidyz2yw/image/upload/v1732453021/Screenshot_2024-11-23_at_11.00.48_PM_j6zrny.png",
+        "imgb": "https://res.cloudinary.com/djidyz2yw/image/upload/v1732453018/Screenshot_2024-11-23_at_11.01.04_PM_vqqcm6.png",
         "category": [
             {
-                "type": "Kids"
+                "type": "portfolio"
             }
         ],
         "color": [
             {
-                "type": "Black"
+                "type": "Purple"
             }
         ],
         "brand": [
             {
-                "type": "Adidas"
+                "type": "bootstrap"
             }
         ],
         "price": {
             "min": 0,
             "max": 20
-        }
+        },
+        "images":[
+            "https://res.cloudinary.com/djidyz2yw/image/upload/v1732453021/Screenshot_2024-11-23_at_11.00.48_PM_j6zrny.png",
+            "https://res.cloudinary.com/djidyz2yw/image/upload/v1732453018/Screenshot_2024-11-23_at_11.00.56_PM_cglo28.png",
+            "https://res.cloudinary.com/djidyz2yw/image/upload/v1732453018/Screenshot_2024-11-23_at_11.01.04_PM_vqqcm6.png",
+            "https://res.cloudinary.com/djidyz2yw/image/upload/v1732453021/Screenshot_2024-11-23_at_11.01.12_PM_qwqwvc.png",
+            "https://res.cloudinary.com/djidyz2yw/image/upload/v1732453021/Screenshot_2024-11-23_at_11.01.20_PM_cdv6qa.png"
+        ]
     },
     {
         "id": 2,
         "title": "Allie Sharp",
-        "imgf": "product-3.jpg",
-        "imgb": "product-4.jpg",
+        "imgf": "https://res.cloudinary.com/djidyz2yw/image/upload/v1732453097/Screenshot_2024-11-23_at_10.50.26_PM_zaz9hn.png",
+        "imgb": "https://res.cloudinary.com/djidyz2yw/image/upload/v1732453105/Screenshot_2024-11-23_at_10.52.22_PM_hatrnn.png",
         "category": [
             {
                 "type": "Mens"
@@ -47,13 +54,30 @@
         "price": {
             "min": 0,
             "max": 30
-        }
+        },
+        "images":[
+            "https://res.cloudinary.com/djidyz2yw/image/upload/v1732453097/Screenshot_2024-11-23_at_10.50.26_PM_zaz9hn.png",
+            "https://res.cloudinary.com/djidyz2yw/image/upload/v1732453115/Screenshot_2024-11-23_at_10.54.43_PM_dfuuqc.png",
+            "https://res.cloudinary.com/djidyz2yw/image/upload/v1732453110/Screenshot_2024-11-23_at_10.52.08_PM_trxtq8.png",
+            "https://res.cloudinary.com/djidyz2yw/image/upload/v1732453105/Screenshot_2024-11-23_at_10.52.22_PM_hatrnn.png",
+            "https://res.cloudinary.com/djidyz2yw/image/upload/v1732453105/Screenshot_2024-11-23_at_10.51.06_PM_hof39c.png",
+            "https://res.cloudinary.com/djidyz2yw/image/upload/v1732453104/Screenshot_2024-11-23_at_10.50.46_PM_dfvomt.png",
+            "https://res.cloudinary.com/djidyz2yw/image/upload/v1732453100/Screenshot_2024-11-23_at_10.52.56_PM_jpxcej.png",
+            "https://res.cloudinary.com/djidyz2yw/image/upload/v1732453100/Screenshot_2024-11-23_at_10.52.45_PM_fyqphh.png",
+            "https://res.cloudinary.com/djidyz2yw/image/upload/v1732453097/Screenshot_2024-11-23_at_10.52.36_PM_furyho.png",
+            "https://res.cloudinary.com/djidyz2yw/image/upload/v1732453095/Screenshot_2024-11-23_at_10.53.34_PM_nxqanv.png",
+            "https://res.cloudinary.com/djidyz2yw/image/upload/v1732453094/Screenshot_2024-11-23_at_10.50.33_PM_bzoj6j.png",
+            "https://res.cloudinary.com/djidyz2yw/image/upload/v1732453093/Screenshot_2024-11-23_at_10.55.03_PM_az7umb.png",
+            "https://res.cloudinary.com/djidyz2yw/image/upload/v1732453092/Screenshot_2024-11-23_at_10.51.45_PM_cmwu1v.png",
+            "https://res.cloudinary.com/djidyz2yw/image/upload/v1732453090/Screenshot_2024-11-23_at_10.53.16_PM_lzra9p.png",
+            "https://res.cloudinary.com/djidyz2yw/image/upload/v1732453089/Screenshot_2024-11-23_at_10.54.24_PM_t5svq0.png"
+        ]
     },
     {
         "id": 3,
         "title": "Nathaniel Baldwin",
-        "imgf": "product-5.jpg",
-        "imgb": "product-6.jpg",
+        "imgf": "https://res.cloudinary.com/djidyz2yw/image/upload/v1732453124/Screenshot_2024-11-23_at_11.03.37_PM_bwkpok.png",
+        "imgb": "https://res.cloudinary.com/djidyz2yw/image/upload/v1732453124/Screenshot_2024-11-23_at_11.03.44_PM_m7kdfz.png",
         "category": [
             {
                 "type": "Womens"
@@ -72,21 +96,29 @@
         "price": {
             "min": 0,
             "max": 40
-        }
+        },
+        "images":[
+            "https://res.cloudinary.com/djidyz2yw/image/upload/v1732453124/Screenshot_2024-11-23_at_11.03.37_PM_bwkpok.png",
+            "https://res.cloudinary.com/djidyz2yw/image/upload/v1732453124/Screenshot_2024-11-23_at_11.03.44_PM_m7kdfz.png",
+            "https://res.cloudinary.com/djidyz2yw/image/upload/v1732453216/Screenshot_2024-11-23_at_11.03.52_PM_nohuez.png",
+            "https://res.cloudinary.com/djidyz2yw/image/upload/v1732453234/Screenshot_2024-11-23_at_11.04.08_PM_ohelwe.png",
+            "https://res.cloudinary.com/djidyz2yw/image/upload/v1732453221/Screenshot_2024-11-23_at_11.04.00_PM_gfjhnl.png",
+            "https://res.cloudinary.com/djidyz2yw/image/upload/v1732453120/Screenshot_2024-11-23_at_11.04.16_PM_vvp7ey.png"
+        ]
     },
     {
         "id": 4,
-        "title": "Effie Rios",
-        "imgf": "product-7.jpg",
-        "imgb": "product-8.jpg",
+        "title": "Ecommerce Nextjs",
+        "imgf": "https://res.cloudinary.com/djidyz2yw/image/upload/v1732453173/Screenshot_2024-11-24_at_3.48.37_PM_bd3hl2.png",
+        "imgb": "https://res.cloudinary.com/djidyz2yw/image/upload/v1732453191/Screenshot_2024-11-24_at_3.49.28_PM_xhq6ry.png",
         "category": [
             {
-                "type": "Mens"
+                "type": "Nextjs"
             }
         ],
         "color": [
             {
-                "type": "Green"
+                "type": "Black"
             }
         ],
         "brand": [
@@ -97,21 +129,33 @@
         "price": {
             "min": 0,
             "max": 40
-        }
+        },
+        "images":[
+            "https://res.cloudinary.com/djidyz2yw/image/upload/v1732453173/Screenshot_2024-11-24_at_3.48.37_PM_bd3hl2.png",
+            "https://res.cloudinary.com/djidyz2yw/image/upload/v1732453165/Screenshot_2024-11-24_at_3.49.04_PM_zzxrmj.png",
+            "https://res.cloudinary.com/djidyz2yw/image/upload/v1732453139/Screenshot_2024-11-24_at_3.48.43_PM_do5nd2.png",
+            "https://res.cloudinary.com/djidyz2yw/image/upload/v1732453191/Screenshot_2024-11-24_at_3.49.28_PM_xhq6ry.png",
+            "https://res.cloudinary.com/djidyz2yw/image/upload/v1732453149/Screenshot_2024-11-24_at_3.48.55_PM_y5rrdd.png",
+            "https://res.cloudinary.com/djidyz2yw/image/upload/v1732453128/Screenshot_2024-11-24_at_3.49.59_PM_uq87wc.png",
+            "https://res.cloudinary.com/djidyz2yw/image/upload/v1732453151/Screenshot_2024-11-24_at_3.49.10_PM_i32o3j.png",
+            "https://res.cloudinary.com/djidyz2yw/image/upload/v1732453126/Screenshot_2024-11-24_at_3.50.30_PM_hkto2k.png",
+            "https://res.cloudinary.com/djidyz2yw/image/upload/v1732453130/Screenshot_2024-11-24_at_3.49.46_PM_jo955t.png",
+            "https://res.cloudinary.com/djidyz2yw/image/upload/v1732453195/Screenshot_2024-11-24_at_3.50.10_PM_pkyr5z.png"
+        ]
     },
     {
         "id": 5,
-        "title": "Carolyn Goodwin",
-        "imgf": "product-9.jpg",
-        "imgb": "product-10.jpg",
+        "title": "Dashboard Nextjs",
+        "imgf": "https://res.cloudinary.com/djidyz2yw/image/upload/v1732453197/Screenshot_2024-11-23_at_10.08.23_PM_qopjsv.png",
+        "imgb": "https://res.cloudinary.com/djidyz2yw/image/upload/v1732453153/Screenshot_2024-11-23_at_10.07.55_PM_mzu8nf.png",
         "category": [
             {
-                "type": "Kids"
+                "type": "Nextjs"
             }
         ],
         "color": [
             {
-                "type": "Black"
+                "type": "White"
             }
         ],
         "brand": [
@@ -122,21 +166,41 @@
         "price": {
             "min": 0,
             "max": 50
-        }
+        },
+        "images":[
+            "https://res.cloudinary.com/djidyz2yw/image/upload/v1732453197/Screenshot_2024-11-23_at_10.08.23_PM_qopjsv.png",
+            "https://res.cloudinary.com/djidyz2yw/image/upload/v1732453153/Screenshot_2024-11-23_at_10.07.55_PM_mzu8nf.png",
+            "https://res.cloudinary.com/djidyz2yw/image/upload/v1732453198/Screenshot_2024-11-23_at_10.09.12_PM_b7rswv.png",
+            "https://res.cloudinary.com/djidyz2yw/image/upload/v1732453190/Screenshot_2024-11-23_at_10.09.05_PM_cgqqwj.png",
+            "https://res.cloudinary.com/djidyz2yw/image/upload/v1732453189/Screenshot_2024-11-23_at_10.09.00_PM_snmiuc.png",
+            "https://res.cloudinary.com/djidyz2yw/image/upload/v1732453189/Screenshot_2024-11-23_at_10.08.18_PM_blsnbq.png",
+            "https://res.cloudinary.com/djidyz2yw/image/upload/v1732453178/Screenshot_2024-11-23_at_10.08.11_PM_j0nio5.png",
+            "https://res.cloudinary.com/djidyz2yw/image/upload/v1732453177/Screenshot_2024-11-23_at_10.08.05_PM_msslxz.png",
+            "https://res.cloudinary.com/djidyz2yw/image/upload/v1732453169/Screenshot_2024-11-23_at_10.08.56_PM_wyfkkh.png",
+            "https://res.cloudinary.com/djidyz2yw/image/upload/v1732453167/Screenshot_2024-11-23_at_10.08.49_PM_qhdr75.png",
+            "https://res.cloudinary.com/djidyz2yw/image/upload/v1732453163/Screenshot_2024-11-23_at_10.09.17_PM_pcedec.png",
+            "https://res.cloudinary.com/djidyz2yw/image/upload/v1732453161/Screenshot_2024-11-23_at_10.09.38_PM_a5qzfz.png",
+            "https://res.cloudinary.com/djidyz2yw/image/upload/v1732453157/Screenshot_2024-11-23_at_10.08.29_PM_u5ljyp.png",
+            "https://res.cloudinary.com/djidyz2yw/image/upload/v1732453154/Screenshot_2024-11-23_at_10.08.41_PM_ydacji.png",
+            "https://res.cloudinary.com/djidyz2yw/image/upload/v1732453147/Screenshot_2024-11-23_at_10.09.35_PM_tdqhg8.png",
+            "https://res.cloudinary.com/djidyz2yw/image/upload/v1732453136/Screenshot_2024-11-23_at_10.10.53_PM_r2tu9g.png",
+            "https://res.cloudinary.com/djidyz2yw/image/upload/v1732453220/Screenshot_2024-11-23_at_10.10.10_PM_alslgc.png",
+            "https://res.cloudinary.com/djidyz2yw/image/upload/v1732453136/Screenshot_2024-11-23_at_10.10.53_PM_r2tu9g.png"
+        ]
     },
     {
         "id": 6,
         "title": "Evelyn Patton",
-        "imgf": "product-11.jpg",
-        "imgb": "product-12.jpg",
+        "imgf": "https://res.cloudinary.com/djidyz2yw/image/upload/v1732453246/Screenshot_2024-11-24_at_4.34.57_PM_zxnoha.png",
+        "imgb": "https://res.cloudinary.com/djidyz2yw/image/upload/v1732453230/Screenshot_2024-11-24_at_4.35.17_PM_j4i8h3.png",
         "category": [
             {
-                "type": "Mens"
+                "type": ""
             }
         ],
         "color": [
             {
-                "type": "Red"
+                "type": "White"
             }
         ],
         "brand": [
@@ -147,16 +211,28 @@
         "price": {
             "min": 0,
             "max": 60
-        }
+        },
+        "images":[
+            "https://res.cloudinary.com/djidyz2yw/image/upload/v1732453246/Screenshot_2024-11-24_at_4.34.57_PM_zxnoha.png",
+            "https://res.cloudinary.com/djidyz2yw/image/upload/v1732453242/Screenshot_2024-11-24_at_4.35.25_PM_nqfw5i.png",
+            "https://res.cloudinary.com/djidyz2yw/image/upload/v1732453230/Screenshot_2024-11-24_at_4.35.17_PM_j4i8h3.png",
+            "https://res.cloudinary.com/djidyz2yw/image/upload/v1732453219/Screenshot_2024-11-24_at_4.36.23_PM_dt1tbz.png",
+            "https://res.cloudinary.com/djidyz2yw/image/upload/v1732453214/Screenshot_2024-11-24_at_4.35.44_PM_bu9g6z.png",
+            "https://res.cloudinary.com/djidyz2yw/image/upload/v1732453207/Screenshot_2024-11-24_at_4.36.07_PM_zdryn3.png",
+            "https://res.cloudinary.com/djidyz2yw/image/upload/v1732453140/Screenshot_2024-11-24_at_4.35.33_PM_oczxge.png",
+            "https://res.cloudinary.com/djidyz2yw/image/upload/v1732453135/Screenshot_2024-11-24_at_4.35.47_PM_n8k3xq.png",
+            "https://res.cloudinary.com/djidyz2yw/image/upload/v1732453133/Screenshot_2024-11-24_at_4.35.38_PM_kyszym.png",
+            "https://res.cloudinary.com/djidyz2yw/image/upload/v1732453127/Screenshot_2024-11-24_at_4.35.55_PM_neot5x.png"
+        ]
     },
     {
         "id": 7,
-        "title": "Sally Ray",
-        "imgf": "product-13.jpg",
-        "imgb": "product-14.jpg",
+        "title": "Cyber Security Nextjs",
+        "imgf": "https://res.cloudinary.com/djidyz2yw/image/upload/v1732453249/Screenshot_2024-11-24_at_3.29.57_PM_ihemsq.png",
+        "imgb": "https://res.cloudinary.com/djidyz2yw/image/upload/v1732453210/Screenshot_2024-11-24_at_3.30.44_PM_ubflui.png",
         "category": [
             {
-                "type": "Womens"
+                "type": "Nextjs"
             }
         ],
         "color": [
@@ -172,21 +248,40 @@
         "price": {
             "min": 0,
             "max": 70
-        }
+        },
+        "images":[
+            "https://res.cloudinary.com/djidyz2yw/image/upload/v1732453249/Screenshot_2024-11-24_at_3.29.57_PM_ihemsq.png",
+            "https://res.cloudinary.com/djidyz2yw/image/upload/v1732453210/Screenshot_2024-11-24_at_3.30.44_PM_ubflui.png",
+            "https://res.cloudinary.com/djidyz2yw/image/upload/v1732453232/Screenshot_2024-11-24_at_3.30.21_PM_uaqy9q.png",
+            "https://res.cloudinary.com/djidyz2yw/image/upload/v1732453232/Screenshot_2024-11-24_at_3.31.47_PM_rpcwdd.png",
+            "https://res.cloudinary.com/djidyz2yw/image/upload/v1732453232/Screenshot_2024-11-24_at_3.31.55_PM_zqubag.png",
+            "https://res.cloudinary.com/djidyz2yw/image/upload/v1732453231/Screenshot_2024-11-24_at_3.30.37_PM_kwcod7.png",
+            "https://res.cloudinary.com/djidyz2yw/image/upload/v1732453208/Screenshot_2024-11-24_at_3.30.14_PM_cmbc9s.png",
+            "https://res.cloudinary.com/djidyz2yw/image/upload/v1732453207/Screenshot_2024-11-24_at_3.32.28_PM_w2hacr.png",
+            "https://res.cloudinary.com/djidyz2yw/image/upload/v1732453204/Screenshot_2024-11-24_at_3.31.09_PM_k1emy5.png",
+            "https://res.cloudinary.com/djidyz2yw/image/upload/v1732453160/Screenshot_2024-11-24_at_3.31.25_PM_gpsguc.png",
+            "https://res.cloudinary.com/djidyz2yw/image/upload/v1732453159/Screenshot_2024-11-24_at_3.32.52_PM_qybwtj.png",
+            "https://res.cloudinary.com/djidyz2yw/image/upload/v1732453143/Screenshot_2024-11-24_at_3.30.29_PM_o47tzf.png",
+            "https://res.cloudinary.com/djidyz2yw/image/upload/v1732453125/Screenshot_2024-11-24_at_3.31.02_PM_iqjafh.png",
+            "https://res.cloudinary.com/djidyz2yw/image/upload/v1732453125/Screenshot_2024-11-24_at_3.31.38_PM_bm7pc4.png",
+            "https://res.cloudinary.com/djidyz2yw/image/upload/v1732453122/Screenshot_2024-11-24_at_3.32.16_PM_apcx2a.png",
+            "https://res.cloudinary.com/djidyz2yw/image/upload/v1732453119/Screenshot_2024-11-24_at_3.30.52_PM_lg5lec.png",
+            "https://res.cloudinary.com/djidyz2yw/image/upload/v1732453180/Screenshot_2024-11-24_at_3.32.09_PM_s2qr9t.png"
+        ]
     },
     {
         "id": 8,
-        "title": "Ora Bowman",
-        "imgf": "product-15.jpg",
-        "imgb": "product-16.jpg",
+        "title": "Education nextjs theme",
+        "imgf": "https://res.cloudinary.com/djidyz2yw/image/upload/v1732453144/Screenshot_2024-11-23_at_11.10.23_PM_xrokai.png",
+        "imgb": "https://res.cloudinary.com/djidyz2yw/image/upload/v1732453165/Screenshot_2024-11-23_at_11.10.45_PM_rfu53g.png",
         "category": [
             {
-                "type": "Mens"
+                "type": "Nextjs"
             }
         ],
         "color": [
             {
-                "type": "Gray"
+                "type": "white"
             }
         ],
         "brand": [
@@ -197,13 +292,22 @@
         "price": {
             "min": 0,
             "max": 80
-        }
+        },
+        "images":[
+            "https://res.cloudinary.com/djidyz2yw/image/upload/v1732453144/Screenshot_2024-11-23_at_11.10.23_PM_xrokai.png",
+            "https://res.cloudinary.com/djidyz2yw/image/upload/v1732453183/Screenshot_2024-11-23_at_11.11.06_PM_faqeaj.png",
+            "https://res.cloudinary.com/djidyz2yw/image/upload/v1732453165/Screenshot_2024-11-23_at_11.10.45_PM_rfu53g.png",
+            "https://res.cloudinary.com/djidyz2yw/image/upload/v1732453157/Screenshot_2024-11-23_at_11.10.52_PM_szwaqb.png",
+            "https://res.cloudinary.com/djidyz2yw/image/upload/v1732453141/Screenshot_2024-11-23_at_11.11.52_PM_kqlbcx.png",
+            "https://res.cloudinary.com/djidyz2yw/image/upload/v1732453175/Screenshot_2024-11-23_at_11.11.30_PM_r3vf4e.png",
+            "https://res.cloudinary.com/djidyz2yw/image/upload/v1732453179/Screenshot_2024-11-23_at_11.13.28_PM_cnrt95.png"
+        ]
     },
     {
         "id": 9,
         "title": "Frederick Valdez",
-        "imgf": "product-17.jpg",
-        "imgb": "product-18.jpg",
+        "imgf": "https://res.cloudinary.com/djidyz2yw/image/upload/v1732453240/Screenshot_2024-11-24_at_2.54.36_PM_p1wwui.png",
+        "imgb": "https://res.cloudinary.com/djidyz2yw/image/upload/v1732453241/Screenshot_2024-11-24_at_2.59.12_PM_uzo8ro.png",
         "category": [
             {
                 "type": "Kids"
@@ -222,13 +326,27 @@
         "price": {
             "min": 0,
             "max": 90
-        }
+        },
+        "images":[
+            "https://res.cloudinary.com/djidyz2yw/image/upload/v1732453240/Screenshot_2024-11-24_at_2.54.36_PM_p1wwui.png",
+            "https://res.cloudinary.com/djidyz2yw/image/upload/v1732453241/Screenshot_2024-11-24_at_2.59.12_PM_uzo8ro.png",
+            "https://res.cloudinary.com/djidyz2yw/image/upload/v1732453218/Screenshot_2024-11-24_at_2.55.49_PM_gx3wlx.png",
+            "https://res.cloudinary.com/djidyz2yw/image/upload/v1732453212/Screenshot_2024-11-24_at_2.56.36_PM_wj8how.png",
+            "https://res.cloudinary.com/djidyz2yw/image/upload/v1732453206/Screenshot_2024-11-24_at_2.59.29_PM_bzul9c.png",
+            "https://res.cloudinary.com/djidyz2yw/image/upload/v1732453203/Screenshot_2024-11-24_at_2.55.05_PM_guemim.png",
+            "https://res.cloudinary.com/djidyz2yw/image/upload/v1732453197/Screenshot_2024-11-24_at_2.55.17_PM_vl0zml.png",
+            "https://res.cloudinary.com/djidyz2yw/image/upload/v1732453182/Screenshot_2024-11-24_at_3.00.26_PM_sym8xo.png",
+            "https://res.cloudinary.com/djidyz2yw/image/upload/v1732453174/Screenshot_2024-11-24_at_2.54.54_PM_vlpek8.png",
+            "https://res.cloudinary.com/djidyz2yw/image/upload/v1732453144/Screenshot_2024-11-24_at_3.00.54_PM_vpphuo.png",
+            "https://res.cloudinary.com/djidyz2yw/image/upload/v1732453150/Screenshot_2024-11-24_at_2.58.36_PM_xr6bz7.png",
+            "https://res.cloudinary.com/djidyz2yw/image/upload/v1732453140/Screenshot_2024-11-24_at_2.58.52_PM_ihi94a.png"
+        ]
     },
     {
         "id": 10,
         "title": "Terry Byrd",
-        "imgf": "product-19.jpg",
-        "imgb": "product-20.jpg",
+        "imgf": "https://res.cloudinary.com/djidyz2yw/image/upload/v1732453222/Screenshot_2024-11-24_at_4.07.14_PM_w2cmhf.png",
+        "imgb": "https://res.cloudinary.com/djidyz2yw/image/upload/v1732453189/Screenshot_2024-11-24_at_4.07.28_PM_dtycdr.png",
         "category": [
             {
                 "type": "Womens"
@@ -247,13 +365,22 @@
         "price": {
             "min": 0,
             "max": 100
-        }
+        },
+        "images":[
+            "https://res.cloudinary.com/djidyz2yw/image/upload/v1732453222/Screenshot_2024-11-24_at_4.07.14_PM_w2cmhf.png",
+            "https://res.cloudinary.com/djidyz2yw/image/upload/v1732453189/Screenshot_2024-11-24_at_4.07.28_PM_dtycdr.png",
+            "https://res.cloudinary.com/djidyz2yw/image/upload/v1732453192/Screenshot_2024-11-24_at_4.07.57_PM_mrr798.png",
+            "https://res.cloudinary.com/djidyz2yw/image/upload/v1732453174/Screenshot_2024-11-24_at_4.08.35_PM_sugaha.png",
+            "https://res.cloudinary.com/djidyz2yw/image/upload/v1732453154/Screenshot_2024-11-24_at_4.09.40_PM_nxctfj.png",
+            "https://res.cloudinary.com/djidyz2yw/image/upload/v1732453146/Screenshot_2024-11-24_at_4.07.21_PM_hjcivg.png",
+            "https://res.cloudinary.com/djidyz2yw/image/upload/v1732453154/Screenshot_2024-11-24_at_4.09.40_PM_nxctfj.png"
+        ]
     },
     {
         "id": 11,
         "title": "Angel Jimenez",
-        "imgf": "product-21.jpg",
-        "imgb": "product-22.jpg",
+        "imgf": "https://res.cloudinary.com/djidyz2yw/image/upload/v1732453273/Screenshot_2024-11-24_at_5.06.32_PM_qnyokx.png",
+        "imgb": "https://res.cloudinary.com/djidyz2yw/image/upload/v1732453273/Screenshot_2024-11-24_at_5.06.32_PM_qnyokx.png",
         "category": [
             {
                 "type": "Kids"
@@ -272,13 +399,17 @@
         "price": {
             "min": 0,
             "max": 20
-        }
+        },
+        "images":[
+            "https://res.cloudinary.com/djidyz2yw/image/upload/v1732453273/Screenshot_2024-11-24_at_5.06.32_PM_qnyokx.png",
+            "https://res.cloudinary.com/djidyz2yw/image/upload/v1732453273/Screenshot_2024-11-24_at_5.06.32_PM_qnyokx.png"
+        ]
     },
     {
         "id": 12,
         "title": "Phoebe Arnold",
-        "imgf": "product-23.jpg",
-        "imgb": "product-24.jpg",
+        "imgf": "https://res.cloudinary.com/djidyz2yw/image/upload/v1732453252/Screenshot_2024-11-24_at_5.01.30_PM_cxyct5.png",
+        "imgb": "https://res.cloudinary.com/djidyz2yw/image/upload/v1732453273/Screenshot_2024-11-24_at_5.01.47_PM_bgmn4t.png",
         "category": [
             {
                 "type": "Mens"
@@ -297,13 +428,17 @@
         "price": {
             "min": 0,
             "max": 30
-        }
+        },
+        "images":[
+            "https://res.cloudinary.com/djidyz2yw/image/upload/v1732453252/Screenshot_2024-11-24_at_5.01.30_PM_cxyct5.png",
+            "https://res.cloudinary.com/djidyz2yw/image/upload/v1732453273/Screenshot_2024-11-24_at_5.01.47_PM_bgmn4t.png"
+        ]
     },
     {
         "id": 13,
         "title": "Cordelia Ryan",
-        "imgf": "product-25.jpg",
-        "imgb": "product-26.jpg",
+        "imgf": "https://res.cloudinary.com/djidyz2yw/image/upload/v1732453262/Screenshot_2024-11-24_at_4.18.40_PM_jbdd55.png",
+        "imgb": "https://res.cloudinary.com/djidyz2yw/image/upload/v1732453262/Screenshot_2024-11-24_at_4.18.40_PM_jbdd55.png",
         "category": [
             {
                 "type": "Womens"
@@ -322,13 +457,17 @@
         "price": {
             "min": 0,
             "max": 40
-        }
+        },
+        "images":[
+            "https://res.cloudinary.com/djidyz2yw/image/upload/v1732453262/Screenshot_2024-11-24_at_4.18.40_PM_jbdd55.png",
+            "https://res.cloudinary.com/djidyz2yw/image/upload/v1732453262/Screenshot_2024-11-24_at_4.18.40_PM_jbdd55.png"
+        ]
     },
     {
         "id": 14,
         "title": "Louisa Conner",
-        "imgf": "product-27.jpg",
-        "imgb": "product-28.jpg",
+        "imgf": "https://res.cloudinary.com/djidyz2yw/image/upload/v1732453261/Screenshot_2024-11-24_at_4.57.56_PM_xm9lzs.png",
+        "imgb": "https://res.cloudinary.com/djidyz2yw/image/upload/v1732453255/Screenshot_2024-11-24_at_4.55.07_PM_jk3c2n.png",
         "category": [
             {
                 "type": "Mens"
@@ -352,8 +491,8 @@
     {
         "id": 15,
         "title": "Elnora Swanson",
-        "imgf": "product-29.jpg",
-        "imgb": "product-30.jpg",
+        "imgf": "https://res.cloudinary.com/djidyz2yw/image/upload/v1732453253/Screenshot_2024-11-24_at_4.58.37_PM_s6ooux.png",
+        "imgb": "https://res.cloudinary.com/djidyz2yw/image/upload/v1732453258/Screenshot_2024-11-24_at_4.56.07_PM_wyz4qt.png",
         "category": [
             {
                 "type": "Kids"
@@ -372,13 +511,17 @@
         "price": {
             "min": 0,
             "max": 50
-        }
+        },
+        "images":[
+            "https://res.cloudinary.com/djidyz2yw/image/upload/v1732453253/Screenshot_2024-11-24_at_4.58.37_PM_s6ooux.png",
+            "https://res.cloudinary.com/djidyz2yw/image/upload/v1732453258/Screenshot_2024-11-24_at_4.56.07_PM_wyz4qt.png"
+        ]
     },
     {
         "id": 16,
         "title": "Georgie Olson",
-        "imgf": "product-31.jpg",
-        "imgb": "product-32.jpg",
+        "imgf": "https://res.cloudinary.com/djidyz2yw/image/upload/v1732453259/Screenshot_2024-11-24_at_5.07.43_PM_w9y14o.png",
+        "imgb": "https://res.cloudinary.com/djidyz2yw/image/upload/v1732453254/Screenshot_2024-11-24_at_5.07.27_PM_fbvdtn.png",
         "category": [
             {
                 "type": "Mens"
@@ -397,13 +540,17 @@
         "price": {
             "min": 0,
             "max": 60
-        }
+        },
+        "images":[
+            "https://res.cloudinary.com/djidyz2yw/image/upload/v1732453259/Screenshot_2024-11-24_at_5.07.43_PM_w9y14o.png",
+            "https://res.cloudinary.com/djidyz2yw/image/upload/v1732453254/Screenshot_2024-11-24_at_5.07.27_PM_fbvdtn.png"
+        ]
     },
     {
         "id": 17,
         "title": "Frank Cummings",
-        "imgf": "product-33.jpg",
-        "imgb": "product-34.jpg",
+        "imgf": "https://res.cloudinary.com/djidyz2yw/image/upload/v1732453290/Screenshot_2024-11-24_at_5.17.40_PM_nfnhxc.png",
+        "imgb": "https://res.cloudinary.com/djidyz2yw/image/upload/v1732453279/Screenshot_2024-11-24_at_5.17.27_PM_xfiuwx.png",
         "category": [
             {
                 "type": "Womens"
@@ -422,13 +569,17 @@
         "price": {
             "min": 0,
             "max": 70
-        }
+        },
+        "images":[
+            "https://res.cloudinary.com/djidyz2yw/image/upload/v1732453290/Screenshot_2024-11-24_at_5.17.40_PM_nfnhxc.png",
+            "https://res.cloudinary.com/djidyz2yw/image/upload/v1732453279/Screenshot_2024-11-24_at_5.17.27_PM_xfiuwx.png"
+        ]
     },
     {
         "id": 18,
         "title": "Lula Pope",
-        "imgf": "product-35.jpg",
-        "imgb": "product-36.jpg",
+        "imgf": "https://res.cloudinary.com/djidyz2yw/image/upload/v1732453280/Screenshot_2024-11-24_at_5.04.59_PM_kinxaz.png",
+        "imgb": "https://res.cloudinary.com/djidyz2yw/image/upload/v1732453265/Screenshot_2024-11-24_at_5.04.22_PM_npegya.png",
         "category": [
             {
                 "type": "Mens"
@@ -447,13 +598,17 @@
         "price": {
             "min": 0,
             "max": 80
-        }
+        },
+        "images":[
+            "https://res.cloudinary.com/djidyz2yw/image/upload/v1732453280/Screenshot_2024-11-24_at_5.04.59_PM_kinxaz.png",
+            "https://res.cloudinary.com/djidyz2yw/image/upload/v1732453265/Screenshot_2024-11-24_at_5.04.22_PM_npegya.png"
+        ]
     },
     {
         "id": 19,
         "title": "Brian Silva",
-        "imgf": "product-37.jpg",
-        "imgb": "product-38.jpg",
+        "imgf": "https://res.cloudinary.com/djidyz2yw/image/upload/v1732453270/Screenshot_2024-11-24_at_4.57.05_PM_w4yyam.png",
+        "imgb": "https://res.cloudinary.com/djidyz2yw/image/upload/v1732453267/Screenshot_2024-11-24_at_5.00.01_PM_uhkpeq.png",
         "category": [
             {
                 "type": "Kids"
@@ -472,13 +627,17 @@
         "price": {
             "min": 0,
             "max": 90
-        }
+        },
+        "images":[
+            "https://res.cloudinary.com/djidyz2yw/image/upload/v1732453270/Screenshot_2024-11-24_at_4.57.05_PM_w4yyam.png",
+            "https://res.cloudinary.com/djidyz2yw/image/upload/v1732453267/Screenshot_2024-11-24_at_5.00.01_PM_uhkpeq.png"
+        ]
     },
     {
         "id": 20,
         "title": "Pearl Bowen",
-        "imgf": "product-39.jpg",
-        "imgb": "product-40.jpg",
+        "imgf": "https://res.cloudinary.com/djidyz2yw/image/upload/v1732453288/Screenshot_2024-11-24_at_5.14.52_PM_cruhkn.png",
+        "imgb": "https://res.cloudinary.com/djidyz2yw/image/upload/v1732453267/Screenshot_2024-11-24_at_5.14.46_PM_jbqk2b.png",
         "category": [
             {
                 "type": "Womens"
@@ -497,13 +656,17 @@
         "price": {
             "min": 0,
             "max": 100
-        }
+        },
+        "images":[
+            "https://res.cloudinary.com/djidyz2yw/image/upload/v1732453288/Screenshot_2024-11-24_at_5.14.52_PM_cruhkn.png",
+            "https://res.cloudinary.com/djidyz2yw/image/upload/v1732453267/Screenshot_2024-11-24_at_5.14.46_PM_jbqk2b.png"
+        ]
     },
     {
         "id": 21,
         "title": "Georgia Price",
-        "imgf": "product-41.jpg",
-        "imgb": "product-42.jpg",
+        "imgf": "https://res.cloudinary.com/djidyz2yw/image/upload/v1732453271/Screenshot_2024-11-24_at_5.09.40_PM_xsojmn.png",
+        "imgb": "https://res.cloudinary.com/djidyz2yw/image/upload/v1732453257/Screenshot_2024-11-24_at_5.09.11_PM_dd7gvb.png",
         "category": [
             {
                 "type": "Kids"
@@ -522,13 +685,17 @@
         "price": {
             "min": 0,
             "max": 20
-        }
+        },
+        "images":[
+            "https://res.cloudinary.com/djidyz2yw/image/upload/v1732453271/Screenshot_2024-11-24_at_5.09.40_PM_xsojmn.png",
+            "https://res.cloudinary.com/djidyz2yw/image/upload/v1732453257/Screenshot_2024-11-24_at_5.09.11_PM_dd7gvb.png"
+        ]
     },
     {
         "id": 22,
         "title": "Kenneth Mitchell",
-        "imgf": "product-43.jpg",
-        "imgb": "product-44.jpg",
+        "imgf": "https://res.cloudinary.com/djidyz2yw/image/upload/v1732453268/Screenshot_2024-11-24_at_5.16.00_PM_zxgwql.png",
+        "imgb": "https://res.cloudinary.com/djidyz2yw/image/upload/v1732453261/Screenshot_2024-11-24_at_5.15.50_PM_eihvxx.png",
         "category": [
             {
                 "type": "Mens"
@@ -547,7 +714,11 @@
         "price": {
             "min": 0,
             "max": 30
-        }
+        },
+        "images":[
+            "https://res.cloudinary.com/djidyz2yw/image/upload/v1732453268/Screenshot_2024-11-24_at_5.16.00_PM_zxgwql.png",
+            "https://res.cloudinary.com/djidyz2yw/image/upload/v1732453261/Screenshot_2024-11-24_at_5.15.50_PM_eihvxx.png"
+        ]
     },
     {
         "id": 23,

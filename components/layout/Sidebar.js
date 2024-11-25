@@ -24,7 +24,7 @@ export default function Sidebar({ isMobileMenu, handleMobileMenu }) {
                     </ul>
                     <div className="tab-content" id="pills-tabContent">
                         <div className="tab-pane fade show active" id="pills-home" role="tabpanel" aria-labelledby="pills-home-tab" tabIndex={0}>
-                            <MobileMenu />
+                            {/* <MobileMenu /> */}
                         </div>
                         <div className="tab-pane fade" id="pills-profile" role="tabpanel" aria-labelledby="pills-profile-tab" tabIndex={0}>
                             <div className="tpsidebar-categories">
