@@ -38,7 +38,7 @@ export default function Contact() {
         // Validate form before sending the message
         if (!validateForm()) return;
 
-        const phoneNumber = "+923410498631"; // Your WhatsApp number in international format (no "+" or leading zeroes)
+        const phoneNumber = "+923296121520"; // Your WhatsApp number in international format (no "+" or leading zeroes)
         const message = `Hello! I would like to inquire about your services.\n\n` +
             `Service Type: ${formData.subject}\n` + 
             `Message: ${formData.message}\n` + // Using `message` for plan type
@@ -67,6 +67,10 @@ export default function Contact() {
                                                     <li>
                                                         <i className="fal fa-phone" />
                                                         <Link href="#">+923296121520</Link>
+                                                    </li>
+                                                    <li>
+                                                        <i className="fal fa-envelope" />
+                                                        <Link href="#">contactfulfillneeds@gmail.com</Link>
                                                     </li>
                                                     <li>
                                                         <i className="fal fa-clock" />

@@ -21,7 +21,7 @@ export default function BackToTop() {
 
     const handleWhatsAppClick = () => {
         // Replace with your number and pre-filled message
-        const phoneNumber = "+923410498631"; // Your WhatsApp number in international format (no "+" or leading zeroes)
+        const phoneNumber = "+923296121520"; // Your WhatsApp number in international format (no "+" or leading zeroes)
         const message = "Hello! I would like to inquire about your services.";
         const whatsappUrl = `https://wa.me/${phoneNumber}?text=${encodeURIComponent(message)}`;
 

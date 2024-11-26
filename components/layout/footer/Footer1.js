@@ -18,7 +18,7 @@ export default function Footer1() {
         // Validate form before sending the message
         if (!validateForm()) return;
 
-        const phoneNumber = "+923410498631"; // Your WhatsApp number in international format (no "+" or leading zeroes)
+        const phoneNumber = "+923296121520"; // Your WhatsApp number in international format (no "+" or leading zeroes)
         const message = `Hello! ${email}\n\n` +
             `Want to stay updated with the latest news, exclusive offers, and valuable insights? Join our newsletter and enjoy:\n` +
             `- Special discounts & offers\n` +
@@ -70,8 +70,8 @@ export default function Footer1() {
                                                 <li><Link href="/faqs" target="__blank">FAQs</Link></li>
                                                 <li><Link href="/privacy" target="__blank">Privacy Policy</Link></li>
                                                 <li><Link href="/terms" target="__blank">Terms  Condition</Link></li>
-                                                <li><Link href="#">Discount</Link></li>
-                                                <li><Link href="#">Custom Service</Link></li>
+                                                <li><Link href="/contact">Contact Us</Link></li>
+                                                <li><Link href="/about">About Us</Link></li>
                                             </ul>
                                         </div>
                                     </div>

@@ -25,15 +25,6 @@ export default function Category() {
                         </div>
                         <div className="tpcategory mb-40">
                             <div className="tpcategory__icon">
-                                <img src="/assets/img/icon/digital-marketing.png" alt="" className="fn__svg" />
-                                {/* <span>12</span> */}
-                            </div>
-                            <div className="tpcategory__content">
-                                <h5 className="tpcategory__title"><Link href="/shop">Digital Marketing</Link></h5>
-                            </div>
-                        </div>
-                        <div className="tpcategory mb-40">
-                            <div className="tpcategory__icon">
                                 <img src="/assets/img/icon/cms.png" alt="" className="fn__svg" />
                                 {/* <span>03</span> */}
                             </div>
@@ -41,6 +32,16 @@ export default function Category() {
                                 <h5 className="tpcategory__title"><Link href="/shop">Wordpress/Shopify</Link></h5>
                             </div>
                         </div>
+                        <div className="tpcategory mb-40">
+                            <div className="tpcategory__icon">
+                                <img src="/assets/img/icon/digital-marketing.png" alt="" className="fn__svg" />
+                                {/* <span>12</span> */}
+                            </div>
+                            <div className="tpcategory__content">
+                                <h5 className="tpcategory__title"><Link href="/shop">Digital Marketing</Link></h5>
+                            </div>
+                        </div>
+                       
                         <div className="tpcategory mb-40">
                             <div className="tpcategory__icon">
                                 <img src="/assets/img/icon/digital-products.png" alt="" className="fn__svg" />

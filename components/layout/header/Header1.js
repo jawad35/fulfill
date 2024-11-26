@@ -105,6 +105,8 @@ export default function Header1({ scroll, isMobileMenu, handleMobileMenu, isCart
                                                 </ul>
                                             </div>
                                             <ul className="cat-menu__list">
+                                                <li><Link href="/ui-ux"><i className="fal fa-dot-circle" />Domain</Link></li>
+                                                <li><Link href="/ui-ux"><i className="fal fa-dot-circle" />Hosting</Link></li>
                                                 <li><Link href="/ui-ux"><i className="fal fa-dot-circle" />UI/UX Design</Link></li>
                                                 <li><Link href="/web"><i className="fal fa-dot-circle" />Custom Web Dev</Link></li>
                                                 {/* <li className="menu-item-has-children"><Link href="/shop"><i className="fal fa-dot-circle" />Themes</Link>
@@ -126,7 +128,7 @@ export default function Header1({ scroll, isMobileMenu, handleMobileMenu, isCart
                                                 {/* <li className="menu-item-has-children"><Link href="/shop"><i className="fal fa-flower-tulip" />Graphic Design</Link>
                                                     <ul className="submenu">
                                                         <li><Link href="/shop-2">Logo Design</Link></li>
-                                                        <li><Link href="/shop-2">UI/UX Design</Link></li>
+                                                        <li><Link href="/shop-2"> Design</Link></li>
                                                         <li><Link href="/shop">Photo Editing</Link></li>
                                                     </ul>
                                                 </li> */}
@@ -216,11 +218,13 @@ export default function Header1({ scroll, isMobileMenu, handleMobileMenu, isCart
                                                         <li><Link href="/blog-details">Blog Details</Link></li>
                                                     </ul>
                                                 </li> */}
-                                                <li><Link href="/index-2">Digital Mar</Link></li>
-                                                <li><Link href="/index-2">Web Development</Link></li>
+                                                {/* <li><Link href="/index-2">Digital Mar</Link></li> */}
+                                                {/* <li><Link href="/index-2">Web Development</Link></li> */}
                                                 <li><Link href="/our-team">Team</Link></li>
                                                 {/* <li><Link href="/blog">Blog</Link></li> */}
                                                 <li><Link href="/contact">Contact</Link></li>
+                                                <li><Link href="/about">About</Link></li>
+
                                             </ul>
                                         </nav>
                                     </div>

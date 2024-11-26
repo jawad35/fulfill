@@ -3,7 +3,7 @@ import Layout from "@/components/layout/Layout"
 import Link from "next/link"
 import { Autoplay, Navigation, Pagination } from "swiper/modules"
 import { Swiper, SwiperSlide } from "swiper/react"
-
+import Team from '../../data/team.json'
 const swiperOptions = {
     modules: [Autoplay, Pagination, Navigation],
     slidesPerView: 4,
@@ -43,9 +43,9 @@ export default function About() {
                         <div className="container">
                             <div className="tpabout__inner-logo p-relative">
                                 <div className="row">
-                                    <div className="col-lg-6">
-                                        <div className="tpabout__inner-thumb mb-40">
-                                            <img src="/assets/img/banner/about-img-1.jpg" alt="" />
+                                    <div>
+                                        <div className="tpabout__inner-thumb">
+                                            <img src="https://res.cloudinary.com/djidyz2yw/image/upload/v1732630873/about1_einqjo.png" alt="" />
                                         </div>
                                     </div>
                                     <div className="col-lg-6">
@@ -69,26 +69,16 @@ export default function About() {
                             <div className="row">
                                 <div className="col-xl-4 col-lg-6 col-md-12 col-sm-12">
                                     <div className="tpabout__inner-story mb-40">
-                                        <p>Publish your eCommerce site quickly with our easy-to-use store
-                                            builder— no coding required. Migrate your items from your
-                                            point of sale system or turn your Instagram feed into a shopping
-                                            site and start selling fast. Square Online works for all kinds of
-                                            businesses—retail, restaurants, services without costly
-                                            customization or add ons. Get orders to your customers in lots
-                                            of ways by offering shipping, pickup, delivery, and even QR
-                                            code ordering.</p>
+                                        <p>
+                                            At FulfillNeeds, we specialize in delivering top-quality web and mobile development, digital marketing, graphic design, and video editing services. Our goal is to empower businesses with innovative, customized solutions that drive growth and create impactful digital experiences. Let us bring your ideas to life and help your brand stand out.</p>
                                     </div>
                                 </div>
                                 <div className="col-xl-5 col-lg-6 col-md-12 col-sm-12">
                                     <div className="tpabout__inner-story-2 mb-40">
-                                        <p>Expand your reach and sell more using seamless integrations with
-                                            Google, Instagram, Facebook, and more. Built- in SEO tools make
-                                            it easy for shoppers to find your business on search engines. Get
-                                            access to the entire suite of integrated Square solutions to help you
-                                            run your business. Integration between Square Online and all
-                                            Square point of sale systems makes inventory management easy.
-                                            Subscribe to Square Marketing and easily send email promotions
-                                            to your customers using the contact information</p>
+                                        <p>
+                                            At FulfillNeeds, we enhance your business with professional logo design, SEO optimization, ads management, and custom e-commerce solutions like Shopify stores and product uploads. We also offer pro video editing to boost your online presence and help drive growth.
+
+                                        </p>
                                     </div>
                                 </div>
                                 <div className="col-xl-3 col-lg-12 col-md-12 col-sm-12">
@@ -120,79 +110,28 @@ export default function About() {
                             </div>
                             <div className="swiper-container tp-team-active">
                                 <Swiper {...swiperOptions}>
-                                    <SwiperSlide>
-                                        <div className="tpteam__item p-relative mb-40">
-                                            <div className="tpteam__thumb">
-                                                <img src="/assets/img/testimonial/team-1.jpg" alt="" />
-                                            </div>
-                                            <div className="tpteam__content">
-                                                <h4 className="tpteam__position">Founder</h4>
-                                                <h5 className="tpteam__title">Rosalina D. Willson</h5>
-                                            </div>
-                                        </div>
-                                    </SwiperSlide>
-                                    <SwiperSlide>
-                                        <div className="tpteam__item p-relative mb-40">
-                                            <div className="tpteam__thumb">
-                                                <img src="/assets/img/testimonial/team-2.jpg" alt="" />
-                                            </div>
-                                            <div className="tpteam__content">
-                                                <h4 className="tpteam__position">CEO</h4>
-                                                <h5 className="tpteam__title">Ukolilix X. Xilanorix</h5>
-                                            </div>
-                                        </div>
-                                    </SwiperSlide>
-                                    <SwiperSlide>
-                                        <div className="tpteam__item p-relative mb-40">
-                                            <div className="tpteam__thumb">
-                                                <img src="/assets/img/testimonial/team-3.jpg" alt="" />
-                                            </div>
-                                            <div className="tpteam__content">
-                                                <h4 className="tpteam__position">Designer</h4>
-                                                <h5 className="tpteam__title">Alonso M. Miklonax</h5>
-                                            </div>
-                                        </div>
-                                    </SwiperSlide>
-                                    <SwiperSlide>
-                                        <div className="tpteam__item p-relative mb-40">
-                                            <div className="tpteam__thumb">
-                                                <img src="/assets/img/testimonial/team-4.jpg" alt="" />
-                                            </div>
-                                            <div className="tpteam__content">
-                                                <h4 className="tpteam__position">Developer</h4>
-                                                <h5 className="tpteam__title">Miranda H. Halim</h5>
-                                            </div>
-                                        </div>
-                                    </SwiperSlide>
-                                    <SwiperSlide>
-                                        <div className="tpteam__item p-relative mb-40">
-                                            <div className="tpteam__thumb">
-                                                <img src="/assets/img/testimonial/team-1.jpg" alt="" />
-                                            </div>
-                                            <div className="tpteam__content">
-                                                <h4 className="tpteam__position">Founder</h4>
-                                                <h5 className="tpteam__title">Rosalina D. Willson</h5>
-                                            </div>
-                                        </div>
-                                    </SwiperSlide>
-                                    <SwiperSlide>
-                                        <div className="tpteam__item p-relative mb-40">
-                                            <div className="tpteam__thumb">
-                                                <img src="/assets/img/testimonial/team-2.jpg" alt="" />
-                                            </div>
-                                            <div className="tpteam__content">
-                                                <h4 className="tpteam__position">CEO</h4>
-                                                <h5 className="tpteam__title">Ukolilix X. Xilanorix</h5>
-                                            </div>
-                                        </div>
-                                    </SwiperSlide>
+                                    {
+                                        Team?.map(item => (
+                                            <SwiperSlide>
+                                                <div className="tpteam__item p-relative mb-40">
+                                                    <div className="tpteam__thumb">
+                                                        <img src={item?.avatar} alt="" />
+                                                    </div>
+                                                    <div className="tpteam__content">
+                                                        <h4 className="tpteam__position">{item?.position}</h4>
+                                                        <h5 className="tpteam__title">{item.name}</h5>
+                                                    </div>
+                                                </div>
+                                            </SwiperSlide>
+                                        ))
+                                    }
                                 </Swiper>
                             </div>
                         </div>
                     </section>
                     {/* team-area-end */}
                     {/* feature-area-start */}
-                    <section className="feature-area pt-70 pb-10">
+                    {/* <section className="feature-area pt-70 pb-10">
                         <div className="container">
                             <div className="row align-items-center">
                                 <div className="col-lg-6 col-md-12 col-sm-12">
@@ -233,7 +172,7 @@ export default function About() {
                                 </div>
                             </div>
                         </div>
-                    </section>
+                    </section> */}
                 </div>
 
             </Layout>

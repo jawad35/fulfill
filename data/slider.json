@@ -1,0 +1,42 @@
+[
+    {
+        "id":"1",
+        "type":"",
+        "discount":40,
+        "fname":"Web",
+        "lname":"Development",
+        "img":"https://res.cloudinary.com/djidyz2yw/image/upload/v1732639165/banner-1_fzj9on.png"
+    },
+    {
+        "id":"2",
+        "type":"",
+        "discount":20,
+        "fname":"Mobile App Development",
+        "lname":"",
+        "img":"https://res.cloudinary.com/djidyz2yw/image/upload/v1732639167/banner-2_rjqirm.png"
+    },
+    {
+        "id":"3",
+        "type":"",
+        "discount":40,
+        "fname":"Design and Redesign",
+        "lname":"",
+        "img":"https://res.cloudinary.com/djidyz2yw/image/upload/v1732639167/banner-3_sslhcs.png"
+    },
+    {
+        "id":"4",
+        "type":"",
+        "discount":25,
+        "fname":"Digital Marketing",
+        "lname":"",
+        "img":"https://res.cloudinary.com/djidyz2yw/image/upload/v1732639792/banner-4-u_p52nmm.png"
+    },
+    {
+        "id":"5",
+        "type":"",
+        "discount":20,
+        "fname":"Video Editing",
+        "lname":"",
+        "img":"https://res.cloudinary.com/djidyz2yw/image/upload/v1732638894/banner-5_culn3d.png"
+    }
+]

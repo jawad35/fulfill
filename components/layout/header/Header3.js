@@ -14,7 +14,7 @@ export default function Header3({ scroll, isMobileMenu, handleMobileMenu, isCart
         <>
             <header>
                 <div className="header-top tertiary-header-top space-bg">
-                    <div className="container">
+                    {/* <div className="container">
                         <div className="row">
                             <div className="col-xl-7 col-lg-12 col-md-12 ">
                                 <div className="header-welcome-text">
@@ -42,7 +42,7 @@ export default function Header3({ scroll, isMobileMenu, handleMobileMenu, isCart
                                 </div>
                             </div>
                         </div>
-                    </div>
+                    </div> */}
                 </div>
                 <div className="logo-area green-logo-area mt-30 d-none d-xl-block">
                     <div className="container">
@@ -112,24 +112,12 @@ export default function Header3({ scroll, isMobileMenu, handleMobileMenu, isCart
                 <div className="main-menu-area tertiary-main-menu mt-25 d-none d-xl-block">
                     <div className="container">
                         <div className="row align-items-center">
-                            <div className="col-xl-2 col-lg-3">
+                            {/* <div className="col-xl-2 col-lg-3">
                                 <div className="cat-menu__category p-relative">
                                     <a onClick={handleToggle} href="#"><i className="fal fa-bars" />Categories</a>
                                     <div className="category-menu" style={{ display: `${isToggled ? "block" : "none"}` }}>
                                         <ul className="cat-menu__list">
                                             <li><Link href="/shop-2"><i className="fal fa-chair" /> Furniture</Link></li>
-                                            <li className="menu-item-has-children"><Link href="/shop"><i className="far fa-campfire" />
-                                                Cooking </Link>
-                                                <ul className="submenu">
-                                                    <li><Link href="/shop-2">Chair</Link></li>
-                                                    <li><Link href="/shop-2">Table</Link></li>
-                                                    <li><Link href="/shop">Wooden</Link></li>
-                                                    <li><Link href="/shop">furniture</Link></li>
-                                                    <li><Link href="/shop">Clock</Link></li>
-                                                    <li><Link href="/shop">Gifts</Link></li>
-                                                    <li><Link href="/shop">Crafts</Link></li>
-                                                </ul>
-                                            </li>
                                             <li><Link href="/shop-2"><i className="fal fa-shoe-prints" />Accessories</Link></li>
                                             <li><Link href="/shop-2"><i className="fal fa-tshirt" />Fashion</Link></li>
                                             <li><Link href="/shop-2"><i className="fal fa-clock" />Clocks</Link></li>
@@ -146,7 +134,7 @@ export default function Header3({ scroll, isMobileMenu, handleMobileMenu, isCart
                                         </div>
                                     </div>
                                 </div>
-                            </div>
+                            </div> */}
                             <div className="col-xl-7 col-lg-6">
                                 <div className="main-menu">
                                     <nav id="mobile-menu">

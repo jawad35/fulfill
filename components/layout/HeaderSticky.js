@@ -85,7 +85,9 @@ export default function HeaderSticky({ scroll, isCartSidebar, handleCartSidebar 
                                                 <li><Link href="/blog-details">Blog Details</Link></li>
                                             </ul>
                                         </li> */}
+                                        <li><Link href="/our-team">Team</Link></li>
                                         <li><Link href="/contact">Contact</Link></li>
+                                        <li><Link href="/about">About</Link></li>
                                     </ul>
                                 </nav>
                             </div>

@@ -5702,7 +5702,7 @@ only screen and (min-width: 1200px) and (max-width: 1399px) {
 .mp-marque-slider p span {
     background-clip: text;
     color: transparent;
-    background-image: url("../img/blog/blog-thumb-07.jpg");
+    /* background-image: url("../img/blog/blog-thumb-07.jpg"); */
     background-size: cover;
     -webkit-background-clip: text;
 }

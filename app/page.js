@@ -1,5 +1,4 @@
 import Layout from "@/components/layout/Layout"
-import Blog4 from "@/components/sections/Blog4"
 import Category from "@/components/sections/Category"
 import DealProduct1 from "@/components/sections/DealProduct1"
 import DealProduct3 from "@/components/sections/DealProduct3"
@@ -22,7 +21,7 @@ export default function Home() {
                 <Category />
                 <Product1 />
                 {/* <DealProduct3/> */}
-                <Pricing price={Price[0]}/>
+                {/* <Pricing price={Price[0]}/> */}
                 {/* <Shop /> */}
                 <Team/>
                 <Testimonial2/>

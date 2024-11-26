@@ -4,7 +4,7 @@ import React from 'react';
 const WhatsAppButton = ({title, serviceName, planType}) => {
   const handleWhatsAppClick = () => {
     // Replace with your number and pre-filled message
-    const phoneNumber = "+923410498631"; // Your WhatsApp number in international format (no "+" or leading zeroes)
+    const phoneNumber = "+923296121520"; // Your WhatsApp number in international format (no "+" or leading zeroes)
     const message = "Hello! I would like to inquire about your services.\n\n" +
     `Service Type :${serviceName}\n` +
     `Plan Type :${planType}\n`;
