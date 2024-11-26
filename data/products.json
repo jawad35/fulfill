@@ -1,14 +1,10 @@
 [
     {
         "id": 1,
-        "title": "Portfolio Html Bootstrap",
+        "title": "Portfolio website",
         "imgf": "https://res.cloudinary.com/djidyz2yw/image/upload/v1732453021/Screenshot_2024-11-23_at_11.00.48_PM_j6zrny.png",
         "imgb": "https://res.cloudinary.com/djidyz2yw/image/upload/v1732453018/Screenshot_2024-11-23_at_11.01.04_PM_vqqcm6.png",
-        "category": [
-            {
-                "type": "portfolio"
-            }
-        ],
+        "category": "web",
         "color": [
             {
                 "type": "Purple"
@@ -33,14 +29,10 @@
     },
     {
         "id": 2,
-        "title": "Allie Sharp",
+        "title": "Job Website",
         "imgf": "https://res.cloudinary.com/djidyz2yw/image/upload/v1732453097/Screenshot_2024-11-23_at_10.50.26_PM_zaz9hn.png",
         "imgb": "https://res.cloudinary.com/djidyz2yw/image/upload/v1732453105/Screenshot_2024-11-23_at_10.52.22_PM_hatrnn.png",
-        "category": [
-            {
-                "type": "Mens"
-            }
-        ],
+        "category": "web",
         "color": [
             {
                 "type": "Blue"
@@ -75,14 +67,10 @@
     },
     {
         "id": 3,
-        "title": "Nathaniel Baldwin",
+        "title": "marketing website",
         "imgf": "https://res.cloudinary.com/djidyz2yw/image/upload/v1732453124/Screenshot_2024-11-23_at_11.03.37_PM_bwkpok.png",
         "imgb": "https://res.cloudinary.com/djidyz2yw/image/upload/v1732453124/Screenshot_2024-11-23_at_11.03.44_PM_m7kdfz.png",
-        "category": [
-            {
-                "type": "Womens"
-            }
-        ],
+        "category":"web",
         "color": [
             {
                 "type": "Gray"
@@ -108,14 +96,10 @@
     },
     {
         "id": 4,
-        "title": "Ecommerce Nextjs",
+        "title": "Consultation Website",
         "imgf": "https://res.cloudinary.com/djidyz2yw/image/upload/v1732453173/Screenshot_2024-11-24_at_3.48.37_PM_bd3hl2.png",
         "imgb": "https://res.cloudinary.com/djidyz2yw/image/upload/v1732453191/Screenshot_2024-11-24_at_3.49.28_PM_xhq6ry.png",
-        "category": [
-            {
-                "type": "Nextjs"
-            }
-        ],
+        "category": "web",
         "color": [
             {
                 "type": "Black"
@@ -145,14 +129,10 @@
     },
     {
         "id": 5,
-        "title": "Dashboard Nextjs",
+        "title": "Admin website",
         "imgf": "https://res.cloudinary.com/djidyz2yw/image/upload/v1732453197/Screenshot_2024-11-23_at_10.08.23_PM_qopjsv.png",
         "imgb": "https://res.cloudinary.com/djidyz2yw/image/upload/v1732453153/Screenshot_2024-11-23_at_10.07.55_PM_mzu8nf.png",
-        "category": [
-            {
-                "type": "Nextjs"
-            }
-        ],
+        "category": "web",
         "color": [
             {
                 "type": "White"
@@ -190,14 +170,10 @@
     },
     {
         "id": 6,
-        "title": "Evelyn Patton",
+        "title": "Showcase Website",
         "imgf": "https://res.cloudinary.com/djidyz2yw/image/upload/v1732453246/Screenshot_2024-11-24_at_4.34.57_PM_zxnoha.png",
         "imgb": "https://res.cloudinary.com/djidyz2yw/image/upload/v1732453230/Screenshot_2024-11-24_at_4.35.17_PM_j4i8h3.png",
-        "category": [
-            {
-                "type": ""
-            }
-        ],
+        "category": "web",
         "color": [
             {
                 "type": "White"
@@ -227,14 +203,10 @@
     },
     {
         "id": 7,
-        "title": "Cyber Security Nextjs",
+        "title": "Cyber Security Website",
         "imgf": "https://res.cloudinary.com/djidyz2yw/image/upload/v1732453249/Screenshot_2024-11-24_at_3.29.57_PM_ihemsq.png",
         "imgb": "https://res.cloudinary.com/djidyz2yw/image/upload/v1732453210/Screenshot_2024-11-24_at_3.30.44_PM_ubflui.png",
-        "category": [
-            {
-                "type": "Nextjs"
-            }
-        ],
+        "category": "web",
         "color": [
             {
                 "type": "Blue"
@@ -271,14 +243,10 @@
     },
     {
         "id": 8,
-        "title": "Education nextjs theme",
+        "title": "Education Website",
         "imgf": "https://res.cloudinary.com/djidyz2yw/image/upload/v1732453144/Screenshot_2024-11-23_at_11.10.23_PM_xrokai.png",
         "imgb": "https://res.cloudinary.com/djidyz2yw/image/upload/v1732453165/Screenshot_2024-11-23_at_11.10.45_PM_rfu53g.png",
-        "category": [
-            {
-                "type": "Nextjs"
-            }
-        ],
+        "category": "web",
         "color": [
             {
                 "type": "white"
@@ -305,14 +273,10 @@
     },
     {
         "id": 9,
-        "title": "Frederick Valdez",
+        "title": "Medical Website",
         "imgf": "https://res.cloudinary.com/djidyz2yw/image/upload/v1732453240/Screenshot_2024-11-24_at_2.54.36_PM_p1wwui.png",
         "imgb": "https://res.cloudinary.com/djidyz2yw/image/upload/v1732453241/Screenshot_2024-11-24_at_2.59.12_PM_uzo8ro.png",
-        "category": [
-            {
-                "type": "Kids"
-            }
-        ],
+        "category": "web",
         "color": [
             {
                 "type": "Green"
@@ -344,14 +308,10 @@
     },
     {
         "id": 10,
-        "title": "Terry Byrd",
+        "title": "Immigration Website",
         "imgf": "https://res.cloudinary.com/djidyz2yw/image/upload/v1732453222/Screenshot_2024-11-24_at_4.07.14_PM_w2cmhf.png",
         "imgb": "https://res.cloudinary.com/djidyz2yw/image/upload/v1732453189/Screenshot_2024-11-24_at_4.07.28_PM_dtycdr.png",
-        "category": [
-            {
-                "type": "Womens"
-            }
-        ],
+        "category": "web",
         "color": [
             {
                 "type": "Red"
@@ -378,14 +338,10 @@
     },
     {
         "id": 11,
-        "title": "Angel Jimenez",
+        "title": "Tea Cafe App Design",
         "imgf": "https://res.cloudinary.com/djidyz2yw/image/upload/v1732453273/Screenshot_2024-11-24_at_5.06.32_PM_qnyokx.png",
         "imgb": "https://res.cloudinary.com/djidyz2yw/image/upload/v1732453273/Screenshot_2024-11-24_at_5.06.32_PM_qnyokx.png",
-        "category": [
-            {
-                "type": "Kids"
-            }
-        ],
+        "category": "graphics",
         "color": [
             {
                 "type": "Black"
@@ -407,14 +363,10 @@
     },
     {
         "id": 12,
-        "title": "Phoebe Arnold",
+        "title": "Movie App Design",
         "imgf": "https://res.cloudinary.com/djidyz2yw/image/upload/v1732453252/Screenshot_2024-11-24_at_5.01.30_PM_cxyct5.png",
         "imgb": "https://res.cloudinary.com/djidyz2yw/image/upload/v1732453273/Screenshot_2024-11-24_at_5.01.47_PM_bgmn4t.png",
-        "category": [
-            {
-                "type": "Mens"
-            }
-        ],
+        "category": "graphics",
         "color": [
             {
                 "type": "Blue"
@@ -436,14 +388,10 @@
     },
     {
         "id": 13,
-        "title": "Cordelia Ryan",
+        "title": "Ecommerce App Design",
         "imgf": "https://res.cloudinary.com/djidyz2yw/image/upload/v1732453262/Screenshot_2024-11-24_at_4.18.40_PM_jbdd55.png",
         "imgb": "https://res.cloudinary.com/djidyz2yw/image/upload/v1732453262/Screenshot_2024-11-24_at_4.18.40_PM_jbdd55.png",
-        "category": [
-            {
-                "type": "Womens"
-            }
-        ],
+        "category": "graphics",
         "color": [
             {
                 "type": "Gray"
@@ -465,14 +413,10 @@
     },
     {
         "id": 14,
-        "title": "Louisa Conner",
+        "title": "Ecommerce Store App Design",
         "imgf": "https://res.cloudinary.com/djidyz2yw/image/upload/v1732453261/Screenshot_2024-11-24_at_4.57.56_PM_xm9lzs.png",
         "imgb": "https://res.cloudinary.com/djidyz2yw/image/upload/v1732453255/Screenshot_2024-11-24_at_4.55.07_PM_jk3c2n.png",
-        "category": [
-            {
-                "type": "Mens"
-            }
-        ],
+        "category": "graphics",
         "color": [
             {
                 "type": "Green"
@@ -486,18 +430,18 @@
         "price": {
             "min": 0,
             "max": 40
-        }
+        },
+        "images":[
+            "https://res.cloudinary.com/djidyz2yw/image/upload/v1732453261/Screenshot_2024-11-24_at_4.57.56_PM_xm9lzs.png",
+            "https://res.cloudinary.com/djidyz2yw/image/upload/v1732453255/Screenshot_2024-11-24_at_4.55.07_PM_jk3c2n.png"
+        ]
     },
     {
         "id": 15,
-        "title": "Elnora Swanson",
+        "title": "Invoice Generator App Design",
         "imgf": "https://res.cloudinary.com/djidyz2yw/image/upload/v1732453253/Screenshot_2024-11-24_at_4.58.37_PM_s6ooux.png",
         "imgb": "https://res.cloudinary.com/djidyz2yw/image/upload/v1732453258/Screenshot_2024-11-24_at_4.56.07_PM_wyz4qt.png",
-        "category": [
-            {
-                "type": "Kids"
-            }
-        ],
+        "category": "graphics",
         "color": [
             {
                 "type": "Black"
@@ -519,14 +463,10 @@
     },
     {
         "id": 16,
-        "title": "Georgie Olson",
+        "title": "Hotel Finder Web Design",
         "imgf": "https://res.cloudinary.com/djidyz2yw/image/upload/v1732453259/Screenshot_2024-11-24_at_5.07.43_PM_w9y14o.png",
         "imgb": "https://res.cloudinary.com/djidyz2yw/image/upload/v1732453254/Screenshot_2024-11-24_at_5.07.27_PM_fbvdtn.png",
-        "category": [
-            {
-                "type": "Mens"
-            }
-        ],
+        "category": "graphics",
         "color": [
             {
                 "type": "Red"
@@ -548,14 +488,10 @@
     },
     {
         "id": 17,
-        "title": "Frank Cummings",
+        "title": "Copyright Wallet Design",
         "imgf": "https://res.cloudinary.com/djidyz2yw/image/upload/v1732453290/Screenshot_2024-11-24_at_5.17.40_PM_nfnhxc.png",
         "imgb": "https://res.cloudinary.com/djidyz2yw/image/upload/v1732453279/Screenshot_2024-11-24_at_5.17.27_PM_xfiuwx.png",
-        "category": [
-            {
-                "type": "Womens"
-            }
-        ],
+        "category": "graphics",
         "color": [
             {
                 "type": "Blue"
@@ -577,14 +513,10 @@
     },
     {
         "id": 18,
-        "title": "Lula Pope",
+        "title": "Cashback Website Design",
         "imgf": "https://res.cloudinary.com/djidyz2yw/image/upload/v1732453280/Screenshot_2024-11-24_at_5.04.59_PM_kinxaz.png",
         "imgb": "https://res.cloudinary.com/djidyz2yw/image/upload/v1732453265/Screenshot_2024-11-24_at_5.04.22_PM_npegya.png",
-        "category": [
-            {
-                "type": "Mens"
-            }
-        ],
+        "category": "graphics",
         "color": [
             {
                 "type": "Gray"
@@ -606,14 +538,10 @@
     },
     {
         "id": 19,
-        "title": "Brian Silva",
+        "title": "Invoice Generator Website Design",
         "imgf": "https://res.cloudinary.com/djidyz2yw/image/upload/v1732453270/Screenshot_2024-11-24_at_4.57.05_PM_w4yyam.png",
         "imgb": "https://res.cloudinary.com/djidyz2yw/image/upload/v1732453267/Screenshot_2024-11-24_at_5.00.01_PM_uhkpeq.png",
-        "category": [
-            {
-                "type": "Kids"
-            }
-        ],
+        "category": "graphics",
         "color": [
             {
                 "type": "Green"
@@ -635,14 +563,10 @@
     },
     {
         "id": 20,
-        "title": "Pearl Bowen",
+        "title": "Image Editor Website Design",
         "imgf": "https://res.cloudinary.com/djidyz2yw/image/upload/v1732453288/Screenshot_2024-11-24_at_5.14.52_PM_cruhkn.png",
         "imgb": "https://res.cloudinary.com/djidyz2yw/image/upload/v1732453267/Screenshot_2024-11-24_at_5.14.46_PM_jbqk2b.png",
-        "category": [
-            {
-                "type": "Womens"
-            }
-        ],
+        "category": "graphics",
         "color": [
             {
                 "type": "Red"
@@ -664,14 +588,10 @@
     },
     {
         "id": 21,
-        "title": "Georgia Price",
+        "title": "Bill Tracking Website Design",
         "imgf": "https://res.cloudinary.com/djidyz2yw/image/upload/v1732453271/Screenshot_2024-11-24_at_5.09.40_PM_xsojmn.png",
         "imgb": "https://res.cloudinary.com/djidyz2yw/image/upload/v1732453257/Screenshot_2024-11-24_at_5.09.11_PM_dd7gvb.png",
-        "category": [
-            {
-                "type": "Kids"
-            }
-        ],
+        "category": "graphics",
         "color": [
             {
                 "type": "Black"
@@ -693,14 +613,10 @@
     },
     {
         "id": 22,
-        "title": "Kenneth Mitchell",
+        "title": "Tasks handling website design",
         "imgf": "https://res.cloudinary.com/djidyz2yw/image/upload/v1732453268/Screenshot_2024-11-24_at_5.16.00_PM_zxgwql.png",
         "imgb": "https://res.cloudinary.com/djidyz2yw/image/upload/v1732453261/Screenshot_2024-11-24_at_5.15.50_PM_eihvxx.png",
-        "category": [
-            {
-                "type": "Mens"
-            }
-        ],
+        "category": "graphics",
         "color": [
             {
                 "type": "Blue"
@@ -719,205 +635,5 @@
             "https://res.cloudinary.com/djidyz2yw/image/upload/v1732453268/Screenshot_2024-11-24_at_5.16.00_PM_zxgwql.png",
             "https://res.cloudinary.com/djidyz2yw/image/upload/v1732453261/Screenshot_2024-11-24_at_5.15.50_PM_eihvxx.png"
         ]
-    },
-    {
-        "id": 23,
-        "title": "Florence Sharp",
-        "imgf": "product-45.jpg",
-        "imgb": "product-46.jpg",
-        "category": [
-            {
-                "type": "Womens"
-            }
-        ],
-        "color": [
-            {
-                "type": "Gray"
-            }
-        ],
-        "brand": [
-            {
-                "type": "Balmain"
-            }
-        ],
-        "price": {
-            "min": 0,
-            "max": 40
-        }
-    },
-    {
-        "id": 24,
-        "title": "Myrtie Parks",
-        "imgf": "product-47.jpg",
-        "imgb": "product-48.jpg",
-        "category": [
-            {
-                "type": "Mens"
-            }
-        ],
-        "color": [
-            {
-                "type": "Green"
-            }
-        ],
-        "brand": [
-            {
-                "type": "Burberry"
-            }
-        ],
-        "price": {
-            "min": 0,
-            "max": 40
-        }
-    },
-    {
-        "id": 25,
-        "title": "Dollie Delgado",
-        "imgf": "product-49.jpg",
-        "imgb": "product-50.jpg",
-        "category": [
-            {
-                "type": "Kids"
-            }
-        ],
-        "color": [
-            {
-                "type": "Black"
-            }
-        ],
-        "brand": [
-            {
-                "type": "Adidas"
-            }
-        ],
-        "price": {
-            "min": 0,
-            "max": 50
-        }
-    },
-    {
-        "id": 26,
-        "title": "Jim Warner",
-        "imgf": "product-51.jpg",
-        "imgb": "product-52.jpg",
-        "category": [
-            {
-                "type": "Mens"
-            }
-        ],
-        "color": [
-            {
-                "type": "Red"
-            }
-        ],
-        "brand": [
-            {
-                "type": "Chloe"
-            }
-        ],
-        "price": {
-            "min": 0,
-            "max": 60
-        }
-    },
-    {
-        "id": 27,
-        "title": "Ryan Hale",
-        "imgf": "product-53.jpg",
-        "imgb": "product-54.jpg",
-        "category": [
-            {
-                "type": "Womens"
-            }
-        ],
-        "color": [
-            {
-                "type": "Blue"
-            }
-        ],
-        "brand": [
-            {
-                "type": "Balenciaga"
-            }
-        ],
-        "price": {
-            "min": 0,
-            "max": 70
-        }
-    },
-    {
-        "id": 28,
-        "title": "Louisa Ruiz",
-        "imgf": "product-55.jpg",
-        "imgb": "product-56.jpg",
-        "category": [
-            {
-                "type": "Mens"
-            }
-        ],
-        "color": [
-            {
-                "type": "Gray"
-            }
-        ],
-        "brand": [
-            {
-                "type": "Balmain"
-            }
-        ],
-        "price": {
-            "min": 0,
-            "max": 80
-        }
-    },
-    {
-        "id": 29,
-        "title": "Agnes Goodman",
-        "imgf": "product-57.jpg",
-        "imgb": "product-58.jpg",
-        "category": [
-            {
-                "type": "Kids"
-            }
-        ],
-        "color": [
-            {
-                "type": "Green"
-            }
-        ],
-        "brand": [
-            {
-                "type": "Burberry"
-            }
-        ],
-        "price": {
-            "min": 0,
-            "max": 90
-        }
-    },
-    {
-        "id": 30,
-        "title": "Augusta Tran",
-        "imgf": "product-59.jpg",
-        "imgb": "product-60.jpg",
-        "category": [
-            {
-                "type": "Womens"
-            }
-        ],
-        "color": [
-            {
-                "type": "Red"
-            }
-        ],
-        "brand": [
-            {
-                "type": "Chloe"
-            }
-        ],
-        "price": {
-            "min": 0,
-            "max": 100
-        }
     }
 ]

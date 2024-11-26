@@ -19,7 +19,7 @@ import {
 } from "../../features/productSlice"
 import ShopCard from "./ShopCard"
 
-const FilterShopBox2 = ({ itemStart, itemEnd }) => {
+const FilterShopBox2 = ({ itemStart, itemEnd, selectedCategory }) => {
     const { shopList, shopSort } = useSelector((state) => state.filter)
     const {
         price,
@@ -68,18 +68,21 @@ const FilterShopBox2 = ({ itemStart, itemEnd }) => {
     const sortFilter = (a, b) =>
         sort === "des" ? a.id > b.id && -1 : a.id < b.id && -1
 
-    let content = products.slice(itemStart, itemEnd)
-        ?.filter(priceFilter)
+    let filteredProducts = selectedCategory === "all" ? products : products.filter(
+        (product) => product.category === selectedCategory
+    );
 
-        ?.filter(categoryFilter)
-        ?.filter(colorFilter)
-        ?.filter(brandFilter)
-        ?.sort(sortFilter).slice(perPage.start, perPage.end !== 0 ? perPage.end : 10)?.map((item, i) => (
-            <Fragment key={i}>
-                <ShopCard item={item} addToCart={addToCart} addToWishlist={addToWishlist} />
-            </Fragment>
-            // End all products
-        ))
+    let content = filteredProducts?.map((item, i) => (
+        <Fragment key={i}>
+            <ShopCard
+                item={item}
+                addToCart={addToCart}
+                addToWishlist={addToWishlist}
+            />
+        </Fragment>
+        // End all products
+    ));
+
 
     // sort handler
     const sortHandler = (e) => {

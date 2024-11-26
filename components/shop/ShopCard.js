@@ -10,19 +10,19 @@ const ShopCard = ({ item, addToCart, addToWishlist }) => {
                                 <img src={`${item.imgf}`} alt="product-thumb" />
                                 <img className="thumbitem-secondary" src={`${item.imgb}`} alt="product-thumb" />
                             </Link>
-                            <div className="tpproduct__thumb-bg">
+                            {/* <div className="tpproduct__thumb-bg">
                                 <div className="tpproductactionbg">
                                     <a onClick={() => addToCart(item.id)} className="add-to-cart"><i className="fal fa-shopping-basket" /></a>
                                     <Link href="#"><i className="fal fa-exchange" /></Link>
                                     <Link href="#"><i className="fal fa-eye" /></Link>
                                     <a onClick={() => addToWishlist(item.id)} className="wishlist" ><i className="fal fa-heart" /></a>
                                 </div>
-                            </div>
+                            </div> */}
                         </div>
                     </div>
                     <div className="tpproduct__content-area">
                         <h3 className="tpproduct__title mb-5"><Link href={`/shop/${item.id}`}>{item.title}</Link></h3>
-                        <div className="tpproduct__priceinfo p-relative" style={{display:'flex', justifyContent:'space-between', alignItems:'center'}}>
+                        {/* <div className="tpproduct__priceinfo p-relative" style={{display:'flex', justifyContent:'space-between', alignItems:'center'}}>
                             <div className="tpproduct__ammount">
                                 <span>${item.price.max}.00</span>
                             </div>
@@ -40,8 +40,7 @@ const ShopCard = ({ item, addToCart, addToWishlist }) => {
                                     </li>
                                 </ul>
                             </div>
-                        </div>
-                        
+                        </div> */}
                     </div>
                     
                     {/* <div className="tpproduct__ratingarea">

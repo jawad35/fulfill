@@ -14,7 +14,6 @@
                     "Comprehensive SEO optimization.",
                     "Custom blog setup with 5 example posts.",
                     "3 rounds of revisions."
-
                 ],
                 "excluded": [
                     "Social media and email integration.",
@@ -193,13 +192,13 @@
                 "name": "Basic Plan",
                 "price": "500",
                 "included": [
-                    "Development of a basic Django-based website with up to 5 pages.",
-                    "Implementation of simple features like forms or static content.",
-                    "Use of default Django templates for UI.",
-                    "Database setup with up to 3 tables.",
-                    "Basic API endpoints (up to 2).",
-                    "Code deployment on a local server or provided hosting platform.",
-                    "Delivery within 7 business days."
+                    "Development of a simple Django application with up to 5 pages",
+                    "Basic user authentication system (login/logout)",
+                    "Integration of one database (PostgreSQL or MySQL)",
+                    "Responsive frontend using Django templates",
+                    "Deployment on a single server (Heroku or VPS)",
+                    "Bug fixes and support for 2 weeks",
+                    "REST API integration for up to 3 endpoints"
                 ],
                 "excluded": [
                     "Custom UI/UX design.",
@@ -213,14 +212,13 @@
                 "name": "Standard Plan",
                 "price": "1,000",
                 "included": [
-                    "Development of a mid-level Django application with up to 10 pages.",
-                    "Integration of features like authentication and user management.",
-                    "Custom UI with a basic design (using Bootstrap or similar frameworks).",
-                    "Database setup with up to 10 tables and relationships.",
-                    "API development with up to 5 endpoints.",
-                    "Basic testing for core features.",
-                    "Code deployment on AWS, Heroku, or a similar platform.",
-                    "Delivery within 14 business days."
+                    "Development of a simple Django application with up to 5 pages",
+                    "Basic user authentication system (login/logout)",
+                    "Integration of one database (PostgreSQL or MySQL)",
+                    "Responsive frontend using Django templates",
+                    "Deployment on a single server (Heroku or VPS)",
+                    "Bug fixes and support for 2 weeks",
+                    "REST API integration for up to 3 endpoints"
                 ],
                 "excluded": [
                     "Comprehensive UI/UX design.",
@@ -234,16 +232,16 @@
                 "name": "Pro Plan",
                 "price": "2,500",
                 "included": [
-                    "End-to-end development of a complex Django web application.",
-                    "Custom UI/UX design tailored to your requirements.",
-                    "Advanced features like payment gateways, third-party API integration, and dynamic dashboards.",
-                    "Comprehensive database setup with unlimited tables and complex relationships.",
-                    "API development with unlimited endpoints and documentation.",
-                    "Extensive testing (unit, integration, and end-to-end).",
-                    "Code deployment with CI/CD pipelines.",
-                    "Performance optimization and scalability setup.",
-                    "Ongoing support and maintenance for 1 month post-launch.",
-                    "Delivery within 30 business days."
+                    "Development of a mid-level Django application with up to 15 pages",
+                    "Advanced user management (roles, permissions, etc.)",
+                    "Integration of multiple databases or cloud storage",
+                    "Custom API development with up to 10 endpoints",
+                    "Frontend integration with React or Angular",
+                    "Testing and QA for all features",
+                    "Automated deployment pipeline (CI/CD)",
+                    "Email notifications or third-party service integration",
+                    "Performance optimization for the app",
+                    "Support for 1 month post-deployment"
                 ],
                 "excluded": []
             }
@@ -256,59 +254,43 @@
         "prices": [
             {
                 "name": "Basic Plan",
-                "price": "999",
+                "price": "15,000",
                 "included": [
-                    "Development of a simple web application with up to 5 pages.",
-                    "Frontend built using React with basic responsive design.",
-                    "Backend setup using Node.js and Express with up to 3 API endpoints.",
-                    "MongoDB integration with up to 3 collections.",
-                    "Deployment on free-tier platforms (e.g., Heroku, Vercel).",
-                    "Delivery within 10 business days."
+                    "Development of a simple MERN web application with up to 3 pages",
+                    "Basic user authentication (login, logout, registration)",
+                    "Single database integration with MongoDB",
+                    "Responsive frontend design using React",
+                    "Backend API with up to 3 endpoints",
+                    "Deployment on a single server (Heroku or VPS)",
+                    "Bug fixes and support for 2 weeks"
                 ],
-                "excluded": [
-                    "Custom UI/UX design.",
-                    "Authentication and authorization features.",
-                    "Integration with third-party APIs or services.",
-                    "Ongoing maintenance or support post-deployment.",
-                    "Testing beyond basic manual testing."
-                ]
+                "excluded": []
             },
             {
                 "name": "Standard Plan",
-                "price": "1,999",
+                "price": "25,000",
                 "included": [
-                    "Development of a medium-level web application with up to 10 pages.",
-                    "Frontend built using React with responsive and dynamic features.",
-                    "Backend setup using Node.js and Express with up to 10 API endpoints.",
-                    "MongoDB integration with up to 10 collections and basic relationships.",
-                    "User authentication and authorization setup (JWT-based).",
-                    "Basic third-party API integration (e.g., payment gateway).",
-                    "Deployment on cloud platforms (e.g., AWS, Render).",
-                    "Delivery within 20 business days."
+                    "Development of a simple MERN web application with up to 5 pages",
+                    "Basic user authentication (login, logout, registration)",
+                    "Single database integration with MongoDB",
+                    "Responsive frontend design using React",
+                    "Backend API with up to 5 endpoints",
+                    "Deployment on a single server (Heroku or VPS)",
+                    "Bug fixes and support for 1 month"
                 ],
-                "excluded": [
-                    "Advanced UI/UX customization.",
-                    "Complex database relationships or migrations.",
-                    "Extensive performance optimization.",
-                    "Comprehensive testing (unit, integration, and E2E).",
-                    "Long-term support and maintenance."
-                ]
+                "excluded": []
             },
             {
                 "name": "Pro Plan",
-                "price": "4,999",
+                "price": "70,000",
                 "included": [
-                    "Development of a full-scale web application with unlimited pages.",
-                    "Frontend built using React with advanced UI/UX design.",
-                    "Backend setup using Node.js and Express with unlimited API endpoints.",
-                    "MongoDB integration with complex relationships and advanced queries.",
-                    "User authentication, authorization, and role management.",
-                    "Integration with multiple third-party APIs and microservices.",
-                    "Deployment with CI/CD pipelines for scalability (AWS, Google Cloud).",
-                    "Extensive testing (unit, integration, E2E).",
-                    "Ongoing support and maintenance for 2 months post-launch.",
-                    "Performance optimization for high traffic and scalability.",
-                    "Delivery within 40 business days."
+                    "Development of a simple MERN web application with up to 7 pages",
+                    "Basic user authentication (login, logout, registration)",
+                    "Single database integration with MongoDB",
+                    "Responsive frontend design using React",
+                    "Backend API with up to 7 endpoints",
+                    "Deployment on a single server (Heroku or VPS)",
+                    "Bug fixes and support for 3 month"
                 ],
                 "excluded": []
             }
@@ -323,34 +305,33 @@
                 "name": "Basic Plan",
                 "price": "999",
                 "included": [
-                    "Development of a simple mobile app with up to 3 screens.",
-                    "Cross-platform support (iOS and Android).",
-                    "Basic navigation (React Navigation).",
-                    "Static UI components with minimal interactivity.",
-                    "Integration with local device storage (e.g., AsyncStorage).",
-                    "Deployment-ready APK or IPA build.",
-                    "Delivery within 7 business days."
+                    "Development of a simple mobile app with up to 3 screens",
+                    "Basic Custom design",
+                    "Basic user authentication (login, logout)",
+                    "Integration of 1 third-party API",
+                    "Support for a single platform (iOS or Android)",
+                    "Database integration with up to 3 tables",
+                    "Basic logo designing",
+                    "Bug fixes and support for 2 weeks",
+                    "Basic analytics setup (Google Analytics or similar)"
                 ],
                 "excluded": [
-                    "User authentication and role-based access.",
-                    "Third-party API integrations.",
-                    "Custom animations or transitions.",
-                    "Push notifications or real-time updates.",
-                    "Ongoing maintenance or post-launch support."
                 ]
             },
             {
                 "name": "Standard Plan",
                 "price": "2,499",
                 "included": [
-                    "Development of a medium-scale app with up to 10 screens.",
-                    "Cross-platform support (iOS and Android).",
-                    "Custom navigation and transitions.",
-                    "Integration with backend APIs for real-time data fetching.",
-                    "User authentication (Firebase or custom backend).",
-                    "Basic offline support with local data storage.",
-                    "Push notifications setup (Firebase or OneSignal).",
-                    "Delivery within 20 business days."
+                    "Development of a mobile app with up to 5 screens",
+                    "Basic user authentication (login, logout)",
+                    "Integration of 1 third-party API",
+                    "Support for a single platform (iOS or Android)",
+                    "Database integration with up to 5 tables",
+                    "Push notifications for up to 1 user group",
+                    "Basic UI/UX design and branding",
+                    "Deployment to a single app store",
+                    "Bug fixes and support for 2 weeks",
+                    "Basic analytics setup (Google Analytics or similar)"
                 ],
                 "excluded": [
                     "Advanced animations and design customization.",
@@ -419,9 +400,7 @@
                 "excluded": [
                     "Extensive content creation (e.g., writing new blogs or articles).",
                     "Advanced link-building campaigns.",
-                    "E-commerce product SEO.",
-                    "Voice search optimization.",
-                    "Dedicated account manager or priority support."
+                    "E-commerce product SEO."
                 ]
             },
             {
@@ -434,7 +413,6 @@
                     "Comprehensive competitor analysis and ongoing updates.",
                     "Advanced backlink building strategy (10 links per month).",
                     "Local SEO setup and optimization (Google My Business).",
-                    "Voice search and featured snippet optimization.",
                     "Monthly performance tracking, reporting, and strategy adjustments.",
                     "Ongoing support for 2 months."
                 ],
@@ -627,7 +605,7 @@
         ]
     },
     {
-        "id": 11,
+        "id": 22,
         "category": "design",
         "discount": "",
         "prices": [
@@ -635,54 +613,45 @@
                 "name": "Basic Plan",
                 "price": "14,999",
                 "included": [
-                    "UI design for up to 5 screens.",
-                    "Simple and clean design following brand guidelines.",
-                    "Basic wireframes for structure and flow.",
-                    "Mobile responsiveness design.",
-                    "Delivery within 7 business days."
+                    "UI design for 1 screen.",
+                    "Premium quality design.",
+                    "Wireframes for structure.",
+                    "Prototype creation.",
+                    "Source file included.",
+                    "Delivery within 1 days.",
+                    "Up to 3 revisions."
                 ],
-                "excluded": [
-                    "User research and personas creation.",
-                    "Interactive prototypes or animations.",
-                    "Multiple design concepts for comparison.",
-                    "Revisions beyond two rounds.",
-                    "Collaboration with developers post-design."
-                ]
+                "excluded": []
             },
             {
                 "name": "Standard Plan",
                 "price": "34,999",
                 "included": [
-                    "UI design for up to 15 screens.",
-                    "Custom and polished design tailored to branding.",
-                    "Wireframes and high-fidelity prototypes.",
-                    "Responsive design for multiple devices.",
-                    "Two rounds of revisions.",
-                    "Delivery within 14 business days."
+                    "UI design for 4 screens.",
+                    "Premium quality custom design.",
+                    "Wireframes and prototype creation.",
+                    "Source file included.",
+                    "Responsive design for mobile.",
+                    "Delivery within 3 days.",
+                    "Up to 5 revisions."
                 ],
-                "excluded": [
-                    "Extensive user research and A/B testing.",
-                    "Design for web and mobile together.",
-                    "Revisions beyond the included rounds.",
-                    "Developer handoff support beyond final design."
-                ]
+                "excluded": []
             },
             {
                 "name": "Pro Plan",
                 "price": "74,999",
                 "included": [
-                    "UI/UX design for up to 30 screens.",
-                    "Comprehensive user flow and personas.",
-                    "Interactive prototypes with micro-animations.",
-                    "Advanced responsive design for all devices.",
+                    "UI/UX design for 10 screens.",
+                    "Premium quality tailored design.",
+                    "Comprehensive wireframes and prototypes.",
+                    "Interactive prototypes with animations.",
+                    "Source file included.",
+                    "Responsive design for all devices.",
                     "Collaboration with developers during implementation.",
-                    "Unlimited revisions within the project timeline.",
-                    "Delivery within 30 business days."
+                    "Delivery within 6 days.",
+                    "Up to 10 revisions."
                 ],
-                "excluded": [
-                    "Maintenance and updates post-project delivery.",
-                    "Creation of content (e.g., copywriting, images)."
-                ]
+                "excluded": []
             }
         ]
     },
