@@ -68,16 +68,37 @@ const FilterShopBox2 = ({ itemStart, itemEnd, selectedCategory }) => {
     const sortFilter = (a, b) =>
         sort === "des" ? a.id > b.id && -1 : a.id < b.id && -1
 
-    let filteredProducts = selectedCategory === "all" ? products : products.filter(
-        (product) => product.category === selectedCategory
-    );
+    // Function to shuffle the products array
+    function shuffleArray(array) {
+        let currentIndex = array.length, randomIndex;
+
+        // While there remain elements to shuffle
+        while (currentIndex !== 0) {
+            // Pick a remaining element
+            randomIndex = Math.floor(Math.random() * currentIndex);
+            currentIndex--;
+
+            // Swap it with the current element
+            [array[currentIndex], array[randomIndex]] = [array[randomIndex], array[currentIndex]];
+        }
+
+        return array;
+    }
+
+    // Shuffling the products array before filtering
+    let shuffledProducts = shuffleArray([...products]); // Use a spread operator to avoid mutating the original array
+
+    // Apply filtering after shuffle
+    let filteredProducts = selectedCategory === "all"
+        ? shuffledProducts
+        : shuffledProducts.filter((product) => product.category === selectedCategory);
+
 
     let content = filteredProducts?.map((item, i) => (
         <Fragment key={i}>
             <ShopCard
                 item={item}
-                addToCart={addToCart}
-                addToWishlist={addToWishlist}
+                title={item?.title}
             />
         </Fragment>
         // End all products

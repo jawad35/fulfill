@@ -54,14 +54,14 @@ export default function Header3({ scroll, isMobileMenu, handleMobileMenu, isCart
                             </div>
                             <div className="col-xl-10 col-lg-9">
                                 <div className="header-meta-info d-flex align-items-center justify-content-between">
-                                    <div className="header-search-bar">
+                                    {/* <div className="header-search-bar">
                                         <form action="#">
                                             <div className="search-info p-relative">
                                                 <button className="header-search-icon"><i className="fal fa-search" /></button>
                                                 <input type="text" placeholder="Search products..." />
                                             </div>
                                         </form>
-                                    </div>
+                                    </div> */}
                                     <div className="header-meta header-brand d-flex align-items-center">
                                         {/* <div className="header-meta__lang">
                                             <ul>
@@ -207,6 +207,8 @@ export default function Header3({ scroll, isMobileMenu, handleMobileMenu, isCart
                                                 </ul>
                                             </li> */}
                                             <li><Link href="/contact">Contact</Link></li>
+                                            <li><Link href="/about">About</Link></li>
+
                                         </ul>
                                     </nav>
                                 </div>

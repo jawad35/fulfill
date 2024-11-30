@@ -20,8 +20,8 @@ export default function Header1({ scroll, isMobileMenu, handleMobileMenu, isCart
                         <div className="row">
                             <div className="col-12">
                                 <div className="header-welcome-text text-start ">
-                                    <span>Welcome to our Platform! Enjoy 20% off each product </span>
-                                    <Link href="/shop">Shop Now <i className="fal fa-long-arrow-right" /> </Link>
+                                    <span>We discuss project details, provide clear pricing and demos, and deliver high-quality work on time. </span>
+                                    {/* <Link href="/shop">Shop Now <i className="fal fa-long-arrow-right" /> </Link> */}
                                 </div>
                             </div>
                         </div>
@@ -37,14 +37,14 @@ export default function Header1({ scroll, isMobileMenu, handleMobileMenu, isCart
                             </div>
                             <div className="col-xl-10 col-lg-9">
                                 <div className="header-meta-info d-flex align-items-center justify-content-between">
-                                    <div className="header-search-bar">
+                                    {/* <div className="header-search-bar">
                                         <form action="#">
                                             <div className="search-info p-relative">
                                                 <button className="header-search-icon"><i className="fal fa-search" /></button>
                                                 <input type="text" placeholder="Search products..." />
                                             </div>
                                         </form>
-                                    </div>
+                                    </div> */}
                                     <div className="header-meta header-brand d-flex align-items-center">
                                         {/* <div className="header-meta__lang">
                                             <ul>
@@ -105,10 +105,10 @@ export default function Header1({ scroll, isMobileMenu, handleMobileMenu, isCart
                                                 </ul>
                                             </div>
                                             <ul className="cat-menu__list">
-                                                <li><Link href="/ui-ux"><i className="fal fa-dot-circle" />Domain</Link></li>
-                                                <li><Link href="/ui-ux"><i className="fal fa-dot-circle" />Hosting</Link></li>
-                                                <li><Link href="/ui-ux"><i className="fal fa-dot-circle" />UI/UX Design</Link></li>
-                                                <li><Link href="/web"><i className="fal fa-dot-circle" />Custom Web Dev</Link></li>
+                                                <li><Link href="/"><i className="fal fa-dot-circle" />Domain</Link></li>
+                                                <li><Link href="/"><i className="fal fa-dot-circle" />Hosting</Link></li>
+                                                <li><Link href="/"><i className="fal fa-dot-circle" />UI/UX Design</Link></li>
+                                                <li><Link href="/"><i className="fal fa-dot-circle" />Custom Web Dev</Link></li>
                                                 {/* <li className="menu-item-has-children"><Link href="/shop"><i className="fal fa-dot-circle" />Themes</Link>
                                                     <ul className="submenu">
                                                         <li><Link href="/shop-2">Nextjs</Link></li>
@@ -122,9 +122,9 @@ export default function Header1({ scroll, isMobileMenu, handleMobileMenu, isCart
                                                         <li><Link href="/shop">Wordpress</Link></li>
                                                     </ul>
                                                 </li> */}
-                                                <li><Link href="/mobile"><i className="fal fa-dot-circle" />Mobile App Dev</Link></li>
-                                                <li><Link href="/wordpress-shopify"><i className="fal fa-dot-circle" />Wordpress/Shopify </Link></li>
-                                                <li><Link href="/seo"><i className="fal fa-dot-circle" />SEO </Link></li>
+                                                <li><Link href="/"><i className="fal fa-dot-circle" />Mobile App Dev</Link></li>
+                                                <li><Link href="/"><i className="fal fa-dot-circle" />Wordpress/Shopify </Link></li>
+                                                <li><Link href="/"><i className="fal fa-dot-circle" />SEO </Link></li>
                                                 {/* <li className="menu-item-has-children"><Link href="/shop"><i className="fal fa-flower-tulip" />Graphic Design</Link>
                                                     <ul className="submenu">
                                                         <li><Link href="/shop-2">Logo Design</Link></li>
@@ -132,9 +132,9 @@ export default function Header1({ scroll, isMobileMenu, handleMobileMenu, isCart
                                                         <li><Link href="/shop">Photo Editing</Link></li>
                                                     </ul>
                                                 </li> */}
-                                                <li><Link href="/ads"><i className="fal fa-dot-circle" />Ads Management</Link></li>
-                                                <li><Link href="/copywriting"><i className="fal fa-dot-circle" />Copywriting</Link></li>
-                                                <li><Link href="/video-production"><i className="fal fa-dot-circle" />Video Production</Link></li>
+                                                <li><Link href="/"><i className="fal fa-dot-circle" />Ads Management</Link></li>
+                                                <li><Link href="/"><i className="fal fa-dot-circle" />Copywriting</Link></li>
+                                                <li><Link href="/"><i className="fal fa-dot-circle" />Video Production</Link></li>
 
                                             </ul>
                                             {/* <div className="daily-offer">

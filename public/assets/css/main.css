@@ -3899,7 +3899,7 @@ only screen and (min-width: 768px) and (max-width: 991px),
 
 .tpproduct__thumb img {
     border-radius: 6px;
-    width: 100%;
+    /* width: 100%; */
 }
 
 .tpproduct__thumb-icon {
@@ -3954,6 +3954,7 @@ only screen and (min-width: 768px) and (max-width: 991px),
 .tpproduct__thumbitem {
     position: relative;
     z-index: 2;
+    height: 230px;
 }
 
 .tpproduct__thumbitem:hover .thumbitem-secondary {

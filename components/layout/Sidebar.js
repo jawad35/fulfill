@@ -43,37 +43,37 @@ export default function Sidebar({ isMobileMenu, handleMobileMenu }) {
                     <Link href="/sign-in"><i className="fal fa-user" /> Login / Register</Link>
                 </div> */}
                 <div className="tpsideinfo__wishlist-link">
-                    <Link href="/wishlist" target="_parent"><i className="fal fa-circle" />Domain</Link>
+                    <Link href="/" target="_parent"><i className="fal fa-circle" />Domain</Link>
                 </div>
                 <div className="tpsideinfo__wishlist-link">
-                    <Link href="/wishlist" target="_parent"><i className="fal fa-circle" />Hosting</Link>
+                    <Link href="/" target="_parent"><i className="fal fa-circle" />Hosting</Link>
                 </div>
                 <div className="tpsideinfo__wishlist-link">
-                    <Link href="/wishlist" target="_parent"><i className="fal fa-circle" />Ul/UX Design</Link>
+                    <Link href="/" target="_parent"><i className="fal fa-circle" />Ul/UX Design</Link>
                 </div>
                 <div className="tpsideinfo__wishlist-link">
-                    <Link href="/wishlist" target="_parent"><i className="fal fa-circle" />Custom Web Dev</Link>
+                    <Link href="/" target="_parent"><i className="fal fa-circle" />Custom Web Dev</Link>
                 </div>
                 <div className="tpsideinfo__wishlist-link">
-                    <Link href="/wishlist" target="_parent"><i className="fal fa-circle" />Mobile App Dev</Link>
+                    <Link href="/" target="_parent"><i className="fal fa-circle" />Mobile App Dev</Link>
                 </div>
                 <div className="tpsideinfo__wishlist-link">
-                    <Link href="/wishlist" target="_parent"><i className="fal fa-circle" />Domain</Link>
+                    <Link href="/" target="_parent"><i className="fal fa-circle" />Domain</Link>
                 </div>
                 <div className="tpsideinfo__wishlist-link">
-                    <Link href="/wishlist" target="_parent"><i className="fal fa-circle" />Wordpress/Shopify</Link>
+                    <Link href="/" target="_parent"><i className="fal fa-circle" />Wordpress/Shopify</Link>
                 </div>
                 <div className="tpsideinfo__wishlist-link">
-                    <Link href="/wishlist" target="_parent"><i className="fal fa-circle" />SEO</Link>
+                    <Link href="/" target="_parent"><i className="fal fa-circle" />SEO</Link>
                 </div>
                 <div className="tpsideinfo__wishlist-link">
-                    <Link href="/wishlist" target="_parent"><i className="fal fa-circle" />Ads Management</Link>
+                    <Link href="/" target="_parent"><i className="fal fa-circle" />Ads Management</Link>
                 </div>
                 <div className="tpsideinfo__wishlist-link">
-                    <Link href="/wishlist" target="_parent"><i className="fal fa-circle" />Copyright</Link>
+                    <Link href="/" target="_parent"><i className="fal fa-circle" />Copyright</Link>
                 </div>
                 <div className="tpsideinfo__wishlist-link">
-                    <Link href="/wishlist" target="_parent"><i className="fal fa-circle" />Video Production</Link>
+                    <Link href="/" target="_parent"><i className="fal fa-circle" />Video Production</Link>
                 </div>
             </div>
             <div className={`body-overlay ${isMobileMenu ? "opened" : ""}`} onClick={handleMobileMenu} />

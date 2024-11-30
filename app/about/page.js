@@ -76,19 +76,18 @@ export default function About() {
                                 <div className="col-xl-5 col-lg-6 col-md-12 col-sm-12">
                                     <div className="tpabout__inner-story-2 mb-40">
                                         <p>
-                                            At FulfillNeeds, we enhance your business with professional logo design, SEO optimization, ads management, and custom e-commerce solutions like Shopify stores and product uploads. We also offer pro video editing to boost your online presence and help drive growth.
-
+                                        Our company follows a clear and structured process: We begin by discussing project details with the client to ensure full understanding, provide a transparent pricing structure, and offer a demo. We then proceed with the work, offering up to 100 revisions as needed, to deliver the final product on time and to the client's expectations.
                                         </p>
                                     </div>
                                 </div>
                                 <div className="col-xl-3 col-lg-12 col-md-12 col-sm-12">
                                     <div className="tpabout__inner-list mb-40">
                                         <ul>
-                                            <li> <Link href="#"><i className="fal fa-check" /> Orders go right to your restaurant point of sale, KDS, and kitchen</Link>
+                                            <li> <Link href="#"><i className="fal fa-check" /> Handling Deadlines and Managing Time</Link>
                                             </li>
-                                            <li> <Link href="#"><i className="fal fa-check" /> Provide in-person pickup,  delivery by professional couriers</Link>
+                                            <li> <Link href="#"><i className="fal fa-check" /> Effective Communication</Link>
                                             </li>
-                                            <li><Link href="#"><i className="fal fa-check" /> Offer in-person diners self-serve, contactless ordering via QR codes.</Link>
+                                            <li><Link href="#"><i className="fal fa-check" /> 3 Months Free Support</Link>
                                             </li>
                                         </ul>
                                     </div>

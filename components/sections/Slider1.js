@@ -70,11 +70,11 @@ export default function Slider1() {
                                     <div className="tpslider-banner tp-slider-sm-banner mb-30">
                                         <Link href="/shop-details">
                                             <div className="tpslider-banner__img">
-                                                <img src="/assets/img/slider/banner-slider-01.jpg" alt="" />
-                                                <div className="tpslider-banner__content">
+                                                <img src="https://res.cloudinary.com/djidyz2yw/image/upload/v1732981232/banner-7_zgak1x.png" alt="" />
+                                                {/* <div className="tpslider-banner__content">
                                                     <span className="tpslider-banner__sub-title">Hand made</span>
                                                     <h4 className="tpslider-banner__title">New Modern  Stylist <br /> Crafts</h4>
-                                                </div>
+                                                </div> */}
                                             </div>
                                         </Link>
                                     </div>
@@ -83,11 +83,11 @@ export default function Slider1() {
                                     <div className="tpslider-banner">
                                         <Link href="/shop-details">
                                             <div className="tpslider-banner__img">
-                                                <img src="/assets/img/slider/banner-slider-02.jpg" alt="" />
+                                                <img src="https://res.cloudinary.com/djidyz2yw/image/upload/v1732980977/Screenshot_2024-11-30_at_8.24.14_PM_qaelpg.png" alt="" />
                                                 <div className="tpslider-banner__content">
-                                                    <span className="tpslider-banner__sub-title">Popular</span>
-                                                    <h4 className="tpslider-banner__title">Energy with our <br /> newest
-                                                        collection</h4>
+                                                    <span className="tpslider-banner__sub-title">Location</span>
+                                                    <h4 className="tpslider-banner__title">Visit our office<br /> Near Taj Mahal 
+                                                        Marquee</h4>
                                                 </div>
                                             </div>
                                         </Link>

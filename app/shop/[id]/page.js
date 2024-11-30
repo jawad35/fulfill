@@ -66,7 +66,20 @@ const ShopSingleDynamicV1 = () => {
     const qtyHandler = (id, qty) => {
         dispatch(addQty({ id, qty }))
     }
-
+    const handleWhatsAppClick = (serviceName, id, type) => {
+        // Replace with your number and pre-filled message
+        const phoneNumber = "+923296121520"; // Your WhatsApp number in international format (no "+" or leading zeroes)
+        const message = "Hello! I would like to inquire about your services.\n\n" +
+        `Name :${serviceName}\n` +
+        `Id :${id}\n`+
+        `Type :${type}\n`;
+        // "Looking forward to hearing from you!";
+        const whatsappUrl = `https://wa.me/${phoneNumber}?text=${encodeURIComponent(message)}`;
+    
+        // Open WhatsApp in a new tab
+        window.open(whatsappUrl, "_blank");
+      };
+    
     const { cart } = useSelector((state) => state.shop) || {}
     return (
         <>
@@ -74,18 +87,25 @@ const ShopSingleDynamicV1 = () => {
                 <section className="product-area pt-80 pb-50">
                     <div className="container">
                         <div className="row">
-                            <div className="col-lg-5 col-md-12">
+                            <div className="col-lg-12 col-md-12">
+                                <h3 className="tpproduct-details__title">{product?.title}</h3>
                                 <div className="tpproduct-details__list-img">
                                     {
-                                        product?.images?.map(item=> ( <div className="tpproduct-details__list-img-item">
-                                            <img src={`${item}`} alt="" />
+                                        product?.images?.map((item, index) => (<div key={index} className="tpproduct-details__list-img-item text-center">
+                                            <p style={{ background: 'red', width: '100px', textAlign: 'center', borderRadius: '5px', color: 'white' }}>{product?.category === "mobile" ? "Screen:" : "Page:"} {index + 1}</p>
+                                            {
+                                                product?.category === "mobile" ? <img style={{ height: '600px' }} src={`${item}`} alt="" /> : <img src={`${item}`} alt="" />
+                                            }
                                         </div>))
                                     }
-                                    
+                                    <div className="tpproduct-details__cart d-flex justify-content-center">
+                                        <button onClick={() => handleWhatsAppClick(product.title,product.id, product.category)}><i className="fal fa-circle" /> I want this!</button>
+                                    </div>
                                 </div>
+
                             </div>
-                            <div className="col-lg-5 col-md-7">
-                                <div className="tpproduct-details__content tpproduct-details__sticky">
+                            <div className="col-lg-12 col-md-12" style={{ display: 'flex', justifyContent: 'center' }}>
+                                <div className="tpproduct-details__content tpproduct-details__sticky ">
                                     {/* <div className="tpproduct-details__tag-area d-flex align-items-center mb-5">
                                         <span className="tpproduct-details__tag">Dress</span>
                                         <div className="tpproduct-details__rating">
@@ -96,7 +116,7 @@ const ShopSingleDynamicV1 = () => {
                                         <a className="tpproduct-details__reviewers">10 Reviews</a>
                                     </div> */}
                                     <div className="tpproduct-details__title-area d-flex align-items-center flex-wrap mb-5">
-                                        <h3 className="tpproduct-details__title">{product?.title}</h3>
+                                        {/* <h3 className="tpproduct-details__title">{product?.title}</h3> */}
                                         {/* <span className="tpproduct-details__stock">In Stock</span> */}
                                     </div>
                                     {/* <div className="tpproduct-details__price mb-30">
@@ -106,7 +126,7 @@ const ShopSingleDynamicV1 = () => {
                                     {/* <div className="tpproduct-details__pera">
                                         <p>Priyoshop has brought to you the Hijab 3 Pieces Combo Pack PS23. It is a <br />completely modern design and you feel comfortable to put on this hijab. <br />Buy it at the best price.</p>
                                     </div> */}
-                                    <div className="tpproduct-details__count d-flex align-items-center flex-wrap mb-25">
+                                    <div style={{ display: 'flex', justifyContent: 'center' }} className="tpproduct-details__count d-flex align-items-center flex-wrap mb-25">
                                         {/* <div className="product-quantity">
                                             <div className="item-quantity">
                                                 <input
@@ -121,9 +141,9 @@ const ShopSingleDynamicV1 = () => {
                                                 />
                                             </div>
                                         </div> */}
-                                        <div className="tpproduct-details__cart ml-20">
+                                        {/* <div className="tpproduct-details__cart ml-20">
                                             <button onClick={() => addToCart(product.id)}><i className="fal fa-shopping-cart" /> I want this!</button>
-                                        </div>
+                                        </div> */}
                                         {/* <div className="tpproduct-details__wishlist ml-20">
                                             <button><i className="fal fa-heart" /></button>
                                         </div> */}
@@ -179,7 +199,7 @@ const ShopSingleDynamicV1 = () => {
                                     </div> */}
                                 </div>
                             </div>
-                            <div className="col-lg-2 col-md-5">
+                            {/* <div className="col-lg-2 col-md-5">
                                 <div className="tpproduct-details__condation">
                                     <ul>
                                         <li>
@@ -224,7 +244,7 @@ const ShopSingleDynamicV1 = () => {
                                         </li>
                                     </ul>
                                 </div>
-                            </div>
+                            </div> */}
                         </div>
                     </div>
                 </section>
