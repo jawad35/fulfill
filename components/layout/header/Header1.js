@@ -99,11 +99,11 @@ export default function Header1({ scroll, isMobileMenu, handleMobileMenu, isCart
                                     <div className="cat-menu__category p-relative">
                                         <a className="tp-cat-toggle" onClick={handleToggle} role="button"><i className="fal fa-bars" />Categories</a>
                                         <div className="category-menu category-menu-off" style={{ display: `${isToggled ? "block" : "none"}` }}>
-                                            <div className="daily-offer">
+                                            {/* <div className="daily-offer">
                                                 <ul>
-                                                    <li><Link href="/shop">Check Samples & Prices</Link></li>
+                                                    <li><Link href="/shop">Check Samples</Link></li>
                                                 </ul>
-                                            </div>
+                                            </div> */}
                                             <ul className="cat-menu__list">
                                                 <li><Link href="/"><i className="fal fa-dot-circle" />Domain</Link></li>
                                                 <li><Link href="/"><i className="fal fa-dot-circle" />Hosting</Link></li>

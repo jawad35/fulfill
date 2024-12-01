@@ -70,7 +70,7 @@ export default function Slider1() {
                                     <div className="tpslider-banner tp-slider-sm-banner mb-30">
                                         <Link href="/shop-details">
                                             <div className="tpslider-banner__img">
-                                                <img src="https://res.cloudinary.com/djidyz2yw/image/upload/v1732981232/banner-7_zgak1x.png" alt="" />
+                                                <img src="https://res.cloudinary.com/djidyz2yw/image/upload/v1733042093/banner-7-u_kwz6go.png" alt="" />
                                                 {/* <div className="tpslider-banner__content">
                                                     <span className="tpslider-banner__sub-title">Hand made</span>
                                                     <h4 className="tpslider-banner__title">New Modern  Stylist <br /> Crafts</h4>
