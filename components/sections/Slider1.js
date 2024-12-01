@@ -68,7 +68,7 @@ export default function Slider1() {
                             <div className="row">
                                 <div className="col-lg-12 col-md-6">
                                     <div className="tpslider-banner tp-slider-sm-banner mb-30">
-                                        <Link href="/shop-details">
+                                        <Link href="/">
                                             <div className="tpslider-banner__img">
                                                 <img src="https://res.cloudinary.com/djidyz2yw/image/upload/v1733042093/banner-7-u_kwz6go.png" alt="" />
                                                 {/* <div className="tpslider-banner__content">
@@ -81,7 +81,7 @@ export default function Slider1() {
                                 </div>
                                 <div className="col-lg-12 col-md-6">
                                     <div className="tpslider-banner">
-                                        <Link href="/shop-details">
+                                        <Link href="/contact">
                                             <div className="tpslider-banner__img">
                                                 <img src="https://res.cloudinary.com/djidyz2yw/image/upload/v1732980977/Screenshot_2024-11-30_at_8.24.14_PM_qaelpg.png" alt="" />
                                                 <div className="tpslider-banner__content">
