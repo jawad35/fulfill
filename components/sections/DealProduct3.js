@@ -42,7 +42,7 @@ export default function DealProduct3() {
                 </div>
                 <div className="container">
                     <div className="platinamdell pt-140">
-                        <div className="row">
+                        {/* <div className="row">
                             <div className="col-xxl-5 col-xl-6 col-lg-6 col-md-12">
                                 <div className="tpdealcontact tp-red-deal-text pt-30 mb-30">
                                     <div className="tpdealcontact__price mb-5">
@@ -74,7 +74,7 @@ export default function DealProduct3() {
                                     </div>
                                 </div>
                             </div>
-                        </div>
+                        </div> */}
                     </div>
                 </div>
             </section>

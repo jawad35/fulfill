@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css?family=Muli&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Roboto:300&display=swap');
+
+.pricing-container {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+
+.pricing {
+	background-color: #f0f0f0f5;
+	border: 1px solid #eee;
+	margin: 30px;
+	/* min-width: 400px; */
+	text-align: center;
+}
+
+.pricing.highlight {
+	border-top: 2px solid #d51243;
+	box-shadow: 0 0 30px 10px rgba(0, 0, 0, 0.1);
+}
+
+.pricing h1 {
+	color: #5CAEFE;
+	margin: 30px 0 0;
+}
+
+.pricing h4 {
+	margin: 20px 0 0;
+}
+
+.pricing small.green {
+	color: #d51243;
+	margin: 0;
+}
+
+.pricing small.green + h1 {
+	margin-top: 10px;
+}
+
+.pricing small {
+	color: #777;
+}
+
+.pricing ul {
+	list-style-type: none;
+	padding: 0;
+	/* margin: 40px 0; */
+}
+
+.pricing ul li {
+	margin: 20px 30px;
+	max-width: 300px;
+	text-align: start;
+	display: flex;
+	/* line-height: 1.4; */
+}
+
+.pricing button {
+	background-color: #5CAEFE;
+	border: 0;
+	border-radius: 5px;
+	color: #fff;
+	padding: 12px 20px;
+	margin-bottom: 30px;
+	width: 80%;
+}
+
+.floating-btn {
+	border-radius: 26.5px;
+	background-color: #001F61;
+	border: 1px solid #001F61;
+	box-shadow: 0 16px 22px -17px #03153B;
+	color: #fff;
+	cursor: pointer;
+	font-size: 16px;
+	line-height: 20px;
+	padding: 12px 20px;
+	position: fixed;
+	bottom: 20px;
+	right: 20px;
+	z-index: 999;
+}
+
+.floating-btn:hover {
+	background-color: #ffffff;
+	color: #001F61;
+}
+
+.floating-btn:focus {
+	outline: none;
+}
+
+.floating-text {
+	background-color: #001F61;
+	border-radius: 10px 10px 0 0;
+	color: #fff;
+	font-family: 'Muli';
+	padding: 7px 15px;
+	position: fixed;
+	bottom: 0;
+	left: 50%;
+	transform: translateX(-50%);
+	text-align: center;
+	z-index: 998;
+}
+
+.floating-text a {
+	color: #FF7500;
+	text-decoration: none;
+}
+.f-fas-check-icon{
+	font-size: 15px;
+	color: green;
+	font-weight: 600 !important;
+	margin-right: 10px;
+	margin-top: 4px;
+
+}
+
+.f-fas-cross-icon{
+	font-size: 15px;
+	color: red;
+	font-weight: 600 !important;
+	margin-right: 10px;
+	margin-top: 4px;
+}
+
+@media screen and (max-width: 480px) {
+	.floating-btn {
+		right: 10px;
+	}
+}

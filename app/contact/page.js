@@ -1,7 +1,54 @@
-
+'use client'
 import Layout from "@/components/layout/Layout"
 import Link from "next/link"
+import { useState } from "react";
+
 export default function Contact() {
+    // Single state to manage the entire form
+    const [formData, setFormData] = useState({
+        name: '',
+        email: '',
+        number: '',
+        subject: '',
+        message: '',
+    });
+    const [errorMessage, setErrorMessage] = useState('');  // To display error messages
+
+    // Handle input changes
+    const handleInputChange = (e) => {
+        const { name, value } = e.target;
+        setFormData((prevData) => ({
+            ...prevData,
+            [name]: value
+        }));
+    };
+
+    // Validate form data
+    const validateForm = () => {
+        if (!formData.name || !formData.email || !formData.number || !formData.subject || !formData.message) {
+            setErrorMessage("All fields are required.");
+            return false;
+        }
+        setErrorMessage('');
+        return true;
+    };
+
+    // Handle WhatsApp click with form data
+    const handleWhatsAppClick = () => {
+        // Validate form before sending the message
+        if (!validateForm()) return;
+
+        const phoneNumber = "+923296121520"; // Your WhatsApp number in international format (no "+" or leading zeroes)
+        const message = `Hello! I would like to inquire about your services.\n\n` +
+            `Service Type: ${formData.subject}\n` + 
+            `Message: ${formData.message}\n` + // Using `message` for plan type
+            `Full Name: ${formData.name}\n` +
+            `Phone: ${formData.number}\n` +
+            `Email: ${formData.email}\n`;
+
+        const whatsappUrl = `https://wa.me/${phoneNumber}?text=${encodeURIComponent(message)}`;
+        window.open(whatsappUrl, "_blank");
+    };
 
     return (
         <>
@@ -16,23 +63,25 @@ export default function Contact() {
                                             <h4 className="tpshop__title mb-25">Get In Touch</h4>
                                             <div className="tpshop__info">
                                                 <ul>
-                                                    <li><i className="fal fa-map-marker-alt" /> <Link href="#">24/26 Strait Bargate, Boston, PE21,  United Kingdom</Link></li>
+                                                    <li><i className="fal fa-map-marker-alt" /> <Link href="#">Wazirabad, Karmabad, Sailkot Road Near Taj Mahal Marquee</Link></li>
                                                     <li>
                                                         <i className="fal fa-phone" />
-                                                        <Link href="/tel:0123456789">+098 (905) 786 897 8</Link>
-                                                        <Link href="/tel:0123456789">6 - 146 - 389 - 5748</Link>
+                                                        <Link href="#">+923296121520</Link>
+                                                    </li>
+                                                    <li>
+                                                        <i className="fal fa-envelope" />
+                                                        <Link href="#">contactfulfillneeds@gmail.com</Link>
                                                     </li>
                                                     <li>
                                                         <i className="fal fa-clock" />
-                                                        <span>Store Hours:</span>
-                                                        <span>10 am - 10 pm EST, 7 days a week</span>
+                                                        <span>Office Time:</span>
+                                                        <span>10 am - 8 pm, 7 days a week</span>
                                                     </li>
                                                 </ul>
                                             </div>
                                         </div>
                                         <div className="tpcontact__support">
-                                            <Link href="/tel:0123456">Get Support On Call <i className="fal fa-headphones" /></Link>
-                                            <Link target="_blank" href="https://www.google.com/maps/@36.963672,-119.2249843,7.17z">Get Direction <i className="fal fa-map-marker-alt" /></Link>
+                                            <Link target="_blank" href="https://maps.app.goo.gl/ep4ic361JgFkPnGh8">Get Direction <i className="fal fa-map-marker-alt" /></Link>
                                         </div>
                                     </div>
                                 </div>
@@ -42,36 +91,79 @@ export default function Contact() {
                                             <h4 className="tpcontact__title">Make Custom Request</h4>
                                             <p>Must-have pieces selected every month want style Ideas and Treats?</p>
                                         </div>
-                                        <form action="https://weblearnbd.net/tphtml/ninico/assets/mail.php" id="contact-form" method="POST">
+                                        <form id="contact-form" method="POST">
                                             <div className="row">
                                                 <div className="col-lg-6">
                                                     <div className="tpcontact__input mb-20">
-                                                        <input name="name" type="text" placeholder="Full name" required />
+                                                        <input
+                                                            name="name"
+                                                            type="text"
+                                                            placeholder="Full name"
+                                                            value={formData.name}
+                                                            onChange={handleInputChange}
+                                                            required
+                                                        />
                                                     </div>
                                                 </div>
                                                 <div className="col-lg-6">
                                                     <div className="tpcontact__input mb-20">
-                                                        <input name="email" type="email" placeholder="Email address" required />
+                                                        <input
+                                                            name="email"
+                                                            type="email"
+                                                            placeholder="Email address"
+                                                            value={formData.email}
+                                                            onChange={handleInputChange}
+                                                            required
+                                                        />
                                                     </div>
                                                 </div>
                                                 <div className="col-lg-6">
                                                     <div className="tpcontact__input mb-20">
-                                                        <input name="number" type="text" placeholder="Phone number" required />
+                                                        <input
+                                                            name="number"
+                                                            type="text"
+                                                            placeholder="Phone number"
+                                                            value={formData.number}
+                                                            onChange={handleInputChange}
+                                                            required
+                                                        />
                                                     </div>
                                                 </div>
                                                 <div className="col-lg-6">
                                                     <div className="tpcontact__input mb-20">
-                                                        <input name="subject" type="text" placeholder="Subject" required />
+                                                        <input
+                                                            name="service type"
+                                                            type="text"
+                                                            placeholder="Service Type"
+                                                            value={formData.subject}
+                                                            onChange={handleInputChange}
+                                                            required
+                                                        />
                                                     </div>
                                                 </div>
                                                 <div className="col-lg-12">
                                                     <div className="tpcontact__input mb-30">
-                                                        <textarea name="message" placeholder="Enter message" required />
+                                                        <textarea
+                                                            name="message"
+                                                            placeholder="Enter message"
+                                                            value={formData.message}
+                                                            onChange={handleInputChange}
+                                                            required
+                                                        />
                                                     </div>
                                                 </div>
                                             </div>
+                                            {/* Show error message if validation fails */}
+                                            {errorMessage && <div className="error-message" style={{ color: 'red' }}>{errorMessage}</div>}
+
                                             <div className="tpcontact__submit">
-                                                <button className="tp-btn tp-color-btn tp-wish-cart">Get A Quote <i className="fal fa-long-arrow-right" /></button>
+                                                <button
+                                                    type="button"
+                                                    className="tp-btn tp-color-btn tp-wish-cart"
+                                                    onClick={handleWhatsAppClick}
+                                                >
+                                                    Get A Quote <i className="fal fa-long-arrow-right" />
+                                                </button>
                                             </div>
                                         </form>
                                         <p className="ajax-response mt-30" />
@@ -80,15 +172,7 @@ export default function Contact() {
                             </div>
                         </div>
                     </section>
-                    {/* contact-area-end */}
-                    {/* map-area-start */}
-                    <div className="map-area">
-                        <div className="tpshop__location-map">
-                            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d193313.696093143!2d-74.25983952323838!3d40.794422695521675!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c24fa5d33f083b%3A0xc80b8f06e177fe62!2sNew%20York%2C%20NY%2C%20USA!5e0!3m2!1sen!2sbd!4v1663062642075!5m2!1sen!2sbd" width={600} height={450} style={{ border: 0 }} allowFullScreen loading="lazy" referrerPolicy="no-referrer-when-downgrade" />
-                        </div>
-                    </div>
                 </div>
-
             </Layout>
         </>
     )

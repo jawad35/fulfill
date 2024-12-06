@@ -1,5 +1,6 @@
 import Link from "next/link"
 import CartShow from "../elements/CartShow"
+import WhatsAppButton from "../elements/WhatsAppButton"
 
 export default function HeaderMobSticky({ scroll, isMobileMenu, handleMobileMenu, isCartSidebar, handleCartSidebar }) {
     return (
@@ -14,11 +15,13 @@ export default function HeaderMobSticky({ scroll, isMobileMenu, handleMobileMenu
                         </div>
                         <div className="col-6">
                             <div className="logo text-center">
-                                <Link href="/"><img src="/assets/img/logo/logo.png" alt="logo" /></Link>
+                                <Link href="/"><img style={{width:'100%'}} src="/assets/img/logo/logo.png" alt="logo" /></Link>
                             </div>
+                            
                         </div>
                         <div className="col-3">
-                            <div className="header-meta-info d-flex align-items-center justify-content-end ml-25">
+                            
+                            {/* <div className="header-meta-info d-flex align-items-center justify-content-end ml-25">
                                 <div className="header-meta m-0 d-flex align-items-center">
                                     <div className="header-meta__social d-flex align-items-center">
                                         <button className="header-cart p-relative tp-cart-toggle" onClick={handleCartSidebar}>
@@ -28,7 +31,7 @@ export default function HeaderMobSticky({ scroll, isMobileMenu, handleMobileMenu
                                         <Link href="/sign-in"><i className="fal fa-user" /></Link>
                                     </div>
                                 </div>
-                            </div>
+                            </div> */}
                         </div>
                     </div>
                 </div>

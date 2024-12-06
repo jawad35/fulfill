@@ -1,7 +1,7 @@
 @charset "UTF-8";
 /*-----------------------------------------------------------------------------------
 
-    Theme Name: Ninico - Minimal eCommerce HTML Template
+    Theme Name: fulfillneeds - Minimal eCommerce HTML Template
     Author: Theme Pure
     Support: basictheme@gmail.com
     Description: Template Name  – HTML5 Template
@@ -101,6 +101,7 @@
 
 html {
     scroll-behavior: smooth;
+    overflow-x: hidden;
 }
 
 /*---------------------------------
@@ -360,7 +361,7 @@ only screen and (min-width: 576px) and (max-width: 767px) {
     height: 40px;
     line-height: 40px;
     position: fixed;
-    bottom: -10%;
+    bottom: 4%;
     right: 50px;
     font-size: 16px;
     border-radius: 6px;
@@ -3898,7 +3899,7 @@ only screen and (min-width: 768px) and (max-width: 991px),
 
 .tpproduct__thumb img {
     border-radius: 6px;
-    width: 100%;
+    /* width: 100%; */
 }
 
 .tpproduct__thumb-icon {
@@ -3953,6 +3954,7 @@ only screen and (min-width: 768px) and (max-width: 991px),
 .tpproduct__thumbitem {
     position: relative;
     z-index: 2;
+    height: 230px;
 }
 
 .tpproduct__thumbitem:hover .thumbitem-secondary {
@@ -5701,7 +5703,7 @@ only screen and (min-width: 1200px) and (max-width: 1399px) {
 .mp-marque-slider p span {
     background-clip: text;
     color: transparent;
-    background-image: url("../img/blog/blog-thumb-07.jpg");
+    /* background-image: url("../img/blog/blog-thumb-07.jpg"); */
     background-size: cover;
     -webkit-background-clip: text;
 }
@@ -10004,6 +10006,7 @@ only screen and (min-width: 768px) and (max-width: 991px),
         margin-top: 20px;
     }
 }
-
+@import url('./pricing.css');
+@import url('./team.css');
 
 /*# sourceMappingURL=main.css.map */

@@ -1,0 +1,50 @@
+[
+    {
+        "id":"1",
+        "feedback":"Great customer support and instant access to the product. It worked perfectly with my WordPress site and saved me hours of work.",
+        "name":"Sarah Willow",
+        "country":"Canada"
+    },
+    {
+        "id":"2",
+        "feedback":"I’m highly impressed with how well the product integrated into my mobile app. The user experience was seamless and intuitive.",
+        "name":"John Robertson",
+        "country":"USA"
+    },
+    {
+        "id":"3",
+        "feedback":"A fantastic resource for UI/UX design! It helped me create a smooth and visually appealing user interface in no time.",
+        "name":"Farhan Anwar",
+        "country":"Pakistan"
+    },
+    {
+        "id":"4",
+        "feedback":"Great addition to my collection of themes. It’s easy to customize and works perfectly for various types of client websites.",
+        "name":"Carlos Jimenez",
+        "country":"Spain"
+    },
+    {
+        "id":"5",
+        "feedback":"A game-changer for my marketing strategies. It helped me target the right audience and streamline my efforts with minimal hassle.",
+        "name":"Jennifer Costa",
+        "country":"Brazil"
+    },
+    {
+        "id":"6",
+        "feedback":"This has made writing and planning my content much easier. The tools provided really helped optimize my workflow.",
+        "name":"Noor Fatima",
+        "country":"Pakistan"
+    },
+    {
+        "id":"7",
+        "feedback":"The resources provided made a real difference in my SEO strategy. It helped improve keyword rankings and drive more organic traffic to my site.",
+        "name":"David Knight",
+        "country":"UK"
+    },
+    {
+        "id":"8",
+        "feedback":"A fantastic addition to my video production workflow. It streamlined editing and allowed me to create high-quality content with ease.",
+        "name":"Michael Perry",
+        "country":"Italy"
+    }
+]

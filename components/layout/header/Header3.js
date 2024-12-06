@@ -14,7 +14,7 @@ export default function Header3({ scroll, isMobileMenu, handleMobileMenu, isCart
         <>
             <header>
                 <div className="header-top tertiary-header-top space-bg">
-                    <div className="container">
+                    {/* <div className="container">
                         <div className="row">
                             <div className="col-xl-7 col-lg-12 col-md-12 ">
                                 <div className="header-welcome-text">
@@ -42,28 +42,28 @@ export default function Header3({ scroll, isMobileMenu, handleMobileMenu, isCart
                                 </div>
                             </div>
                         </div>
-                    </div>
+                    </div> */}
                 </div>
                 <div className="logo-area green-logo-area mt-30 d-none d-xl-block">
                     <div className="container">
                         <div className="row align-items-center">
                             <div className="col-xl-2 col-lg-3">
                                 <div className="logo">
-                                    <Link href="/"><img src="/assets/img/logo/logo.png" alt="logo" /></Link>
+                                    <Link href="/"><img style={{ width: '100%' }} src="/assets/img/logo/logo.png" alt="logo" /></Link>
                                 </div>
                             </div>
                             <div className="col-xl-10 col-lg-9">
                                 <div className="header-meta-info d-flex align-items-center justify-content-between">
-                                    <div className="header-search-bar">
+                                    {/* <div className="header-search-bar">
                                         <form action="#">
                                             <div className="search-info p-relative">
                                                 <button className="header-search-icon"><i className="fal fa-search" /></button>
                                                 <input type="text" placeholder="Search products..." />
                                             </div>
                                         </form>
-                                    </div>
+                                    </div> */}
                                     <div className="header-meta header-brand d-flex align-items-center">
-                                        <div className="header-meta__lang">
+                                        {/* <div className="header-meta__lang">
                                             <ul>
                                                 <li>
                                                     <Link href="#">
@@ -84,15 +84,15 @@ export default function Header3({ scroll, isMobileMenu, handleMobileMenu, isCart
                                                     </ul>
                                                 </li>
                                             </ul>
-                                        </div>
-                                        <div className="header-meta__value mr-15">
+                                        </div> */}
+                                        {/* <div className="header-meta__value mr-15">
                                             <select>
                                                 <option>USD</option>
                                                 <option>YEAN</option>
                                                 <option>EURO</option>
                                             </select>
-                                        </div>
-                                        <div className="header-meta__social d-flex align-items-center ml-25">
+                                        </div> */}
+                                        {/* <div className="header-meta__social d-flex align-items-center ml-25">
                                             <button className="header-cart p-relative tp-cart-toggle" onClick={handleCartSidebar}>
                                                 <i className="fal fa-shopping-cart" />
                                                 <CartShow />
@@ -102,7 +102,7 @@ export default function Header3({ scroll, isMobileMenu, handleMobileMenu, isCart
                                                 <i className="fal fa-heart" />
                                                 <WishListShow />
                                             </Link>
-                                        </div>
+                                        </div> */}
                                     </div>
                                 </div>
                             </div>
@@ -112,24 +112,12 @@ export default function Header3({ scroll, isMobileMenu, handleMobileMenu, isCart
                 <div className="main-menu-area tertiary-main-menu mt-25 d-none d-xl-block">
                     <div className="container">
                         <div className="row align-items-center">
-                            <div className="col-xl-2 col-lg-3">
+                            {/* <div className="col-xl-2 col-lg-3">
                                 <div className="cat-menu__category p-relative">
                                     <a onClick={handleToggle} href="#"><i className="fal fa-bars" />Categories</a>
                                     <div className="category-menu" style={{ display: `${isToggled ? "block" : "none"}` }}>
                                         <ul className="cat-menu__list">
                                             <li><Link href="/shop-2"><i className="fal fa-chair" /> Furniture</Link></li>
-                                            <li className="menu-item-has-children"><Link href="/shop"><i className="far fa-campfire" />
-                                                Cooking </Link>
-                                                <ul className="submenu">
-                                                    <li><Link href="/shop-2">Chair</Link></li>
-                                                    <li><Link href="/shop-2">Table</Link></li>
-                                                    <li><Link href="/shop">Wooden</Link></li>
-                                                    <li><Link href="/shop">furniture</Link></li>
-                                                    <li><Link href="/shop">Clock</Link></li>
-                                                    <li><Link href="/shop">Gifts</Link></li>
-                                                    <li><Link href="/shop">Crafts</Link></li>
-                                                </ul>
-                                            </li>
                                             <li><Link href="/shop-2"><i className="fal fa-shoe-prints" />Accessories</Link></li>
                                             <li><Link href="/shop-2"><i className="fal fa-tshirt" />Fashion</Link></li>
                                             <li><Link href="/shop-2"><i className="fal fa-clock" />Clocks</Link></li>
@@ -146,12 +134,13 @@ export default function Header3({ scroll, isMobileMenu, handleMobileMenu, isCart
                                         </div>
                                     </div>
                                 </div>
-                            </div>
+                            </div> */}
                             <div className="col-xl-7 col-lg-6">
                                 <div className="main-menu">
                                     <nav id="mobile-menu">
                                         <ul>
-                                            <li className="has-dropdown">
+                                            <li><Link href="/">Home</Link></li>
+                                            {/* <li className="has-dropdown">
                                                 <Link href="/">Home</Link>
                                                 <ul className="submenu">
                                                     <li><Link href="/">Wooden  Home</Link></li>
@@ -160,8 +149,8 @@ export default function Header3({ scroll, isMobileMenu, handleMobileMenu, isCart
                                                     <li><Link href="/index-4">Cosmetics Home</Link></li>
                                                     <li><Link href="/index-5">Food Grocery</Link></li>
                                                 </ul>
-                                            </li>
-                                            <li className="has-dropdown">
+                                            </li> */}
+                                            {/* <li className="has-dropdown">
                                                 <Link href="/shop">Shop</Link>
                                                 <ul className="submenu">
                                                     <li><Link href="/shop">Shop</Link></li>
@@ -175,8 +164,8 @@ export default function Header3({ scroll, isMobileMenu, handleMobileMenu, isCart
                                                     <li><Link href="/wishlist">Wishlist</Link></li>
                                                     <li><Link href="/track">Product Track</Link></li>
                                                 </ul>
-                                            </li>
-                                            <li className="has-dropdown has-megamenu">
+                                            </li> */}
+                                            {/* <li className="has-dropdown has-megamenu">
                                                 <Link href="/about">Pages</Link>
                                                 <ul className="submenu mega-menu">
                                                     <li>
@@ -209,15 +198,17 @@ export default function Header3({ scroll, isMobileMenu, handleMobileMenu, isCart
                                                         </ul>
                                                     </li>
                                                 </ul>
-                                            </li>
-                                            <li className="has-dropdown">
+                                            </li> */}
+                                            {/* <li className="has-dropdown">
                                                 <Link href="/blog">Blog</Link>
                                                 <ul className="submenu">
                                                     <li><Link href="/blog">Blog</Link></li>
                                                     <li><Link href="/blog-details">Blog Details</Link></li>
                                                 </ul>
-                                            </li>
+                                            </li> */}
                                             <li><Link href="/contact">Contact</Link></li>
+                                            <li><Link href="/about">About</Link></li>
+
                                         </ul>
                                     </nav>
                                 </div>
@@ -231,7 +222,7 @@ export default function Header3({ scroll, isMobileMenu, handleMobileMenu, isCart
                                                     <i className="fal fa-phone" />
                                                 </div>
                                                 <div className="menu-contact__info">
-                                                    <Link href="/tel:0123456">908. 408. 501. 89</Link>
+                                                    <Link href="/tel:0123456">+923296121520</Link>
                                                 </div>
                                             </div>
                                         </li>
@@ -241,7 +232,8 @@ export default function Header3({ scroll, isMobileMenu, handleMobileMenu, isCart
                                                     <i className="fal fa-map-marker-alt" />
                                                 </div>
                                                 <div className="menu-contact__info">
-                                                    <Link href="/shop-location">Find Store</Link>
+                                                    <Link href="https://maps.app.goo.gl/ep4ic361JgFkPnGh8" target="_blank">Map Location</Link>
+                                                    {/* <Link href="/shop-location">Find Store</Link> */}
                                                 </div>
                                             </div>
                                         </li>

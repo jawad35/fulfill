@@ -66,7 +66,20 @@ const ShopSingleDynamicV1 = () => {
     const qtyHandler = (id, qty) => {
         dispatch(addQty({ id, qty }))
     }
-
+    const handleWhatsAppClick = (serviceName, id, type) => {
+        // Replace with your number and pre-filled message
+        const phoneNumber = "+923296121520"; // Your WhatsApp number in international format (no "+" or leading zeroes)
+        const message = "Hello! I would like to inquire about your services.\n\n" +
+        `Name :${serviceName}\n` +
+        `Id :${id}\n`+
+        `Type :${type}\n`;
+        // "Looking forward to hearing from you!";
+        const whatsappUrl = `https://wa.me/${phoneNumber}?text=${encodeURIComponent(message)}`;
+    
+        // Open WhatsApp in a new tab
+        window.open(whatsappUrl, "_blank");
+      };
+    
     const { cart } = useSelector((state) => state.shop) || {}
     return (
         <>
@@ -74,19 +87,26 @@ const ShopSingleDynamicV1 = () => {
                 <section className="product-area pt-80 pb-50">
                     <div className="container">
                         <div className="row">
-                            <div className="col-lg-5 col-md-12">
+                            <div className="col-lg-12 col-md-12">
+                                <h3 className="tpproduct-details__title">{product?.title}</h3>
                                 <div className="tpproduct-details__list-img">
-                                    <div className="tpproduct-details__list-img-item">
-                                        <img src={`/assets/img/product/${product.imgf}`} alt="" />
-                                    </div>
-                                    <div className="tpproduct-details__list-img-item">
-                                        <img src={`/assets/img/product/${product.imgb}`} alt="" />
+                                    {
+                                        product?.images?.map((item, index) => (<div key={index} className="tpproduct-details__list-img-item text-center">
+                                            <p style={{ background: 'red', width: '100px', textAlign: 'center', borderRadius: '5px', color: 'white' }}>{product?.category === "mobile" ? "Screen:" : "Page:"} {index + 1}</p>
+                                            {
+                                                product?.category === "mobile" ? <img style={{ height: '600px' }} src={`${item}`} alt="" /> : <img src={`${item}`} alt="" />
+                                            }
+                                        </div>))
+                                    }
+                                    <div className="tpproduct-details__cart d-flex justify-content-center">
+                                        <button onClick={() => handleWhatsAppClick(product.title,product.id, product.category)}><i className="fal fa-circle" /> I want this!</button>
                                     </div>
                                 </div>
+
                             </div>
-                            <div className="col-lg-5 col-md-7">
-                                <div className="tpproduct-details__content tpproduct-details__sticky">
-                                    <div className="tpproduct-details__tag-area d-flex align-items-center mb-5">
+                            <div className="col-lg-12 col-md-12" style={{ display: 'flex', justifyContent: 'center' }}>
+                                <div className="tpproduct-details__content tpproduct-details__sticky ">
+                                    {/* <div className="tpproduct-details__tag-area d-flex align-items-center mb-5">
                                         <span className="tpproduct-details__tag">Dress</span>
                                         <div className="tpproduct-details__rating">
                                             <Link href="#"><i className="fas fa-star" /></Link>
@@ -94,20 +114,20 @@ const ShopSingleDynamicV1 = () => {
                                             <Link href="#"><i className="fas fa-star" /></Link>
                                         </div>
                                         <a className="tpproduct-details__reviewers">10 Reviews</a>
-                                    </div>
+                                    </div> */}
                                     <div className="tpproduct-details__title-area d-flex align-items-center flex-wrap mb-5">
-                                        <h3 className="tpproduct-details__title">{product?.title}</h3>
-                                        <span className="tpproduct-details__stock">In Stock</span>
+                                        {/* <h3 className="tpproduct-details__title">{product?.title}</h3> */}
+                                        {/* <span className="tpproduct-details__stock">In Stock</span> */}
                                     </div>
-                                    <div className="tpproduct-details__price mb-30">
+                                    {/* <div className="tpproduct-details__price mb-30">
                                         <del>$9.35</del>
                                         <span>$ {product?.price?.max}</span>
-                                    </div>
-                                    <div className="tpproduct-details__pera">
+                                    </div> */}
+                                    {/* <div className="tpproduct-details__pera">
                                         <p>Priyoshop has brought to you the Hijab 3 Pieces Combo Pack PS23. It is a <br />completely modern design and you feel comfortable to put on this hijab. <br />Buy it at the best price.</p>
-                                    </div>
-                                    <div className="tpproduct-details__count d-flex align-items-center flex-wrap mb-25">
-                                        <div className="product-quantity">
+                                    </div> */}
+                                    <div style={{ display: 'flex', justifyContent: 'center' }} className="tpproduct-details__count d-flex align-items-center flex-wrap mb-25">
+                                        {/* <div className="product-quantity">
                                             <div className="item-quantity">
                                                 <input
                                                     type="number"
@@ -120,15 +140,15 @@ const ShopSingleDynamicV1 = () => {
                                                     }
                                                 />
                                             </div>
-                                        </div>
-                                        <div className="tpproduct-details__cart ml-20">
-                                            <button onClick={() => addToCart(product.id)}><i className="fal fa-shopping-cart" /> Add To Cart</button>
-                                        </div>
-                                        <div className="tpproduct-details__wishlist ml-20">
+                                        </div> */}
+                                        {/* <div className="tpproduct-details__cart ml-20">
+                                            <button onClick={() => addToCart(product.id)}><i className="fal fa-shopping-cart" /> I want this!</button>
+                                        </div> */}
+                                        {/* <div className="tpproduct-details__wishlist ml-20">
                                             <button><i className="fal fa-heart" /></button>
-                                        </div>
+                                        </div> */}
                                     </div>
-                                    <div className="tpproductdot mb-30">
+                                    {/* <div className="tpproductdot mb-30">
                                         <Link className="tpproductdot__variationitem" href="#">
                                             <div className="tpproductdot__termshape">
                                                 <span className="tpproductdot__termshape-bg" />
@@ -153,11 +173,11 @@ const ShopSingleDynamicV1 = () => {
                                                 <span className="tpproductdot__termshape-border purple-product-border" />
                                             </div>
                                         </Link>
-                                    </div>
-                                    <div className="tpproduct-details__information tpproduct-details__code">
+                                    </div> */}
+                                    {/* <div className="tpproduct-details__information tpproduct-details__code">
                                         <p>SKU:</p><span>BO1D0MX8SJ</span>
-                                    </div>
-                                    <div className="tpproduct-details__information tpproduct-details__categories">
+                                    </div> */}
+                                    {/* <div className="tpproduct-details__information tpproduct-details__categories">
                                         <p>Categories:</p>
                                         <span><Link href="#">T-Shirts,</Link></span>
                                         <span><Link href="#">Tops,</Link></span>
@@ -168,18 +188,18 @@ const ShopSingleDynamicV1 = () => {
                                         <span><Link href="#">fashion,</Link></span>
                                         <span><Link href="#">t-shirts,</Link></span>
                                         <span><Link href="#">women</Link></span>
-                                    </div>
-                                    <div className="tpproduct-details__information tpproduct-details__social">
+                                    </div> */}
+                                    {/* <div className="tpproduct-details__information tpproduct-details__social">
                                         <p>Share:</p>
                                         <Link href="#"><i className="fab fa-facebook-f" /></Link>
                                         <Link href="#"><i className="fab fa-twitter" /></Link>
                                         <Link href="#"><i className="fab fa-behance" /></Link>
                                         <Link href="#"><i className="fab fa-youtube" /></Link>
                                         <Link href="#"><i className="fab fa-linkedin" /></Link>
-                                    </div>
+                                    </div> */}
                                 </div>
                             </div>
-                            <div className="col-lg-2 col-md-5">
+                            {/* <div className="col-lg-2 col-md-5">
                                 <div className="tpproduct-details__condation">
                                     <ul>
                                         <li>
@@ -224,7 +244,7 @@ const ShopSingleDynamicV1 = () => {
                                         </li>
                                     </ul>
                                 </div>
-                            </div>
+                            </div> */}
                         </div>
                     </div>
                 </section>
@@ -233,7 +253,7 @@ const ShopSingleDynamicV1 = () => {
                         <div className="row">
                             <div className="col-lg-12">
                                 <div className="tpproduct-details__navtab mb-60">
-                                    <div className="tpproduct-details__nav mb-30">
+                                    {/* <div className="tpproduct-details__nav mb-30">
                                         <ul className="nav nav-tabs pro-details-nav-btn" id="myTabs" role="tablist">
                                             <li className="nav-item" onClick={() => handleOnClick(1)}>
                                                 <button className={activeIndex == 1 ? "nav-links active" : "nav-links"}>Description</button>
@@ -245,8 +265,8 @@ const ShopSingleDynamicV1 = () => {
                                                 <button className={activeIndex == 3 ? "nav-links active" : "nav-links"}>Reviews (2)</button>
                                             </li>
                                         </ul>
-                                    </div>
-                                    <div className="tab-content tp-content-tab" id="myTabContent-2">
+                                    </div> */}
+                                    {/* <div className="tab-content tp-content-tab" id="myTabContent-2">
                                         <div className={activeIndex == 1 ? "tab-para tab-pane fade show active" : "tab-para tab-pane fade"}>
                                             <p className="mb-30">In marketing a product is an object or system made available for consumer use it is anything that can be offered to a market to satisfy the desire or need of a customer. In retailing, products are often referred to as
                                                 merchandise, and in manufacturing, products are bought as raw materials and then sold as finished goods. A service is also regarded to as a type of product. Commodities are usually raw materials such as metals
@@ -434,7 +454,7 @@ const ShopSingleDynamicV1 = () => {
                                                 </div>
                                             </div>
                                         </div>
-                                    </div>
+                                    </div> */}
                                 </div>
                             </div>
                         </div>

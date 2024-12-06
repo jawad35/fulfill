@@ -5,7 +5,7 @@ export default function Track() {
     return (
         <>
             <Layout headerStyle={3} footerStyle={1} breadcrumbTitle="Track">
-                <section className="track-area pt-80 pb-80">
+                {/* <section className="track-area pt-80 pb-80">
                     <div className="container">
                         <div className="row justify-content-center">
                             <div className="col-md-7">
@@ -43,7 +43,7 @@ export default function Track() {
                             </div>
                         </div>
                     </div>
-                </section>
+                </section> */}
 
             </Layout>
         </>

@@ -10,14 +10,16 @@ export default function HeaderSticky({ scroll, isCartSidebar, handleCartSidebar 
                     <div className="row align-items-center">
                         <div className="col-xl-2 col-lg-3">
                             <div className="logo">
-                                <Link href="/"><img src="/assets/img/logo/logo.png" alt="logo" /></Link>
+                                <Link href="/"><img style={{width:'100%'}} src="/assets/img/logo/logo.png" alt="logo" /></Link>
                             </div>
                         </div>
                         <div className="col-xl-6 col-lg-6">
                             <div className="main-menu">
                                 <nav>
                                     <ul>
-                                        <li className="has-dropdown">
+                                    <li><Link href="/">Home</Link></li>
+                                        
+                                        {/* <li className="has-dropdown">
                                             <Link href="/">Home</Link>
                                             <ul className="submenu">
                                                 <li><Link href="/">Wooden Home</Link></li>
@@ -26,8 +28,8 @@ export default function HeaderSticky({ scroll, isCartSidebar, handleCartSidebar 
                                                 <li><Link href="/index-4">Cosmetics Home</Link></li>
                                                 <li><Link href="/index-5">Food Grocery</Link></li>
                                             </ul>
-                                        </li>
-                                        <li className="has-dropdown">
+                                        </li> */}
+                                        {/* <li className="has-dropdown">
                                             <Link href="/shop">Shop</Link>
                                             <ul className="submenu">
                                                 <li><Link href="/shop">Shop</Link></li>
@@ -41,8 +43,8 @@ export default function HeaderSticky({ scroll, isCartSidebar, handleCartSidebar 
                                                 <li><Link href="/wishlist">Wishlist</Link></li>
                                                 <li><Link href="/track">Product Track</Link></li>
                                             </ul>
-                                        </li>
-                                        <li className="has-dropdown has-megamenu">
+                                        </li> */}
+                                        {/* <li className="has-dropdown has-megamenu">
                                             <Link href="/about">Pages</Link>
                                             <ul className="submenu mega-menu">
                                                 <li>
@@ -75,22 +77,24 @@ export default function HeaderSticky({ scroll, isCartSidebar, handleCartSidebar 
                                                     </ul>
                                                 </li>
                                             </ul>
-                                        </li>
-                                        <li className="has-dropdown">
+                                        </li> */}
+                                        {/* <li className="has-dropdown">
                                             <Link href="/blog">Blog</Link>
                                             <ul className="submenu">
                                                 <li><Link href="/blog">Blog</Link></li>
                                                 <li><Link href="/blog-details">Blog Details</Link></li>
                                             </ul>
-                                        </li>
+                                        </li> */}
+                                        <li><Link href="/our-team">Team</Link></li>
                                         <li><Link href="/contact">Contact</Link></li>
+                                        <li><Link href="/about">About</Link></li>
                                     </ul>
                                 </nav>
                             </div>
                         </div>
                         <div className="col-xl-4 col-lg-9">
                             <div className="header-meta-info d-flex align-items-center justify-content-end">
-                                <div className="header-meta__social  d-flex align-items-center">
+                                {/* <div className="header-meta__social  d-flex align-items-center">
                                     <button className="header-cart p-relative tp-cart-toggle" onClick={handleCartSidebar}>
                                         <i className="fal fa-shopping-cart" />
                                         <CartShow />
@@ -100,8 +104,8 @@ export default function HeaderSticky({ scroll, isCartSidebar, handleCartSidebar 
                                         <i className="fal fa-heart" />
                                         <WishListShow />
                                     </Link>
-                                </div>
-                                <div className="header-meta__search-5 ml-25">
+                                </div> */}
+                                {/* <div className="header-meta__search-5 ml-25">
                                     <div className="header-search-bar-5">
                                         <form action="#">
                                             <div className="search-info-5 p-relative">
@@ -110,7 +114,7 @@ export default function HeaderSticky({ scroll, isCartSidebar, handleCartSidebar 
                                             </div>
                                         </form>
                                     </div>
-                                </div>
+                                </div> */}
                             </div>
                         </div>
                     </div>

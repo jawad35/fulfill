@@ -47,7 +47,7 @@ export default function ShopLocation() {
                             <div className="col-xl-6 col-lg-12 col-md-12 col-sm-12">
                                 <div className="tpshop__location d-block d-sm-flex align-items-center justify-content-between mb-30">
                                     <div className="tpshop__content">
-                                        <h4 className="tpshop__title mb-15">Ninico Hills Crenshaw Plaza</h4>
+                                        <h4 className="tpshop__title mb-15">fulfillneeds Hills Crenshaw Plaza</h4>
                                         <div className="tpshop__info">
                                             <ul>
                                                 <li><i className="fal fa-map-marker-alt" /> <Link href="#">36/26 Strait Bargate, Boston, PE21, <br /> United Kingdom</Link></li>

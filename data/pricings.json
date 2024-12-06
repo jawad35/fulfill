@@ -1,0 +1,719 @@
+[
+    {
+        "id": 1,
+        "category": "web",
+        "discount": "",
+        "prices": [
+            {
+                "name": "Basic Plan",
+                "price": "9,999",
+                "included": [
+                    "Domain and Hosting for 1 Year.",
+                    "Up to 3-page WordPress website.",
+                    "Fully custom-designed WordPress site tailored to client branding.",
+                    "Comprehensive SEO optimization.",
+                    "Custom blog setup with 5 example posts.",
+                    "3 rounds of revisions."
+                ],
+                "excluded": [
+                    "Social media and email integration.",
+                    "Google Analytics, performance tracking, and speed optimization.",
+                    "Training session for client to manage their site.",
+                    "Ongoing support for 1 month post-launch."
+                ]
+            },
+            {
+                "name": "Standard Plan",
+                "price": "24,999",
+                "included": [
+                    "Domain and Hosting for 1 Year.",
+                    "Up to 5-page WordPress website.",
+                    "Fully custom-designed WordPress site tailored to client branding.",
+                    "Comprehensive SEO optimization.",
+                    "Custom blog setup with 5 example posts.",
+                    "5 rounds of revisions.",
+                    "Social media and email integration.",
+                    "Google Analytics, performance tracking, and speed optimization.",
+                    "Training session for client to manage their site.",
+                    "Ongoing support for 1 month post-launch."
+                ],
+                "excluded": []
+            },
+            {
+                "name": "Custom Plan",
+                "price": "?",
+                "included": [
+                    "Domain and Hosting for 1 Year.",
+                    "Up to 9-page WordPress website.",
+                    "Fully custom-designed WordPress site tailored to client branding.",
+                    "Comprehensive SEO optimization.",
+                    "Custom blog setup with 5 example posts.",
+                    "10 rounds of revisions.",
+                    "Social media and email integration.",
+                    "Google Analytics, performance tracking, and speed optimization.",
+                    "Training session for client to manage their site.",
+                    "Ongoing support for 2 month post-launch."
+                ],
+                "excluded": []
+            }
+        ]
+    },
+    {
+        "id": 2,
+        "category": "video-editing",
+        "discount": "",
+        "prices": [
+            {
+                "name": "Basic Plan",
+                "price": "250",
+                "included": [
+                    "Basic video editing (cutting, trimming, and arranging footage).",
+                    "Simple transitions and visual effects.",
+                    "Basic color correction and audio balancing.",
+                    "Adding background music and sound syncing.",
+                    "Up to 5 minutes of final edited video.",
+                    "Delivery time: 3-5 days.",
+                    "1 round of revisions.",
+                    "Standard title design."
+                ],
+                "excluded": [
+                    "Advanced color grading and effects.",
+                    "Sound design and custom voiceovers.",
+                    "Custom animations or motion graphics.",
+                    "Multi-camera editing.",
+                    "Unlimited revisions."
+                ]
+            },
+            {
+                "name": "Advanced Plan",
+                "price": "500",
+                "included": [
+                    "Everything in the Basic Plan.",
+                    "Advanced color grading and effects.",
+                    "Custom text animation and motion graphics.",
+                    "Professional sound design and music synchronization.",
+                    "Up to 10 minutes of final edited video.",
+                    "Advanced visual effects and transitions.",
+                    "Delivery time: 5-7 days.",
+                    "2 rounds of revisions.",
+                    "Basic title and credits design."
+                ],
+                "excluded": [
+                    "Multi-camera editing.",
+                    "Custom 3D animations.",
+                    "Voiceovers (can be added separately).",
+                    "Unlimited revisions."
+                ]
+            },
+            {
+                "name": "Pro Plan",
+                "price": "1000",
+                "included": [
+                    "Everything in the Advanced Plan.",
+                    "Multi-camera editing.",
+                    "Custom 3D animations and advanced visual effects.",
+                    "Professional voiceover and sound design.",
+                    "Custom video templates and intros.",
+                    "Up to 20 minutes of final edited video.",
+                    "Unlimited revisions.",
+                    "Priority support and expedited delivery (3-5 days).",
+                    "Advanced title and credits design."
+                ],
+                "excluded": []
+            }
+        ]
+    },
+    {
+        "id": 3,
+        "category": "graphic-design",
+        "discount": "",
+        "prices": [
+            {
+                "name": "Basic Plan",
+                "price": "150",
+                "included": [
+                    "Design of 2-3 simple graphics (e.g., social media posts, posters).",
+                    "Use of stock images and basic typography.",
+                    "File delivery in PNG and JPG formats.",
+                    "One color scheme provided by the client.",
+                    "Up to 2 revisions.",
+                    "Delivery within 3-5 business days."
+                ],
+                "excluded": [
+                    "Custom illustrations or complex designs.",
+                    "Editable source files (AI, PSD).",
+                    "Multiple design concepts per graphic.",
+                    "Brand style guide creation.",
+                    "Unlimited revisions."
+                ]
+            },
+            {
+                "name": "Standard Plan",
+                "price": "300",
+                "included": [
+                    "Everything in the Basic Plan.",
+                    "Design of 5-7 graphics (e.g., banners, flyers, or social media posts).",
+                    "Custom typography and color palette tailored to your brand.",
+                    "File delivery in PNG, JPG, and PDF formats.",
+                    "Up to 5 revisions.",
+                    "Delivery within 5-7 business days.",
+                    "Option for minor custom illustrations."
+                ],
+                "excluded": [
+                    "Comprehensive brand style guide creation.",
+                    "Advanced custom illustrations.",
+                    "Editable source files (AI, PSD) for all designs.",
+                    "Multiple design concepts for each graphic."
+                ]
+            },
+            {
+                "name": "Pro Plan",
+                "price": "500",
+                "included": [
+                    "Everything in the Standard Plan.",
+                    "Design of 10-15 graphics (e.g., complete campaign materials or branding assets).",
+                    "Custom illustrations and advanced design elements.",
+                    "Editable source files (AI, PSD) for all graphics.",
+                    "Delivery in multiple formats (PNG, JPG, PDF, EPS).",
+                    "Unlimited revisions.",
+                    "Delivery within 7-10 business days.",
+                    "Comprehensive brand style guide (logo, color palette, typography)."
+                ],
+                "excluded": []
+            }
+        ]
+    },
+    {
+        "id": 4,
+        "category": "python-django",
+        "discount": "",
+        "prices": [
+            {
+                "name": "Basic Plan",
+                "price": "500",
+                "included": [
+                    "Development of a simple Django application with up to 5 pages",
+                    "Basic user authentication system (login/logout)",
+                    "Integration of one database (PostgreSQL or MySQL)",
+                    "Responsive frontend using Django templates",
+                    "Deployment on a single server (Heroku or VPS)",
+                    "Bug fixes and support for 2 weeks",
+                    "REST API integration for up to 3 endpoints"
+                ],
+                "excluded": [
+                    "Custom UI/UX design.",
+                    "Integration of third-party services or advanced APIs.",
+                    "Complex database relationships.",
+                    "Advanced user authentication (e.g., OAuth, SSO).",
+                    "Ongoing support or maintenance after deployment."
+                ]
+            },
+            {
+                "name": "Standard Plan",
+                "price": "1,000",
+                "included": [
+                    "Development of a simple Django application with up to 5 pages",
+                    "Basic user authentication system (login/logout)",
+                    "Integration of one database (PostgreSQL or MySQL)",
+                    "Responsive frontend using Django templates",
+                    "Deployment on a single server (Heroku or VPS)",
+                    "Bug fixes and support for 2 weeks",
+                    "REST API integration for up to 3 endpoints"
+                ],
+                "excluded": [
+                    "Comprehensive UI/UX design.",
+                    "Advanced integrations (e.g., payment gateways, external APIs).",
+                    "Load testing or performance optimization.",
+                    "Custom admin dashboards.",
+                    "Long-term maintenance or support."
+                ]
+            },
+            {
+                "name": "Pro Plan",
+                "price": "2,500",
+                "included": [
+                    "Development of a mid-level Django application with up to 15 pages",
+                    "Advanced user management (roles, permissions, etc.)",
+                    "Integration of multiple databases or cloud storage",
+                    "Custom API development with up to 10 endpoints",
+                    "Frontend integration with React or Angular",
+                    "Testing and QA for all features",
+                    "Automated deployment pipeline (CI/CD)",
+                    "Email notifications or third-party service integration",
+                    "Performance optimization for the app",
+                    "Support for 1 month post-deployment"
+                ],
+                "excluded": []
+            }
+        ]
+    },
+    {
+        "id": 5,
+        "category": "mern-stack",
+        "discount": "",
+        "prices": [
+            {
+                "name": "Basic Plan",
+                "price": "15,000",
+                "included": [
+                    "Development of a simple MERN web application with up to 3 pages",
+                    "Basic user authentication (login, logout, registration)",
+                    "Single database integration with MongoDB",
+                    "Responsive frontend design using React",
+                    "Backend API with up to 3 endpoints",
+                    "Deployment on a single server (Heroku or VPS)",
+                    "Bug fixes and support for 2 weeks"
+                ],
+                "excluded": []
+            },
+            {
+                "name": "Standard Plan",
+                "price": "25,000",
+                "included": [
+                    "Development of a simple MERN web application with up to 5 pages",
+                    "Basic user authentication (login, logout, registration)",
+                    "Single database integration with MongoDB",
+                    "Responsive frontend design using React",
+                    "Backend API with up to 5 endpoints",
+                    "Deployment on a single server (Heroku or VPS)",
+                    "Bug fixes and support for 1 month"
+                ],
+                "excluded": []
+            },
+            {
+                "name": "Pro Plan",
+                "price": "70,000",
+                "included": [
+                    "Development of a simple MERN web application with up to 7 pages",
+                    "Basic user authentication (login, logout, registration)",
+                    "Single database integration with MongoDB",
+                    "Responsive frontend design using React",
+                    "Backend API with up to 7 endpoints",
+                    "Deployment on a single server (Heroku or VPS)",
+                    "Bug fixes and support for 3 month"
+                ],
+                "excluded": []
+            }
+        ]
+    },
+    {
+        "id": 6,
+        "category": "react-native",
+        "discount": "",
+        "prices": [
+            {
+                "name": "Basic Plan",
+                "price": "999",
+                "included": [
+                    "Development of a simple mobile app with up to 3 screens",
+                    "Basic Custom design",
+                    "Basic user authentication (login, logout)",
+                    "Integration of 1 third-party API",
+                    "Support for a single platform (iOS or Android)",
+                    "Database integration with up to 3 tables",
+                    "Basic logo designing",
+                    "Bug fixes and support for 2 weeks",
+                    "Basic analytics setup (Google Analytics or similar)"
+                ],
+                "excluded": [
+                ]
+            },
+            {
+                "name": "Standard Plan",
+                "price": "2,499",
+                "included": [
+                    "Development of a mobile app with up to 5 screens",
+                    "Basic user authentication (login, logout)",
+                    "Integration of 1 third-party API",
+                    "Support for a single platform (iOS or Android)",
+                    "Database integration with up to 5 tables",
+                    "Push notifications for up to 1 user group",
+                    "Basic UI/UX design and branding",
+                    "Deployment to a single app store",
+                    "Bug fixes and support for 2 weeks",
+                    "Basic analytics setup (Google Analytics or similar)"
+                ],
+                "excluded": [
+                    "Advanced animations and design customization.",
+                    "Extensive performance optimization.",
+                    "In-app purchases or subscription models.",
+                    "Ongoing maintenance post-launch.",
+                    "Comprehensive testing (E2E or automated)."
+                ]
+            },
+            {
+                "name": "Pro Plan",
+                "price": "4,999",
+                "included": [
+                    "Development of a full-featured mobile app with unlimited screens.",
+                    "Cross-platform support (iOS and Android).",
+                    "Advanced UI/UX design with custom animations and transitions.",
+                    "Integration with backend APIs and third-party services.",
+                    "Role-based user authentication and advanced security measures.",
+                    "Push notifications, real-time updates, and offline capabilities.",
+                    "In-app purchases and subscription management.",
+                    "Delivery pipeline setup with CI/CD.",
+                    "Comprehensive testing (unit, integration, and E2E).",
+                    "Ongoing maintenance and support for 2 months post-launch.",
+                    "Delivery within 40 business days."
+                ],
+                "excluded": []
+            }
+        ]
+    },
+    {
+        "id": 7,
+        "category": "seo",
+        "discount": "",
+        "prices": [
+            {
+                "name": "Basic Plan",
+                "price": "999",
+                "included": [
+                    "Basic keyword research and optimization for up to 5 pages.",
+                    "On-page SEO: meta titles, descriptions, and basic schema setup.",
+                    "Google Search Console and Analytics setup.",
+                    "Mobile-friendliness audit and minor fixes.",
+                    "Monthly performance report.",
+                    "Delivery within 7 business days."
+                ],
+                "excluded": [
+                    "Content creation or blog post optimization.",
+                    "Competitor analysis and backlink strategies.",
+                    "Advanced technical SEO (e.g., fixing crawl errors, redirects).",
+                    "Local SEO optimization (Google My Business).",
+                    "Ongoing monthly support and optimization."
+                ]
+            },
+            {
+                "name": "Standard Plan",
+                "price": "2,499",
+                "included": [
+                    "Comprehensive keyword research for up to 10 pages.",
+                    "On-page SEO: meta tags, alt text, and schema markup.",
+                    "Content optimization for existing blog posts or pages.",
+                    "Competitor analysis and SEO strategy recommendations.",
+                    "Basic backlink building (up to 5 links per month).",
+                    "Mobile and desktop speed optimization.",
+                    "Monthly performance tracking and reporting."
+                ],
+                "excluded": [
+                    "Extensive content creation (e.g., writing new blogs or articles).",
+                    "Advanced link-building campaigns.",
+                    "E-commerce product SEO."
+                ]
+            },
+            {
+                "name": "Pro Plan",
+                "price": "4,999",
+                "included": [
+                    "Advanced keyword research covering the entire site.",
+                    "Full technical SEO audit with implementation (e.g., fixing crawl issues, XML sitemap optimization).",
+                    "Content creation: 2 SEO-optimized blogs/articles per month.",
+                    "Comprehensive competitor analysis and ongoing updates.",
+                    "Advanced backlink building strategy (10 links per month).",
+                    "Local SEO setup and optimization (Google My Business).",
+                    "Monthly performance tracking, reporting, and strategy adjustments.",
+                    "Ongoing support for 2 months."
+                ],
+                "excluded": []
+            }
+        ]
+    },
+    {
+        "id": 8,
+        "category": "web",
+        "discount": "",
+        "prices": [
+            {
+                "name": "Basic Plan",
+                "price": "14,999",
+                "included": [
+                    "Setup of a simple WordPress or Shopify website with up to 5 pages.",
+                    "Installation of a free or basic theme and essential plugins.",
+                    "Basic customization to match client branding.",
+                    "Integration of contact forms and social media links.",
+                    "One round of revisions post-delivery.",
+                    "Delivery within 10 business days."
+                ],
+                "excluded": [
+                    "Advanced customizations or premium themes/plugins.",
+                    "E-commerce setup or product uploads.",
+                    "SEO optimization.",
+                    "Ongoing support or maintenance post-launch.",
+                    "Payment gateway integration."
+                ]
+            },
+            {
+                "name": "Standard Plan",
+                "price": "29,999",
+                "included": [
+                    "Creation of a WordPress or Shopify website with up to 10 pages.",
+                    "Installation of premium themes and plugins (licensed by client).",
+                    "E-commerce setup with up to 20 products.",
+                    "SEO-friendly design and on-page optimization.",
+                    "Mobile and tablet responsive design.",
+                    "Integration of contact forms, live chat, and social media links.",
+                    "Two rounds of revisions post-delivery.",
+                    "Delivery within 15 business days."
+                ],
+                "excluded": [
+                    "Extensive product uploads beyond 20 items.",
+                    "Custom plugin development.",
+                    "Content creation or blog post setup.",
+                    "Ongoing maintenance beyond 1 month."
+                ]
+            },
+            {
+                "name": "Pro Plan",
+                "price": "49,999",
+                "included": [
+                    "Advanced WordPress or Shopify store with unlimited pages.",
+                    "Custom theme development and advanced plugin integration.",
+                    "Full e-commerce setup with up to 50 products uploaded.",
+                    "SEO optimization, including keyword research and meta tagging.",
+                    "Payment gateway integration and advanced shipping options.",
+                    "Custom features like memberships, bookings, or subscriptions.",
+                    "Mobile and tablet responsive design.",
+                    "Ongoing support for 2 months post-launch.",
+                    "Three rounds of revisions post-delivery.",
+                    "Delivery within 20 business days."
+                ],
+                "excluded": []
+            }
+        ]
+    },
+    {
+        "id": 9,
+        "category": "video",
+        "discount": "",
+        "prices": [
+            {
+                "name": "Basic Plan",
+                "price": "14,999",
+                "included": [
+                    "Short motion graphic video up to 30 seconds.",
+                    "Basic animations and transitions.",
+                    "Inclusion of provided text, logos, and images.",
+                    "Standard resolution (1080p).",
+                    "One round of revisions post-delivery.",
+                    "Delivery within 5 business days."
+                ],
+                "excluded": [
+                    "Advanced character animation or 3D elements.",
+                    "Custom storyboard creation.",
+                    "Sound design or voiceover integration.",
+                    "Multiple format exports.",
+                    "Additional revisions beyond the included round."
+                ]
+            },
+            {
+                "name": "Standard Plan",
+                "price": "29,999",
+                "included": [
+                    "Motion graphic video up to 1 minute.",
+                    "Enhanced animations with dynamic transitions.",
+                    "Custom storyboard creation based on client input.",
+                    "Sound design and royalty-free music integration.",
+                    "High resolution (4K).",
+                    "Two rounds of revisions post-delivery.",
+                    "Delivery within 10 business days."
+                ],
+                "excluded": [
+                    "Advanced character animation or 3D elements.",
+                    "Multiple voiceovers or complex sound mixing.",
+                    "Revisions beyond the included rounds.",
+                    "Extensive script development."
+                ]
+            },
+            {
+                "name": "Pro Plan",
+                "price": "49,999",
+                "included": [
+                    "Motion graphic video up to 2 minutes.",
+                    "Advanced animations, including character movement and 3D elements.",
+                    "Custom storyboard and script development.",
+                    "Voiceover integration (one language).",
+                    "Sound effects and professional sound mixing.",
+                    "High resolution (4K) with multiple format exports.",
+                    "Three rounds of revisions post-delivery.",
+                    "Delivery within 15 business days."
+                ],
+                "excluded": [
+                    "Additional voiceovers in multiple languages.",
+                    "Revisions beyond the included rounds."
+                ]
+            }
+        ]
+    },
+    {
+        "id": 10,
+        "category": "writing",
+        "discount": "",
+        "prices": [
+            {
+                "name": "Basic Plan",
+                "price": "7,999",
+                "included": [
+                    "Writing up to 1,500 words (e.g., blog posts, product descriptions).",
+                    "Research on a single topic or niche.",
+                    "Basic SEO optimization (keywords, meta descriptions).",
+                    "Two rounds of revisions.",
+                    "Delivery within 5 business days."
+                ],
+                "excluded": [
+                    "Extensive research for technical or niche subjects.",
+                    "Multiple drafts for different tones or styles.",
+                    "Content formatting for publishing platforms.",
+                    "Revisions beyond the included rounds.",
+                    "Writing for highly regulated industries (e.g., legal, medical)."
+                ]
+            },
+            {
+                "name": "Standard Plan",
+                "price": "19,999",
+                "included": [
+                    "Writing up to 5,000 words (e.g., website copy, detailed guides).",
+                    "In-depth research on multiple topics.",
+                    "SEO optimization with detailed keyword research.",
+                    "Three rounds of revisions.",
+                    "Delivery within 7 business days."
+                ],
+                "excluded": [
+                    "Creating multimedia elements (e.g., infographics).",
+                    "Extensive competitor analysis or content strategy development.",
+                    "Revisions beyond the included rounds.",
+                    "Writing for highly specialized or regulated industries."
+                ]
+            },
+            {
+                "name": "Pro Plan",
+                "price": "39,999",
+                "included": [
+                    "Writing up to 10,000 words (e.g., whitepapers, sales funnels, eBooks).",
+                    "Comprehensive topic research and competitor analysis.",
+                    "SEO optimization with content strategy development.",
+                    "Four rounds of revisions.",
+                    "Content formatting for publishing platforms.",
+                    "Delivery within 10 business days."
+                ],
+                "excluded": [
+                    "Revisions beyond the included rounds.",
+                    "Additional services like designing or multimedia integration."
+                ]
+            }
+        ]
+    },
+    {
+        "id": 22,
+        "category": "design",
+        "discount": "",
+        "prices": [
+            {
+                "name": "Basic Plan",
+                "price": "14,999",
+                "included": [
+                    "UI design for 1 screen.",
+                    "Premium quality design.",
+                    "Wireframes for structure.",
+                    "Prototype creation.",
+                    "Source file included.",
+                    "Delivery within 1 days.",
+                    "Up to 3 revisions."
+                ],
+                "excluded": []
+            },
+            {
+                "name": "Standard Plan",
+                "price": "34,999",
+                "included": [
+                    "UI design for 4 screens.",
+                    "Premium quality custom design.",
+                    "Wireframes and prototype creation.",
+                    "Source file included.",
+                    "Responsive design for mobile.",
+                    "Delivery within 3 days.",
+                    "Up to 5 revisions."
+                ],
+                "excluded": []
+            },
+            {
+                "name": "Pro Plan",
+                "price": "74,999",
+                "included": [
+                    "UI/UX design for 10 screens.",
+                    "Premium quality tailored design.",
+                    "Comprehensive wireframes and prototypes.",
+                    "Interactive prototypes with animations.",
+                    "Source file included.",
+                    "Responsive design for all devices.",
+                    "Collaboration with developers during implementation.",
+                    "Delivery within 6 days.",
+                    "Up to 10 revisions."
+                ],
+                "excluded": []
+            }
+        ]
+    },
+    {
+        "id": 12,
+        "category": "marketing",
+        "discount": "",
+        "prices": [
+            {
+                "name": "Basic Plan",
+                "price": "9,999",
+                "included": [
+                    "Ad campaign setup on one platform (Google Ads, Facebook, or Instagram).",
+                    "Keyword research and ad copy creation.",
+                    "Target audience segmentation.",
+                    "Monthly ad budget recommendation.",
+                    "Basic reporting and analytics (once per month)."
+                ],
+                "excluded": [
+                    "A/B testing for ad performance optimization.",
+                    "Video ad creation or complex creatives.",
+                    "Remarketing or advanced targeting strategies.",
+                    "Daily ad performance monitoring.",
+                    "Ad spend (client must provide a separate budget)."
+                ]
+            },
+            {
+                "name": "Standard Plan",
+                "price": "24,999",
+                "included": [
+                    "Ad campaign setup on two platforms (Google Ads, Facebook, or Instagram).",
+                    "Advanced keyword research and ad copy creation.",
+                    "Detailed audience segmentation and targeting.",
+                    "Remarketing strategies for better conversion.",
+                    "Weekly performance tracking and updates.",
+                    "Monthly ad budget recommendation and adjustment."
+                ],
+                "excluded": [
+                    "Video ad creation or advanced interactive ads.",
+                    "24/7 ad performance monitoring.",
+                    "Multiple language ad campaigns.",
+                    "Ad spend (client must provide a separate budget)."
+                ]
+            },
+            {
+                "name": "Pro Plan",
+                "price": "49,999",
+                "included": [
+                    "Ad campaign setup on up to three platforms (Google, Facebook, Instagram, or LinkedIn).",
+                    "Custom ad strategies tailored to business goals.",
+                    "A/B testing to optimize ad performance.",
+                    "Advanced audience insights and retargeting.",
+                    "Video ad creation and carousel ads.",
+                    "Comprehensive performance reports (weekly).",
+                    "Monthly strategy consultation with optimization tips."
+                ],
+                "excluded": [
+                    "Ad spend (client must provide a separate budget).",
+                    "Global campaigns in multiple languages.",
+                    "Ongoing post-project ad management."
+                ]
+            }
+        ]
+    }
+]

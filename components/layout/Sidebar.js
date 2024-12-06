@@ -15,16 +15,16 @@ export default function Sidebar({ isMobileMenu, handleMobileMenu }) {
                 </div>
                 <div className="tpsideinfo__nabtab">
                     <ul className="nav nav-pills mb-3" id="pills-tab" role="tablist">
-                        <li className="nav-item" role="presentation">
+                        {/* <li className="nav-item" role="presentation">
                             <button className="nav-link active" id="pills-home-tab" data-bs-toggle="pill" data-bs-target="#pills-home" type="button" role="tab" aria-controls="pills-home" aria-selected="true">Menu</button>
-                        </li>
+                        </li> */}
                         <li className="nav-item" role="presentation">
                             <button className="nav-link" id="pills-profile-tab" data-bs-toggle="pill" data-bs-target="#pills-profile" type="button" role="tab" aria-controls="pills-profile" aria-selected="false">Categories</button>
                         </li>
                     </ul>
                     <div className="tab-content" id="pills-tabContent">
                         <div className="tab-pane fade show active" id="pills-home" role="tabpanel" aria-labelledby="pills-home-tab" tabIndex={0}>
-                            <MobileMenu />
+                            {/* <MobileMenu /> */}
                         </div>
                         <div className="tab-pane fade" id="pills-profile" role="tabpanel" aria-labelledby="pills-profile-tab" tabIndex={0}>
                             <div className="tpsidebar-categories">
@@ -39,11 +39,41 @@ export default function Sidebar({ isMobileMenu, handleMobileMenu }) {
                         </div>
                     </div>
                 </div>
-                <div className="tpsideinfo__account-link">
+                {/* <div className="tpsideinfo__account-link">
                     <Link href="/sign-in"><i className="fal fa-user" /> Login / Register</Link>
+                </div> */}
+                <div className="tpsideinfo__wishlist-link">
+                    <Link href="/" target="_parent"><i className="fal fa-circle" />Domain</Link>
                 </div>
                 <div className="tpsideinfo__wishlist-link">
-                    <Link href="/wishlist" target="_parent"><i className="fal fa-heart" /> Wishlist</Link>
+                    <Link href="/" target="_parent"><i className="fal fa-circle" />Hosting</Link>
+                </div>
+                <div className="tpsideinfo__wishlist-link">
+                    <Link href="/" target="_parent"><i className="fal fa-circle" />Ul/UX Design</Link>
+                </div>
+                <div className="tpsideinfo__wishlist-link">
+                    <Link href="/" target="_parent"><i className="fal fa-circle" />Custom Web Dev</Link>
+                </div>
+                <div className="tpsideinfo__wishlist-link">
+                    <Link href="/" target="_parent"><i className="fal fa-circle" />Mobile App Dev</Link>
+                </div>
+                <div className="tpsideinfo__wishlist-link">
+                    <Link href="/" target="_parent"><i className="fal fa-circle" />Domain</Link>
+                </div>
+                <div className="tpsideinfo__wishlist-link">
+                    <Link href="/" target="_parent"><i className="fal fa-circle" />Wordpress/Shopify</Link>
+                </div>
+                <div className="tpsideinfo__wishlist-link">
+                    <Link href="/" target="_parent"><i className="fal fa-circle" />SEO</Link>
+                </div>
+                <div className="tpsideinfo__wishlist-link">
+                    <Link href="/" target="_parent"><i className="fal fa-circle" />Ads Management</Link>
+                </div>
+                <div className="tpsideinfo__wishlist-link">
+                    <Link href="/" target="_parent"><i className="fal fa-circle" />Copyright</Link>
+                </div>
+                <div className="tpsideinfo__wishlist-link">
+                    <Link href="/" target="_parent"><i className="fal fa-circle" />Video Production</Link>
                 </div>
             </div>
             <div className={`body-overlay ${isMobileMenu ? "opened" : ""}`} onClick={handleMobileMenu} />

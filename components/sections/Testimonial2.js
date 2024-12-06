@@ -2,7 +2,7 @@
 'use client'
 import { Autoplay, Navigation, Pagination } from "swiper/modules"
 import { Swiper, SwiperSlide } from "swiper/react"
-
+import Feedbacks from '../../data/feedbacks.json'
 const swiperOptions = {
     modules: [Autoplay, Pagination, Navigation],
     slidesPerView: 3,
@@ -56,87 +56,28 @@ export default function Testimonial2() {
                     </div>
                     <div className="swiper-container testi-active tp-white-testimonial">
                         <Swiper {...swiperOptions}>
-                            <SwiperSlide>
-                                <div className="tptesti text-center">
-                                    <div className="tptesti__icon mb-25">
-                                        <img src="/assets/img/svg/testi02.svg" alt="" className="fn__svg" />
-                                    </div>
-                                    <div className="tptesti__content pb-5">
-                                        <p>“ Wualitative and quantitative data from customers on their likes, dislikes,
-                                            impressions, and requests about popular product. ”
-                                        </p>
-                                    </div>
-                                    <div className="tptesti__avata d-flex align-items-center justify-content-center">
-                                        <div className="tptesti__avata-icon mr-20">
-                                            <img src="assets/img/testimonial/testi-avata-01.png" alt="avata" />
+                            {
+                                Feedbacks.map((item, index) => (<SwiperSlide>
+                                    <div className="tptesti text-center" key={index}>
+                                        <div className="tptesti__icon mb-25">
+                                            <img src="/assets/img/svg/testi02.svg" alt="" className="fn__svg" />
                                         </div>
-                                        <div className="tptesti__avata-content text-start">
-                                            <h5 className="tptesti__avata-content-title">Miranda H. Halim</h5>
-                                            <p>Head Of Idea</p>
+                                        <div className="tptesti__content pb-5">
+                                            <p>“ {item?.feedback} ”
+                                            </p>
                                         </div>
-                                    </div>
-                                </div>
-                            </SwiperSlide>
-                            <SwiperSlide>
-                                <div className="tptesti text-center">
-                                    <div className="tptesti__icon mb-25">
-                                        <img src="/assets/img/svg/testi02.svg" alt="" className="fn__svg" />
-                                    </div>
-                                    <div className="tptesti__content pb-5">
-                                        <p>“We are the preferred choice by many car owners because our experience and knowledge is self-evident.For your car we will do everything – advice ”
-                                        </p>
-                                    </div>
-                                    <div className="tptesti__avata d-flex align-items-center justify-content-center">
-                                        <div className="tptesti__avata-icon mr-20">
-                                            <img src="assets/img/testimonial/testi-avata-02.png" alt="avata" />
-                                        </div>
-                                        <div className="tptesti__avata-content text-start">
-                                            <h5 className="tptesti__avata-content-title">Robertia</h5>
-                                            <p>Manager</p>
+                                        <div className="tptesti__avata d-flex align-items-center justify-content-center">
+                                            {/* <div className="tptesti__avata-icon mr-20">
+                                                <img src="assets/img/testimonial/testi-avata-01.png" alt="avata" />
+                                            </div> */}
+                                            <div className="tptesti__avata-content text-center">
+                                                <h5 className="tptesti__avata-content-title">{item?.name}</h5>
+                                                <p>{item?.country}</p>
+                                            </div>
                                         </div>
                                     </div>
-                                </div>
-                            </SwiperSlide>
-                            <SwiperSlide>
-                                <div className="tptesti text-center">
-                                    <div className="tptesti__icon mb-25">
-                                        <img src="/assets/img/svg/testi02.svg" alt="" className="fn__svg" />
-                                    </div>
-                                    <div className="tptesti__content pb-5">
-                                        <p>“ Providing insight-driven transfor- mation to investment banks, wealth and asset mana, exchanges, Finance. Must explain to you how all this mistaken. ”
-                                        </p>
-                                    </div>
-                                    <div className="tptesti__avata d-flex align-items-center justify-content-center">
-                                        <div className="tptesti__avata-icon mr-20">
-                                            <img src="assets/img/testimonial/testi-avata-03.png" alt="avata" />
-                                        </div>
-                                        <div className="tptesti__avata-content text-start">
-                                            <h5 className="tptesti__avata-content-title">Savannah Nguyen</h5>
-                                            <p>CEO</p>
-                                        </div>
-                                    </div>
-                                </div>
-                            </SwiperSlide>
-                            <SwiperSlide>
-                                <div className="tptesti text-center">
-                                    <div className="tptesti__icon mb-25">
-                                        <img src="/assets/img/svg/testi02.svg" alt="" className="fn__svg" />
-                                    </div>
-                                    <div className="tptesti__content pb-5">
-                                        <p>“We are the preferred choice by many car owners because our experience and knowledge is self-evident.For your car we will do everything – advice ”
-                                        </p>
-                                    </div>
-                                    <div className="tptesti__avata d-flex align-items-center justify-content-center">
-                                        <div className="tptesti__avata-icon mr-20">
-                                            <img src="assets/img/testimonial/testi-avata-02.png" alt="avata" />
-                                        </div>
-                                        <div className="tptesti__avata-content text-start">
-                                            <h5 className="tptesti__avata-content-title">Robertia</h5>
-                                            <p>Manager</p>
-                                        </div>
-                                    </div>
-                                </div>
-                            </SwiperSlide>
+                                </SwiperSlide>))
+                            }
                         </Swiper>
                     </div>
                 </div>
