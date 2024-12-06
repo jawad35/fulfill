@@ -1,29 +1,30 @@
-name: Node.js CI
+name: Deploy Next.js application
 
 on:
   push:
-    branches: [ "main" ]
-  pull_request:
-    branches: [ "main" ]
+    branches:
+      - workflow/integration1
 
 jobs:
   build:
-
     runs-on: ubuntu-latest
+    steps: 
+      - name: Checkout Source
+        uses: actions/checkout@v4
+      - name: Build docker image
+        run: docker build -t jawad0240/fulfill-docker .
+      - name: Login to docker hub
+        run: docker login -u ${{ secrets.DOCKER_USERNAME }} -p ${{ secrets.DOCKER_PASSWORD }}
+      - name: Publish image to docker hub
+        run: docker push jawad0240/fulfill-docker:latest
 
-    strategy:
-      matrix:
-        node-version: [18.x, 20.x, 22.x]
-        # See supported Node.js release schedule at https://nodejs.org/en/about/releases/
-
+  deploy:
+    needs: build
+    runs-on: self-hosted
     steps:
-    - uses: actions/checkout@v4
-    - name: Use Node.js ${{ matrix.node-version }}
-      uses: actions/setup-node@v4
-      with:
-        node-version: ${{ matrix.node-version }}
-        cache: 'npm'
-    - name: "Installing  Dependencies"
-      run: npm i
-    - name: "Creating Build"
-      run: npm run build
+      - name: Pull image from docker hub
+        run: docker pull jawad0240/fulfill-docker:latest
+      - name: Delete old container
+        run: docker rm -f nextjs-app-container  
+      - name: Run docker container
+        run: docker run -d -p 3000:3000 --name nextjs-app-container jawad0240/fulfill-docker 
