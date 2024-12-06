@@ -2,9 +2,9 @@ name: Node.js CI
 
 on:
   push:
-    branches: [ "final-code" ]
+    branches: [ "main" ]
   pull_request:
-    branches: [ "final-code" ]
+    branches: [ "main" ]
 
 jobs:
   build:
@@ -23,7 +23,7 @@ jobs:
       with:
         node-version: ${{ matrix.node-version }}
         cache: 'npm'
-    - name: "Installing Dependencies"
+    - name: "Installing  Dependencies"
       run: npm i
     - name: "Creating Build"
-      run: npmm run build
+      run: npm run build
